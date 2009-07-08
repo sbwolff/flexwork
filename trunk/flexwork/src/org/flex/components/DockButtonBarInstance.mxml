@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:HBox xmlns:mx="http://www.adobe.com/2006/mxml"
+		 xmlns:dock="org.flex.dock.components.*"
+         width="99%" height="100%" 
+         verticalAlign="middle" 
+         horizontalGap="0">
+         
+	<!--<mx:Style source="css/dockApplication.css" />-->
+	
+    <mx:Script>
+        <![CDATA[
+            import mx.events.CloseEvent;
+            import mx.managers.PopUpManager;
+
+            private function init():void {
+               PopUpManager.centerPopUp(this);
+            }
+            
+            private function titleWindow_close(evt:CloseEvent):void {
+                PopUpManager.removePopUp(this);
+            }
+        ]]>
+    </mx:Script>
+    
+    <dock:IconButton icon="@Embed(source='/assets/save.gif')" />    
+    <dock:IconButton icon="@Embed(source='/assets/save.gif')" />    
+    <dock:IconButton icon="@Embed(source='/assets/save.gif')" />    
+    <dock:IconButton icon="@Embed(source='/assets/save.gif')" />    
+    <dock:IconButton icon="@Embed(source='/assets/save.gif')" />    
+    <dock:IconButton icon="@Embed(source='/assets/save.gif')" />    
+    <dock:IconButton icon="@Embed(source='/assets/save.gif')" />    
+    <dock:IconButton icon="@Embed(source='/assets/save.gif')" />    
+    <dock:IconButton icon="@Embed(source='/assets/save.gif')" />    
+    <dock:IconButton icon="@Embed(source='/assets/save.gif')" />    
+    <dock:IconButton icon="@Embed(source='/assets/save.gif')" />    
+    <dock:IconButton icon="@Embed(source='/assets/save.gif')" />
+    <dock:IconPopUpButton icon="@Embed(source='/assets/save.gif')" width="54" />
+    <dock:IconPopUpButton icon="@Embed(source='/assets/save.gif')" width="54" />
+
+	<!-- mx:ButtonBar id="buttonBar" styleName="buttonBar" itemClick="onButtonBar(event);">
+        <mx:dataProvider>
+           	<mx:Object label1="FlexSpy" 
+                icon="@Embed(source='assets/flex.gif')"/>
+            <mx:Object label1="AddView" 
+                icon="@Embed(source='assets/flex.gif')"/>
+        </mx:dataProvider>
+    </mx:ButtonBar -->
+
+</mx:HBox>
