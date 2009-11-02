@@ -1,0 +1,477 @@
+/*backglobal
+{
+    backgroundAlpha: 1.0; / this runs the opacity of nearly every square piece of the components /
+    / backgroundDisabledColor: #DDDDDD; /
+    backgroundSize: "auto";
+    bevel: true;
+    borderAlpha: 1.0;
+      borderCapColor: #919999;
+    borderColor: #B7BABC;
+    borderSides: "left top right bottom";
+    borderSkin: ClassReference("mx.skins.halo.HaloBorder");
+    borderStyle: "inset";
+    borderThickness: 1;
+        ...........
+}*/
+
+ /* backgroundAlpha: 1.0;  this runs the opacity of nearly every square piece of the components */
+/*
+global {
+  
+    backgroundColor: #ECE9D8;
+} */
+.perspectiveDividerLeft {
+	borderThickness: 1;
+	borderStyle: solid;
+	borderColor: #FFFFFF;
+	borderSides: bottom;
+}    	
+.perspectiveDividerRight {
+	borderThickness: 1;
+	borderStyle: solid;
+	borderColor: #FFFFFF;
+	borderSides: top;
+}
+    	
+.panel { 
+	headerHeight: 17;
+	borderThickness: 0;
+	roundedBottomCorners: true;
+	
+	borderAlpha: 1;
+	highlightAlphas: 0.1, .3;
+		   
+	headerColors: #000000, #000000;
+	footerColors: #000000, #000000;
+	borderColor: #efefef;
+	backgroundColor: #efefef;
+	
+}
+.menuBar {
+   fillAlphas: 0.5, 1;
+   borderColor: #ECE9D8;
+   backgroundColor: #ECE9D8;
+   closeDuration: 0;
+   openDuration: 0;
+   verticalGap: 0;
+   menuStyleName: menuBarMenu;
+}
+.menuBarMenu {
+	variableRowHeight: true;
+	
+}
+
+
+.closeButton {
+   upSkin: Embed(source="/assets/close.gif"); 
+   overSkin: Embed(source="/assets/close.gif");
+   downSkin: Embed(source="/assets/close.gif");
+}
+
+.minimizeButton {
+   upSkin: Embed(source="/assets/minimize.gif"); 
+   overSkin: Embed(source="/assets/minimize_over.gif");
+   downSkin: Embed(source="/assets/minimize_over.gif");
+}
+
+.maximizeButton {
+   upSkin: Embed(source="/assets/maximize.gif"); 
+   overSkin: Embed(source="/assets/maximize_over.gif");
+   downSkin: Embed(source="/assets/maximize_over.gif");
+}
+.restoreButton {
+   upSkin: Embed(source="/assets/view_restore.gif"); 
+   overSkin: Embed(source="/assets/restore_over.gif");
+   downSkin: Embed(source="/assets/restore_over.gif");
+}
+
+.viewWindow {
+	/*backgroundColor: #99BAF3;*/
+	tabStyleName: "viewTab";
+	selectedTabTextStyleName: "viewTab"; 
+	
+	/*borderSkin: ClassReference("org.flex.dock.skins.ViewWindowBorder");*/
+}
+
+.viewTab {
+	/*
+	tabHeight: 24;
+	fontSize: 11;
+	highlightAlphas: 0, 0; 
+	fillAlphas: 1, 1;
+	fillColors: #CCCCCC, #CCCCCC; 
+	
+	themeColor: #FFCC99;
+	
+	
+	backgroundColor: #ECE9D8;  
+	backgroundOnColor: #FFEEDD;
+	backgroundOffColor: #ECE9D8;
+	backgroundBorderColor: #ACA899;
+	shadowColor: #AAAAFF;
+	fillColors: #ffffff, #0000ff;
+	*/
+	textAlign: left;
+	
+	labelPlacement: right;
+	
+	selectedFillColors: #ECE9D8, #ECE9D8;
+	
+	upSkin: ClassReference("com.googlecode.flexdock.skins.ViewTabSkin");
+	overSkin: ClassReference("com.googlecode.flexdock.skins.ViewTabSkin");	
+	downSkin: ClassReference("com.googlecode.flexdock.skins.ViewTabSkin");
+	disabledSkin: ClassReference("com.googlecode.flexdock.skins.ViewTabSkin");	
+	selectedUpSkin: ClassReference("com.googlecode.flexdock.skins.ViewTabSkin");	
+	selectedOverSkin: ClassReference("com.googlecode.flexdock.skins.ViewTabSkin");
+	selectedDownSkin: ClassReference("com.googlecode.flexdock.skins.ViewTabSkin");
+	selectedDisabledSkin: ClassReference("com.googlecode.flexdock.skins.ViewTabSkin");
+	
+}
+
+.viewTabBarPopUpButton {	
+	popUpStyleName: viewTabBarPopUpStyleName;	
+	arrowButtonWidth: 0;
+	textAlign: right;
+	backgroundColor: #ECE9D8;
+	fillColors: #FFFFFF,#FFFFFF;	
+	borderColor: #716F64;
+	cornerRadius: 3;
+    borderStyle: solid;
+	borderThickness: 1;
+	popUpGap: 2;
+	fontStyle: normal;
+	fontWeight: normal;
+	
+	upSkin:ClassReference("com.googlecode.flexdock.skins.ViewTabBarPopUpButtonSkin");
+    overSkin:ClassReference("com.googlecode.flexdock.skins.ViewTabBarPopUpButtonSkin");
+    downSkin:ClassReference("com.googlecode.flexdock.skins.ViewTabBarPopUpButtonSkin");
+    disabledSkin:ClassReference("com.googlecode.flexdock.skins.ViewTabBarPopUpButtonSkin");
+    selectedUpSkin:ClassReference("com.googlecode.flexdock.skins.ViewTabBarPopUpButtonSkin");
+    selectedOverSkin:ClassReference("com.googlecode.flexdock.skins.ViewTabBarPopUpButtonSkin");
+    selectedDownSkin:ClassReference("com.googlecode.flexdock.skins.ViewTabBarPopUpButtonSkin");
+    selectedDisabledSkin:ClassReference("com.googlecode.flexdock.skins.ViewTabBarPopUpButtonSkin");
+    
+    popUpOverSkin:ClassReference("com.googlecode.flexdock.skins.ViewTabBarPopUpButtonSkin");
+    popUpDownSkin:ClassReference("com.googlecode.flexdock.skins.ViewTabBarPopUpButtonSkin");
+}
+
+.viewTabBarPopUpStyleName {
+   	fontWeight: normal;
+    textAlign: left;
+    backgroundAlpha: 0.7;
+    backgroundColor: #FFFFE1;
+    borderStyle: solid;
+    borderColor: #000000;/* .myPop {
+            backgroundAlpha: 0.7;
+            backgroundColor: black;
+            borderStyle: none;
+            color: white;
+        }*/
+}
+
+.perspectiveDividedBox {
+	/*
+	dividerSkin: ClassReference("com.googlecode.flexdock.skins.PerspectiveDividedBoxSkin");
+	*/
+}
+
+/*
+	upSkin: ClassReference("com.googlecode.flexdock.skins.PopUpButtonSkin");
+   	overSkin: ClassReference("com.googlecode.flexdock.skins.PopUpButtonSkin");
+   	popUpOverSkin: ClassReference("com.googlecode.flexdock.skins.PopUpButtonSkin");
+   	downSkin: ClassReference("com.googlecode.flexdock.skins.PopUpButtonSkin");
+   	popUpDownSkin: ClassReference("com.googlecode.flexdock.skins.PopUpButtonSkin");
+ */
+ /*
+disabledIcon: ClassReference("mx.skins.halo.RadioButtonIcon");
+downIcon: ClassReference("mx.skins.halo.RadioButtonIcon");
+overIcon: ClassReference("mx.skins.halo.RadioButtonIcon");
+selectedDownIcon: ClassReference("mx.skins.halo.RadioButtonIcon");
+selectedDisabledIcon: ClassReference("mx.skins.halo.RadioButtonIcon");
+selectedOverIcon: ClassReference("mx.skins.halo.RadioButtonIcon");
+selectedUpIcon: ClassReference("mx.skins.halo.RadioButtonIcon");
+upIcon: ClassReference("mx.skins.halo.RadioButtonIcon");
+ */
+/* These styles are important! Without them the SuperTabNavigator will 
+   look pretty crappy.
+
+SuperTabNavigator {
+	popupButtonStyleName: "popupButton";
+	tabStyleName: "firefoxLikeTabs";
+	leftButtonStyleName: "leftButton";
+	rightButtonStyleName: "rightButton";
+	buttonWidth:20px;	
+}
+
+ */
+
+/*
+.leftButton {
+	icon: Embed("/assets/tab_assets.swf#left_arrow");
+	fillAlphas: 1, 1, 1, 1;
+	cornerRadius:0;
+}
+
+.rightButton {
+	icon: Embed("/assets/tab_assets.swf#right_arrow");
+	fillAlphas: 1, 1, 1, 1;
+	cornerRadius:0;
+}
+
+.closeButton {
+	upSkin: Embed("/assets/tab_assets.swf#firefox_close_up");
+	downSkin: Embed("/assets/tab_assets.swf#firefox_close_down");	
+	overSkin: Embed("/assets/tab_assets.swf#firefox_close_over");
+	disabledSkin: Embed("/assets/tab_assets.swf#firefox_close_disabled");		
+}*/
+/*
+.popupButton {
+	upSkin: ClassReference("com.dougmccune.skins.TabPopUpButtonSkin");
+	popUpDownSkin: ClassReference("com.dougmccune.skins.TabPopUpButtonSkin");	
+	popUpOverSkin: ClassReference("com.dougmccune.skins.TabPopUpButtonSkin");	
+	disabledSkin: ClassReference("com.dougmccune.skins.TabPopUpButtonSkin");		
+}
+
+.firefoxLikeTabs {
+	highlightAlphas: 0.52, 0.4;
+	fillAlphas: 1, 1;
+   	fillColors: #eceadb, #eceadb;
+   	backgroundColor: #ffffff;
+   	borderColor: #999999;
+   	color: #000000;
+   	textRollOverColor: #000000;	
+   	textAlign: "left";
+   	indicatorClass: Embed("/assets/tab_assets.swf#indicator");	
+	closeButtonStyleName: "closeButton";
+}*/
+/*toolBarPopUpButton;*/
+.toolBar {
+	buttonStyleName: toolBarButton;
+	popUpMenuButtonStyleName: toolBarPopUpMenuButton;
+	popUpViewMenuButtonStyleName: toolBarPopUpViewMenuButton;	
+}
+
+.toolBarPopUpMenuButtonPopUpStyleName {
+   	fontWeight: normal;
+    textAlign: left;
+    backgroundAlpha: 0.8;
+    backgroundColor: #ECE9D8;
+    borderStyle: solid;
+    borderColor: #ACA899;/* .myPop {
+            backgroundAlpha: 0.7;
+            backgroundColor: black;
+            borderStyle: none;
+            color: white;
+        }*/
+}
+.toolBarPopUpMenuButton {
+	popUpIcon:ClassReference("mx.skins.halo.PopUpIcon");
+	arrowButtonWidth: 0;
+	paddingLeft: 0;
+	paddingRight: 0;
+	verticalGap: 0;
+	borderColor: #ACA899;
+	cornerRadius: 3;
+	backgroundColor: #ECE9D8;
+	height: 22;
+	popUpStyleName: toolBarPopUpMenuButtonPopUpStyleName;	
+	
+	upSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpMenuButtonSkin");
+    overSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpMenuButtonSkin");
+    downSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpMenuButtonSkin");
+    disabledSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpMenuButtonSkin");
+    selectedUpSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpMenuButtonSkin");
+    selectedOverSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpMenuButtonSkin");
+    selectedDownSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpMenuButtonSkin");
+    selectedDisabledSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpMenuButtonSkin");
+    
+    popUpOverSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpMenuButtonSkin");
+    popUpDownSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpMenuButtonSkin");
+}
+.toolBarPopUpViewMenuButton {
+	popUpIcon: Embed("assets/view_menu.gif");
+	arrowButtonWidth: 0;
+	paddingLeft: 0;
+	paddingRight: 0;
+	verticalGap: 0;
+	borderColor: #ACA899;
+	cornerRadius: 3;
+	backgroundColor: #ECE9D8;
+	height: 22;
+	popUpStyleName: toolBarPopUpMenuButtonPopUpStyleName;
+	
+	upSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpViewMenuButtonSkin");
+    overSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpViewMenuButtonSkin");
+    downSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpViewMenuButtonSkin");
+    disabledSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpViewMenuButtonSkin");
+    selectedUpSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpViewMenuButtonSkin");
+    selectedOverSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpViewMenuButtonSkin");
+    selectedDownSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpViewMenuButtonSkin");
+    selectedDisabledSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpViewMenuButtonSkin");
+    
+    popUpOverSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpViewMenuButtonSkin");
+    popUpDownSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarPopUpViewMenuButtonSkin");
+}
+.toolBarButton {
+	paddingLeft: 0;
+	paddingRight: 0;
+	verticalGap: 0;
+	height: 22;
+	borderColor: #ACA899;
+	cornerRadius: 3;
+	backgroundColor: #ECE9D8;
+	/*overBorderColors: #003399, #003399;
+	selectedBorderColors: #003399, #003399;	
+	cornerRadius: 0;	
+	borderThickness: 0;
+	borderAlpha: 0;
+	overBorderColors: #ECE9D8, #ECE9D8;
+	*/
+	
+	selectedBorderColors: #ECE9D8, #ECE9D8;
+	fillColors: #FFFFFF, #ECE9D8;
+	fillAlphas: 0.8, 0.2;
+	highlightAlphas: 0.8, 0.2;	
+	
+	upSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarButtonSkin");
+    overSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarButtonSkin");
+    downSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarButtonSkin");
+    disabledSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarButtonSkin");
+    selectedUpSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarButtonSkin");
+    selectedOverSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarButtonSkin");
+    selectedDownSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarButtonSkin");
+    selectedDisabledSkin:ClassReference("com.googlecode.flexdock.skins.ToolBarButtonSkin");
+}
+
+.buttonBar {	
+	firstButtonStyleName: "mybuttonBarButtonStyle";
+	lastButtonStyleName: "mybuttonBarButtonStyle";
+	buttonStyleName: "mybuttonBarButtonStyle";
+	buttonHeight: 24;
+   	buttonWidth: 24;
+   	highlightAlphas: 0, 0;
+   	fillAlphas: 0, 0, 0, 0;
+   	fillColors: #ECE9D8, #ECE9D8, #ECE9D8, #ECE9D8;   	
+   	borderColor: #ECE9D8;
+   	shadowColor: #ECE9D8;
+   	themeColor: #ACA899;
+   	borderThickness: 0;
+   	borderSides: top left right bottom;
+   	borderStyle: solid;
+   	backgroundColor: #ECE9D8;
+}
+
+.mybuttonBarButtonStyle {
+	/*
+	selectedOverSkin: ClassReference("com.googlecode.flexdock.skins.ButtonBarButtonSkin");
+	upSkin: ClassReference("com.googlecode.flexdock.skins.ButtonBarButtonSkin");
+	overSkin: ClassReference("com.googlecode.flexdock.skins.ButtonBarButtonSkin");
+	selectedDownSkin: ClassReference("com.googlecode.flexdock.skins.ButtonBarButtonSkin");
+	selectedDisabledSkin: ClassReference("com.googlecode.flexdock.skins.ButtonBarButtonSkin");	
+	*/
+	highlightAlphas: 0, 0;
+   	fillAlphas: 0, 0, 0.5, 1;
+   	fillColors: #ECE9D8, #ECE9D8, #ECE9D8, #ECE9D8;   	
+   	borderColor: #ECE9D8;
+   	backgroundColor: #ECE9D8;
+   	themeColor: #ACA899;
+   	
+   	borderThickness: 0;
+   	borderSides: top left right bottom;
+   	borderStyle: solid;
+   	cornerRadius: 0;
+}
+
+
+.toggleButtonBar {	   
+	firstButtonStyleName: "mytoggleButtonBarFirstButtonStyle";
+	lastButtonStyleName: "mytoggleButtonBarLastButtonStyle";
+}
+
+.mytoggleButtonBarFirstButtonStyle {
+	cornerRadius: 10;
+}
+
+.mytoggleButtonBarLastButtonStyle {
+	cornerRadius: 10;
+}
+
+
+.iconButton {
+	/*
+	disabledSkin: ClassReference("com.googlecode.flexdock.skins.IconButtonSkin");
+	downSkin: ClassReference("com.googlecode.flexdock.skins.IconButtonSkin");
+	overSkin: ClassReference("com.googlecode.flexdock.skins.IconButtonSkin");
+	selectedDisabledSkin: ClassReference("com.googlecode.flexdock.skins.IconButtonSkin");
+	selectedDownSkin: ClassReference("com.googlecode.flexdock.skins.IconButtonSkin");
+	selectedOverSkin: ClassReference("com.googlecode.flexdock.skins.IconButtonSkin");
+	selectedUpSkin: ClassReference("com.googlecode.flexdock.skins.IconButtonSkin");
+	width: 24;
+	height: 24;
+	upSkin:ClassReference("com.googlecode.flexdock.skins.EnhancedButtonSkin");
+    overSkin:ClassReference("com.googlecode.flexdock.skins.EnhancedButtonSkin");
+    downSkin:ClassReference("com.googlecode.flexdock.skins.EnhancedButtonSkin");
+    disabledSkin:ClassReference("com.googlecode.flexdock.skins.EnhancedButtonSkin");
+    selectedUpSkin:ClassReference("com.googlecode.flexdock.skins.EnhancedButtonSkin");
+    selectedOverSkin:ClassReference("com.googlecode.flexdock.skins.EnhancedButtonSkin");
+    selectedDownSkin:ClassReference("com.googlecode.flexdock.skins.EnhancedButtonSkin");
+    selectedDisabledSkin:ClassReference("com.googlecode.flexdock.skins.EnhancedButtonSkin");
+	*/
+	
+	upSkin:ClassReference(null);
+    overSkin:ClassReference(null);
+    downSkin:ClassReference(null);
+    disabledSkin:ClassReference(null);
+    selectedUpSkin:ClassReference(null);
+    selectedOverSkin:ClassReference(null);
+    selectedDownSkin:ClassReference(null);
+    selectedDisabledSkin:ClassReference(null);
+	
+	paddingLeft: 0;
+	paddingRight: 0;
+	verticalGap: 0;
+	
+	cornerRadius: 0;
+	borderColor: #ECE9D8;
+	borderColors: #ECE9D8, #ECE9D8;
+	/*overBorderColors: #003399, #003399;
+	selectedBorderColors: #003399, #003399;*/
+	overBorderColors: #ECE9D8, #ECE9D8;
+	selectedBorderColors: #ECE9D8, #ECE9D8;
+	borderThickness: 0;
+	borderAlpha: 0;
+	fillColors: #ECE9D8, #ECE9D8;
+	fillAlphas: 0, 0;
+	fillColorRatios: 0, 0;
+	
+	
+}
+.toolWindow {
+	dividerSkin: ClassReference("com.googlecode.flexdock.skins.PerspectiveDividedBoxSkin");
+}/*
+IconPopUpButton {
+	
+	disabledSkin: ClassReference("com.googlecode.flexdock.skins.IconButtonSkin");
+	downSkin: ClassReference("com.googlecode.flexdock.skins.IconButtonSkin");
+	overSkin: ClassReference("com.googlecode.flexdock.skins.IconButtonSkin");
+	selectedDisabledSkin: ClassReference("com.googlecode.flexdock.skins.IconButtonSkin");
+	selectedDownSkin: ClassReference("com.googlecode.flexdock.skins.IconButtonSkin");
+	selectedOverSkin: ClassReference("com.googlecode.flexdock.skins.IconButtonSkin");
+	selectedUpSkin: ClassReference("com.googlecode.flexdock.skins.IconButtonSkin");
+	
+	width: 30;
+	height: 20;
+	paddingLeft: 0;
+	paddingRight: 0;
+}*/
+
+.fastViewBar {
+	
+	cornerRadius: 2;
+	
+	/*
+	width: 200;
+	borderColor: #ACA899;
+	borderThickness: 1;
+	borderStyle: "solid";*/
+}
