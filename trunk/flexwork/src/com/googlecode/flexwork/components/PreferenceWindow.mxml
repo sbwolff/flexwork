@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fd:ResizableTitleWindow xmlns:mx="http://www.adobe.com/2006/mxml"
+	 			xmlns:fd="com.googlecode.flexdock.components.*"	 			
+	 			layout="vertical" title="Preferences" titleIcon="@Embed(source='assets/execute.png')"
+				paddingTop="0" paddingLeft="0" paddingRight="0" paddingBottom="0"
+				showCloseButton="true" width="600" height="500"
+				borderAlpha="{myBackgroundAlpha}" backgroundAlpha="{myBackgroundAlpha}"
+				close="onPerferenceWindowClose(event)" creationComplete="onCreationComplete();">
+
+	<mx:Style>
+
+	</mx:Style>	
+	
+	
+	<mx:Script>
+		<![CDATA[			
+			import com.googlecode.flexdock.components.ToolBar;
+	
+			import mx.events.CloseEvent;
+			import mx.managers.PopUpManager;
+
+			[Embed(source="assets/help.png")]
+			public var iconHelpClass:Class;
+
+			[Embed(source="assets/back.gif")]
+			public var iconBackClass:Class;
+
+			[Embed(source="assets/next.gif")]
+			public var iconNextClass:Class;
+
+			[Embed(source="assets/view_menu.gif")]
+			public var iconMenuClass:Class;
+			
+			[Bindable]
+			private var myBackgroundAlpha:Number = 0.9;
+
+			[Bindable]
+			private var toolBarData:Array = [ //
+				{toolTip: "Back", icon: iconBackClass, //
+					children: [//
+					] //
+				}, //
+				{toolTip: "Forward", icon: iconNextClass, //
+					children: [ //
+					] //
+				}, //
+				{toolTip: "", icon: iconMenuClass, type: ToolBar.TYPE_VIEW_MENU, //
+					children: [ //
+					] //
+				} //
+			];
+
+			private function onCreationComplete():void
+			{
+				PopUpManager.centerPopUp(this);
+			}
+
+			private function onPerferenceWindowClose(event:CloseEvent):void
+			{
+				doClose();
+			}
+			
+			private function onCloseClick(event:MouseEvent):void
+			{
+				doClose();
+			}
+			
+			private function doClose():void
+			{
+				dispose();
+				PopUpManager.removePopUp(this);
+			}
+			
+			private function dispose():void
+			{
+				//TODO
+			}
+		]]>
+	</mx:Script>
+	
+	<mx:VBox width="100%" height="100%" horizontalGap="0" verticalGap="0" backgroundAlpha="{myBackgroundAlpha}">
+		
+		<mx:HDividedBox width="100%" height="100%" horizontalGap="3" paddingTop="0" paddingLeft="0"
+						paddingRight="0" paddingBottom="0" borderThickness="1" borderStyle="solid" borderSides="bottom" borderColor="0xACA899">
+		
+			<mx:VBox width="120" height="100%" verticalGap="3" paddingTop="3" paddingLeft="3" paddingRight="0" paddingBottom="3">
+					 
+				<mx:TextInput width="100%" height="19" focusAlpha="0" />
+				
+				<mx:Box height="99%" width="100%">
+					<mx:Tree labelField="@label" showRoot="false" width="100%" height="100%"
+							 borderThickness="0" dataProvider="{treeData}" horizontalScrollPolicy="auto" />
+				</mx:Box>
+				
+			</mx:VBox>
+	
+			<mx:VBox width="100%" height="100%" backgroundColor="0xECE9D8" backgroundAlpha="{myBackgroundAlpha}" horizontalGap="0" verticalGap="0" borderThickness="1" borderStyle="solid" borderSides="left" borderColor="0xACA899">
+				<mx:VBox width="100%" height="100%" horizontalGap="0" verticalGap="0" borderThickness="1" borderStyle="solid" borderSides="left" borderColor="0xFFFFFF">
+					
+					<mx:HBox width="100%" height="35" verticalAlign="middle" borderThickness="1" borderStyle="solid" borderSides="bottom" borderColor="0xACA899" paddingLeft="5">
+					
+						<mx:Label width="100%" text="General" fontSize="14" fontWeight="bold" />
+						
+						<fd:ToolBar width="120" click="//onToolBarItemClick(event)" dataProvider="{toolBarData}" />
+										
+					</mx:HBox>
+					
+					<mx:VBox width="100%" height="99%" borderThickness="1" borderStyle="solid" borderSides="top" borderColor="0xFFFFFF">
+						<mx:Label text="FlexWork Application"/>
+						
+						<mx:Label text="FlexWork Application"/>
+					</mx:VBox>
+					
+				</mx:VBox>
+			</mx:VBox>
+	
+		</mx:HDividedBox>
+	
+		<mx:ControlBar width="100%" height="40" backgroundColor="0xECE9D8" borderThickness="1" borderStyle="solid" borderSides="top" borderColor="0xFFFFFF" verticalAlign="middle" paddingTop="3" paddingLeft="5" paddingRight="5" paddingBottom="3">
+           	<mx:Button toolTip="Help" width="20" height="20" icon="@Embed(source='assets/help.png')" />
+			
+			<mx:HBox width="99%" height="100%" verticalAlign="middle" horizontalAlign="right">
+				<mx:Button label="OK" width="80" />
+				<mx:Button label="Cancel" width="80" click="onCloseClick(event)" />
+			</mx:HBox>
+        </mx:ControlBar>
+		
+	</mx:VBox>
+	
+	<mx:XML id="treeData">							
+		<preferences>
+			<folder label="General">
+				<folder label="Appearance"/>
+				<folder label="Editor"/>
+				<folder label="Network Connection"/>
+			</folder>
+			<folder label="Ant">
+				<folder label="Editor"/>
+				<folder label="Runtime"/>
+			</folder>
+			<folder label="Flex">
+				<folder label="INBOX"/>
+				<folder label="Personal Folder">
+					<Pfolder label="Business"/>
+					<Pfolder label="Demo"/>
+					<Pfolder label="Personal" isBranch="true"/>
+					<Pfolder label="Saved Mail"/>
+				</folder>
+				<folder label="Sent"/>
+				<folder label="Trash"/>
+			</folder>
+			<folder label="Flex Formatting">
+				<folder label="INBOX"/>
+				<folder label="Personal Folder">
+					<Pfolder label="Business"/>
+					<Pfolder label="Demo"/>
+					<Pfolder label="Personal" isBranch="true"/>
+					<Pfolder label="Saved Mail"/>
+				</folder>
+				<folder label="Sent"/>
+				<folder label="Trash"/>
+			</folder>
+			<folder label="Help">
+				<folder label="INBOX"/>
+				<folder label="Personal Folder">
+					<Pfolder label="Business"/>
+					<Pfolder label="Demo"/>
+					<Pfolder label="Personal" isBranch="true"/>
+					<Pfolder label="Saved Mail"/>
+				</folder>
+				<folder label="Sent"/>
+				<folder label="Trash"/>
+			</folder>
+			<folder label="Java">
+				<folder label="Appearance"/>
+				<folder label="Build Path">
+					<Pfolder label="Business"/>
+					<Pfolder label="Demo"/>
+					<Pfolder label="Personal" isBranch="true"/>
+					<Pfolder label="Saved Mail"/>
+				</folder>
+				<folder label="Sent"/>
+				<folder label="Trash"/>
+			</folder>
+		</preferences>
+	</mx:XML>
+
+</fd:ResizableTitleWindow>
