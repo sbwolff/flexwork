@@ -1,5 +1,5 @@
 ||.||.||.||
-|Window|.|.|
-|.|ResizeableTitleWindow|.|
-|.|.|http://www.wietseveenstra.nl/files/flex/SuperPanel/v1_5/srcview/index.html|
-|.|.|http://www.adobe.com/cfusion/exchange/index.cfm?event=extensionDetail&loc=en_us&extid=1207017|
+||Window||.||.||
+||.||ResizeableTitleWindow||.||
+||.||.||http://www.wietseveenstra.nl/files/flex/SuperPanel/v1_5/srcview/index.html||
+||.||.||http://www.adobe.com/cfusion/exchange/index.cfm?event=extensionDetail&loc=en_us&extid=1207017||
