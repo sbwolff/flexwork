@@ -49,7 +49,7 @@
 			//            import org.as3commons.logging.LoggerFactory;
 			//            import org.as3commons.logging.ILogger;
 
-			
+			//	            import com.hp.rm.view.*;
 			//			[Bindable]
 			//			[Embed(source="applicationContext.xml",mimeType ="application/octet-stream")]
 			//			public var contextConfig:Class;
@@ -162,7 +162,7 @@
 				new FlickrView();
 				new BirdEyeView();
 
-				//new PeopleFinderView();
+				new PeopleFinderView();
 
 			}
 		]]>
@@ -288,12 +288,16 @@
 				<property name="helpMenuProvider" ref="helpMenuProvider"/>
 			</object>
 
+			<object id="splitWindowPool" class="com.googlecode.flexdock.components.SplitWindowPool">
+			</object>
+			
 			<!-- mainWindow -->
 			<object id="mainWindow" class="com.googlecode.flexwork.MainWindow"
 					parent="abstractBoxSystemModule">
 				<!--  init-method="init" -->
 				<property name="menuBarProvider" ref="menuBarProvider"/>
-				<property name="perspectiveManager" ref="perspectiveManager" />
+				<property name="splitWindowPool" ref="splitWindowPool"/>
+				<property name="perspectiveManager" ref="perspectiveManager" />				
 			</object>
 
 			<!-- system view -->
@@ -378,10 +382,10 @@
 					parent="abstractDockView">
 			</object>
 
-			<!-- object id="peopleFinderView"
+			<object id="peopleFinderView"
 					class="com.googlecode.flexwork.components.PeopleFinderView"
 					parent="abstractDockView">
-			</object -->
+			</object>
 
 		</objects>
 	</mx:XML>
