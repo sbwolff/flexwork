@@ -162,7 +162,6 @@
 				new FlickrView();
 				new BirdEyeView();
 
-				new PeopleFinderView();
 
 			}
 		]]>
@@ -382,10 +381,6 @@
 					parent="abstractDockView">
 			</object>
 
-			<object id="peopleFinderView"
-					class="com.googlecode.flexwork.components.PeopleFinderView"
-					parent="abstractDockView">
-			</object>
 
 		</objects>
 	</mx:XML>
