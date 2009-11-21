@@ -2,7 +2,7 @@ package com.googlecode.flexwork.components
 {
 	import com.googlecode.flexwork.events.PerspectiveEvent;
 	import com.googlecode.flexwork.managers.PerspectiveManager;
-	import com.googlecode.flexwork.modules.IUnit;
+	import com.googlecode.flexwork.modules.ISystemModule;
 	
 	import mx.controls.ToggleButtonBar;
 	import mx.events.FlexEvent;
@@ -19,8 +19,10 @@ package com.googlecode.flexwork.components
 	//					<mx:Object label="CVS" perspective="cvs" icon="@Embed(source='/assets/cvs.gif')"/>
 	//				</mx:dataProvider>
 	//			</mx:ToggleButtonBar -->
-	public class PerspectiveBar extends BoxModule
+	public class PerspectiveBar extends ToggleButtonBar
 	{
+		public var systemModule:ISystemModule=null;	
+	
 		include "./../icons.as";
 
 		private var iconMap:Object={//
@@ -34,11 +36,9 @@ package com.googlecode.flexwork.components
 
 		public var perspectiveManager:PerspectiveManager;
 		
-		private var allPerspectivePopUpMenuButton:PopUpMenuButton;
-		
-		private var toggleButtonBar:ToggleButtonBar;
+		//TODO:private var allPerspectivePopUpMenuButton:PopUpMenuButton;
 				
-		private var usedPerspectivePopUpMenuButton:PopUpMenuButton;
+		//TODO:private var usedPerspectivePopUpMenuButton:PopUpMenuButton;
 
 		[Bindable]
 		public var perspectiveToggleItem:Array=[];
@@ -50,26 +50,12 @@ package com.googlecode.flexwork.components
 			this.addEventListener(FlexEvent.CREATION_COMPLETE, onCreationComplete);
 
 		}
-		override protected function createChildren():void{
-			super.
-		}
 	
-		override protected function updateDisplayList(unscaledWidth:Number, unscaledHeight:Number):void
-		{
-			super.updateDisplayList(unscaledWidth, unscaledHeight);
-		}
-
-
-
-
-
-
-
-
-
-
-
-
+	
+//		override protected function updateDisplayList(unscaledWidth:Number, unscaledHeight:Number):void
+//		{
+//			super.updateDisplayList(unscaledWidth, unscaledHeight);
+//		}
 
 		private function onCreationComplete(event:FlexEvent):void
 		{
@@ -114,7 +100,7 @@ package com.googlecode.flexwork.components
 			this.dataProvider=perspectiveToggleItem;
 			this.selectedIndex=tempSelectedIndex;
 			
-			this.module.subscribe(PerspectiveEvent.OPENED, onPerspectiveOpened);
+			this.systemModule.subscribe(PerspectiveEvent.OPENED, onPerspectiveOpened);
 		}
 		
 		private function onPerspectiveOpened(event:PerspectiveEvent):void {
