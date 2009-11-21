@@ -848,7 +848,7 @@ package com.googlecode.flexdock.components
 		   //
 		   //					} else {
 
-		   var newSplitWindow:SplitWindow=new SplitWindow();
+		   var newSplitWindow:SplitWindow=_splitWindowPool.checkOut();//new SplitWindow();
 		   //					newSplitWindow.width = this.width;
 		   //					newSplitWindow.height = this.height;
 
