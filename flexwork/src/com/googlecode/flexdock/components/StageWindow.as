@@ -51,7 +51,7 @@ package com.googlecode.flexdock.components
 		 *  @private
 		 *  reference to SplitWindowPool
 		 */
-		private var splitWindowPool:SplitWindowPool;
+		private var _splitWindowPool:SplitWindowPool;
 
 		/**
 		 *  Constructor
@@ -82,7 +82,7 @@ package com.googlecode.flexdock.components
 			//setStyle("backgroundAlpha", 0.5);
 
 			/** other */
-			splitWindowPool=new SplitWindowPool();//TODO
+			//_splitWindowPool=new SplitWindowPool();//TODO
 		}
 
 		private function onDockViewMinimize(event:DockViewEvent):void
@@ -345,6 +345,11 @@ package com.googlecode.flexdock.components
 		{
 			this._applicationContext=value;
 		}
+		
+		public function set splitWindowPool(value:SplitWindowPool):void
+		{
+			this._splitWindowPool=value;
+		}
 
 		private function addViewInNewSplitWindow(view:DisplayObject, //
 			borderLayout:String, //
@@ -357,7 +362,7 @@ package com.googlecode.flexdock.components
 			}
 			else
 			{
-				var newSplitWindow:SplitWindow=new SplitWindow();
+				var newSplitWindow:SplitWindow=_splitWindowPool.checkOut();//new SplitWindow();
 
 				newSplitWindow.width=targetViewWindow.width;
 				newSplitWindow.height=targetViewWindow.height;
@@ -526,7 +531,7 @@ package com.googlecode.flexdock.components
 					//xml = xmlList[i];
 					if ("SplitWindow" == xml.name())
 					{
-						displayComponent=new SplitWindow();
+						displayComponent=_splitWindowPool.checkOut();//new SplitWindow();
 						SplitWindow(displayComponent).horizontal=(BoxDirection.HORIZONTAL == xml.@direction);
 					}
 					else if ("ViewWindow" == xml.name())
