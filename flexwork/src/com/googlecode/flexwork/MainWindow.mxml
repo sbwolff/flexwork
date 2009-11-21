@@ -11,7 +11,8 @@
 		<![CDATA[
 						
 			import com.googlecode.flexwork.components.LoginWindow;
-			import com.googlecode.flexwork.components.PreferenceWindow;	
+			import com.googlecode.flexwork.components.PreferenceWindow;
+			import com.googlecode.flexdock.components.SplitWindowPool;	
 			import com.googlecode.flexwork.events.MessageEvent;
 			import com.googlecode.flexwork.events.PerspectiveEvent;
 			import com.googlecode.flexdock.events.ToolBarEvent;
@@ -19,13 +20,12 @@
 			import com.googlecode.flexwork.menus.MenuBarProvider;
 			
 			import mx.binding.utils.BindingUtils;
-			import mx.containers.Canvas;
-			import mx.controls.Menu;
 			import mx.core.Application;
 			import mx.core.IFlexDisplayObject;
 			import mx.events.MenuEvent;
 			import mx.events.ItemClickEvent;	
 			import mx.managers.PopUpManager;
+			
 			
 			import org.springextensions.actionscript.context.IApplicationContext;
 			import org.springextensions.actionscript.context.IApplicationContextAware;
@@ -37,6 +37,9 @@
 			
 			[Bindable]
 			private var _applicationContext:IApplicationContext=null;
+			
+			[Bindable]
+			private var _splitWindowPool:SplitWindowPool=null;
 
 			[Bindable]
 			public var menuBarProvider:MenuBarProvider;
@@ -120,7 +123,12 @@
 			{
 				this._applicationContext=value;
 			}
-
+			
+			public function set splitWindowPool(value:SplitWindowPool):void
+			{
+				this._splitWindowPool=value;
+			}
+			
 			public function afterPropertiesSet():void
 			{
 				menuBarProvider.appendMenuItem(menuBarDataProvider);
@@ -177,12 +185,12 @@
 
 		<!--  width="280" -->
 		<mx:HBox height="100%" styleName="perspectiveDividerRight" verticalAlign="middle">
-			<fw:PerspectiveBarBack id="perspectiveSwitcher" perspectiveManager="{perspectiveManager}" systemModule="{systemModule}" itemClick="onPerspectiveToggleButtonBarClick(event);" />
+			<fw:PerspectiveBar id="perspectiveSwitcher" perspectiveManager="{perspectiveManager}" systemModule="{systemModule}" itemClick="onPerspectiveToggleButtonBarClick(event);" />
 		</mx:HBox>
 		
 	</fd:ToolWindow>
 
-	<fd:StageWindow id="stageWindow" applicationContext="{_applicationContext}" fastViewBar="{fastViewBar}" />
+	<fd:StageWindow id="stageWindow" applicationContext="{_applicationContext}" splitWindowPool="{_splitWindowPool}" fastViewBar="{fastViewBar}" />
 	
 	<mx:HBox width="100%" height="28" paddingLeft="2" paddingRight="2" paddingBottom="2" verticalAlign="middle" horizontalAlign="center">
 
