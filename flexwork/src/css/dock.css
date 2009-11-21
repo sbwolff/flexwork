@@ -19,7 +19,19 @@
 global {
   
     backgroundColor: #ECE9D8;
-} */
+} 
+ScrollBar {
+	borderColor: #FFFFFF;
+}*/
+
+.verticalScrollBar {
+	backgroundColor: #FFFFFF;
+	borderColor: #FFFFFF;
+	/*fillColors: #FFFFFF, #FFFFFF;*/
+	trackColors: #FFFFFF, #FFFFFF;
+	themeColor: #FFFFFF;
+}
+
 .perspectiveDividerLeft {
 	borderThickness: 1;
 	borderStyle: solid;
