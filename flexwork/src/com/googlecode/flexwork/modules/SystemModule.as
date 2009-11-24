@@ -25,19 +25,19 @@ package com.googlecode.flexwork.modules
 		{
 		}
 
-		public function error(message:String):void
+		public function logError(message:String):void
 		{
-			logManager.error(message);
+			logManager.logError(message);
 		}
 
-		public function info(message:String):void
+		public function logInfo(message:String):void
 		{
-			logManager.info(message);
+			logManager.logInfo(message);
 		}
 
-		public function debug(message:String):void
+		public function logDebug(message:String):void
 		{
-			logManager.debug(message);
+			logManager.logDebug(message);
 		}
 
 		public function subscribe(type:String, listener:Function, useCapture:Boolean=false, priority:int=0, useWeakReference:Boolean=false):void
@@ -54,7 +54,10 @@ package com.googlecode.flexwork.modules
 		{
 			return messageEventBusManager.publish(event);
 		}
-
+		
+		public function getModel(name:String):* {
+			return this.modelManager.getModel(name);
+		}
 		//		//setter/getter
 		//		public function set messageEventBusManager(value:IMessageEventBusManager):void
 		//		{
