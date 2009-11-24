@@ -22,19 +22,19 @@ package com.googlecode.flexwork.managers
 			//this.setStyle("verticalGap", 0);
 		}
 
-		public function error(message:String):void
+		public function logError(message:String):void
 		{
-			_logOutputTarget.error(message);
+			_logOutputTarget.logError(message);
 		}
 
-		public function info(message:String):void
+		public function logInfo(message:String):void
 		{
-			_logOutputTarget.info(message);
+			_logOutputTarget.logInfo(message);
 		}
 
-		public function debug(message:String):void
+		public function logDebug(message:String):void
 		{
-			_logOutputTarget.debug(message);
+			_logOutputTarget.logDebug(message);
 		}
 
 		public function set logOutputTarget(value:ILogOutputTarget):void
