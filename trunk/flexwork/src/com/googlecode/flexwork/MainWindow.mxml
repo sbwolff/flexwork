@@ -87,7 +87,7 @@
 
 			private function onToolBarItemClick(event:ToolBarEvent):void
 			{
-				this.debug("ToolBar: event.target=" + event.target + " event.index=" + event.buttonIndex);
+				this.logDebug("ToolBar: event.target=" + event.target + " event.index=" + event.buttonIndex);
 			}
 			
 			private function onContextMenuItemSelect(event:ContextMenuEvent):void
