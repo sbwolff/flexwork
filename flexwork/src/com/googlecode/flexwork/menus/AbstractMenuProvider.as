@@ -25,7 +25,7 @@ package com.googlecode.flexwork.menus
 
 		public function onMenuItemClick(event:MenuEvent):void
 		{
-			this.debug(this + " event.label=" + event.label + " event.item.listener" + event.item.listener);
+			this.logDebug(this + " event.label=" + event.label + " event.item.listener" + event.item.listener);
 			//				this.debug("MenuBar");
 			//				this.debug(" event.currentTarget=" + event.currentTarget);
 			//				this.debug(" event.target=" + event.target);
