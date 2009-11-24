@@ -24,19 +24,19 @@ package com.googlecode.flexdock.components
 		{
 		}
 
-		public function error(message:String):void
+		public function logError(message:String):void
 		{
-			systemModule.error(message);
+			systemModule.logError(message);
 		}
 
-		public function info(message:String):void
+		public function logInfo(message:String):void
 		{
-			systemModule.info(message);
+			systemModule.logInfo(message);
 		}
 
-		public function debug(message:String):void
+		public function logDebug(message:String):void
 		{
-			systemModule.debug(message);
+			systemModule.logDebug(message);
 		}
 
 		public function subscribe(type:String, listener:Function, useCapture:Boolean=false, priority:int=0, useWeakReference:Boolean=false):void
@@ -53,7 +53,11 @@ package com.googlecode.flexdock.components
 		{
 			return systemModule.publish(event);
 		}
-
+		
+		public function getModel(name:String):* 
+		{
+			return systemModule.getModel(name);
+		}
 //		//setter/getter
 //		public function set module(value:IUnit):void
 //		{
