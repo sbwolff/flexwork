@@ -89,6 +89,8 @@ package com.googlecode.flexwork.components
 
 				datagrid=new DataGrid();
 
+				datagrid.setStyle("verticalScrollBarStyleName", "verticalScrollBar");
+				datagrid.setStyle("horizontalScrollBarStyleName", "verticalScrollBar");
 				datagrid.setStyle("borderThickness", 0);
 				//				datagrid.setStyle("borderStyle", "solid");
 				//				datagrid.setStyle("borderSides", "top");

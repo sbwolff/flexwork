@@ -7,6 +7,7 @@
 
 	<mx:Script>
 		<![CDATA[
+		//http://code.google.com/p/eladlib/source/browse/trunk/EladLibFlex/src/#src/com/elad/youtube
 			/**
 			 * Basic YouTubeLib API Example
 			 * Sean Moore

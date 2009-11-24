@@ -31,7 +31,7 @@ package com.googlecode.flexwork.components
 			msg+=", event.shiftKey:"+event.shiftKey;
 			msg+=", event.ctrlKey:"+event.ctrlKey;
 			msg+=", event.altKey:"+event.altKey;
-			this.debug(msg);
+			this.logDebug(msg);
 		}
 
 		override protected function createChildren():void
