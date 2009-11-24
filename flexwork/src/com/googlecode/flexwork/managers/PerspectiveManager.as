@@ -58,7 +58,33 @@ package com.googlecode.flexwork.managers
 			this._perspectives=value;
 		}
 		[Bindable]
-		private var _perspectives:XML=<perspectives active="flex">
+		private var _perspectives:XML=//
+		
+			<perspectives active="map">			
+			
+				<perspective label="Map" name="map" icon="iconMapClass">
+					<layout>
+						<SplitWindow direction="horizontal">
+							<SplitWindow width="16%">
+								<ViewWindow height="75%">
+									<View id="hierarchyView" />
+								</ViewWindow>
+								<ViewWindow height="25%">
+									<View id="consoleView" />
+								</ViewWindow>
+							</SplitWindow>							
+							<SplitWindow direction="horizontal" width="84%">
+								<ViewWindow width="50%">
+									<View id="googleMapView" />
+								</ViewWindow>
+								<ViewWindow width="50%">
+									<View id="uMapView" />
+									<View id="yahooMapView" />
+								</ViewWindow>
+							</SplitWindow>
+						</SplitWindow>
+					</layout>
+				</perspective>	
 			
 				<perspective label="Flex" name="flex" icon="iconFlexClass">
 					<layout>
@@ -100,7 +126,8 @@ package com.googlecode.flexwork.managers
 									<View id="consoleView" />
 								</ViewWindow>
 							</SplitWindow>
-							<ViewWindow width="70%">							
+							<ViewWindow width="70%">
+								<!-- View id="springGraphView" / -->
 								<View id="birdEyeView" />
 							</ViewWindow>
 						</SplitWindow>
@@ -108,27 +135,34 @@ package com.googlecode.flexwork.managers
 				</perspective>
 				
 				
-				<perspective label="Map" name="map" icon="iconMapClass">
+				
+
+				<!--
+
+				<perspective label="People" name="people" icon="iconPeopleClass">
 					<layout>
 						<SplitWindow direction="horizontal">
-							<ViewWindow width="33%">
-								<View id="googleMapView" />
+							<ViewWindow width="20%">
+								<View id="hierarchyView" />
 							</ViewWindow>
-							<ViewWindow width="33%">
-								<View id="uMapView" />
-							</ViewWindow>
-							<ViewWindow width="34%">
-								<View id="yahooMapView" />
-							</ViewWindow>
+							<SplitWindow width="80%">
+								<SplitWindow height="70%" direction="horizontal">
+									<ViewWindow width="70%">
+										<View id="peopleFinderView" />
+									</ViewWindow>
+									<ViewWindow width="30%">
+										<View id="propertiesView" />
+									</ViewWindow>
+								</SplitWindow>
+								<ViewWindow height="30%">
+									<View id="consoleView" />
+								</ViewWindow>
+							</SplitWindow>
 						</SplitWindow>
 					</layout>
 				</perspective>
-
-				
-
 				
 				
-				<!--
 					<perspective label="Java" name="java" icon="iconJavaClass">
 					<layout>
 						<SplitWindow direction="horizontal">
