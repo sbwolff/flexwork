@@ -115,17 +115,17 @@ package com.googlecode.flexwork.components
 		//			textArea.text+="\n" + string;
 		//		}
 
-		override public function error(message:String):void
+		override public function logError(message:String):void
 		{
 			shownText+=message + "\n";
 		}
 
-		override public function info(message:String):void
+		override public function logInfo(message:String):void
 		{
 			shownText+=message + "\n";
 		}
 
-		override public function debug(message:String):void
+		override public function logDebug(message:String):void
 		{
 			shownText+=message + "\n";
 		}
