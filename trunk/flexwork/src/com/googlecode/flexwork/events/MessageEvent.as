@@ -13,7 +13,9 @@ package com.googlecode.flexwork.events
 	 */
 	public class MessageEvent extends Event
 	{
-
+		private static const PREFIX:String = "messageEvent.";
+		
+		public static const CITY_DOUBLE_CLICK:String = PREFIX + "cityDoubleClick";
 		/**
 		 * The data property can be used to hold information to be passed with the event
 		 * in cases where the developer does not want to extend the CairngormEvent class.
