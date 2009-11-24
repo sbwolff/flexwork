@@ -141,23 +141,24 @@ package com.googlecode.flexdock.views
 		protected function toolBarData():Array
 		{
 			return [ //
-				{l1abel: "a", icon: tempIconClass, openAlways: true, //
+//				{l1abel: "a", icon: tempIconClass, openAlways: true, //
+//					children: [ //
+//					{label: "a1", icon: tempIconClass, //
+//							children: [ //
+//							{label: "aa1", icon: tempIconClass}, //
+//								{label: "aa2", icon: tempIconClass} //
+//							]}, //
+//						{type: "separator"}, //
+//						{label: "a2", icon: tempIconClass} //
+//					] //
+//				}, //
+				{l1abel: "a", icon: tempIconClass}, //
+				{l1abel: "b", icon: tempIconClass}, //
+				{l1abel: "c", icon: tempIconClass, //
 					children: [ //
-					{label: "a1", icon: tempIconClass, //
-							children: [ //
-							{label: "aa1", icon: tempIconClass}, //
-								{label: "aa2", icon: tempIconClass} //
-							]}, //
-						{type: "separator"}, //
-						{label: "a2", icon: tempIconClass} //
+						{label: "aa2", icon: tempIconClass} //
 					] //
-				}, //
-				{l1abel: "b", icon: tempIconClass, //
-					children: [ //
-
-					] //
-				}, //
-				{l1abel: "c", icon: tempIconClass}, //
+				}, //				
 				{l1abel: "d", type: ToolBar.TYPE_VIEW_MENU, toolTip: "View Menu", //
 					children: [ //
 					{label: "b1", icon1: tempIconClass, //
@@ -216,8 +217,8 @@ package com.googlecode.flexdock.views
 
 		public function onToolBarClick(event:ToolBarEvent):void
 		{
-			this.info("event.target.toString()=" + event.target.toString());
-			this.info("event.name=" + event.name + " event.type=" + event.type + " buttonIndex:" + event.buttonIndex + " menuIndex:" + event.menuIndex);
+			this.logInfo("event.target.toString()=" + event.target.toString());
+			this.logInfo("event.name=" + event.name + " event.type=" + event.type + " buttonIndex:" + event.buttonIndex + " menuIndex:" + event.menuIndex);
 			//			var e:*;
 			//			if (event is MouseEvent)
 			//			{
