@@ -43,6 +43,7 @@ package com.googlecode.flexwork.managers
 				</globalVillage>
 			</xml>;
 
+
 		public function ModelManager()
 		{
 
