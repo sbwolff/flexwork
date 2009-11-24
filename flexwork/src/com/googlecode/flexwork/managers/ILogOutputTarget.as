@@ -3,10 +3,10 @@ package com.googlecode.flexwork.managers
 
 	public interface ILogOutputTarget
 	{
-		function error(message:String):void
+		function logError(message:String):void
 
-		function info(message:String):void
+		function logInfo(message:String):void
 
-		function debug(message:String):void
+		function logDebug(message:String):void
 	}
 }
