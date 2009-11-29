@@ -1,5 +1,5 @@
 ||.||.||.||.||
 ||Window||.||.||.||
-||.||ResizeableTitleWindow||.||.||
+||.|| ResizableTitleWindow ||.||.||
 ||.||.||[http://www.wietseveenstra.nl/blog/2007/03/flex-superpanel/ SuperPanel v1.0] [http://www.wietseveenstra.nl/blog/2007/04/flex-superpanel-v15/ v1.5]||by Wietse Veenstra||
 ||.||.||[http://www.adobe.com/cfusion/exchange/index.cfm?event=extensionDetail&loc=en_us&extid=1207017 ResizableTitleWindow]||by Nisheetjain||
