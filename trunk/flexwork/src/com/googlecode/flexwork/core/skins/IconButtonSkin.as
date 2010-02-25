@@ -1,9 +1,9 @@
 package com.googlecode.flexwork.core.skins
 {
 	import mx.skins.ProgrammaticSkin;
-	
 
-import flash.display.Graphics;
+
+	import flash.display.Graphics;
 	import flash.display.GradientType;
 	import mx.core.IButton;
 	import mx.core.UIComponent;
@@ -11,9 +11,10 @@ import flash.display.Graphics;
 	import mx.styles.StyleManager;
 	import mx.utils.ColorUtil;
 	import com.googlecode.flexwork.core.components.IconButton;
-	
+
 	public class IconButtonSkin extends ProgrammaticSkin
 	{
+
 		override public function get measuredWidth():Number
 		{
 			return IconButton.BUTTON_WIDTH;
