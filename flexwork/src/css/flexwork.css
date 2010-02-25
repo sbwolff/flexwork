@@ -1,0 +1,124 @@
+/*
+verticalGap to class file
+horizontalGap to class file
+new
+
+gap
+old
+backgroundColor: #E_CE9D8;
+borderColor: #7_16F64;
+
+}*/
+
+/** core */
+.iconButton {
+	
+	backgroundColor: #D4D0C8;
+	borderColor: #D4D0C8;
+	
+	paddingLeft: 0;
+	paddingRight: 0;
+	verticalGap: 0;	
+		
+	cornerRadius: 2;
+	/*height: 22;*/
+	/*overBorderColors: #003399, #003399;
+	selectedBorderColors: #003399, #003399;	
+	cornerRadius: 0;	
+	borderThickness: 0;
+	borderAlpha: 0;
+	overBorderColors: #D4D0C8, #D4D0C8;
+	*/
+	
+	selectedBorderColors: #D4D0C8, #D4D0C8;
+	fillColors: #FFFFFF, #D4D0C8;
+	fillAlphas: 0.8, 0.2;
+	highlightAlphas: 0.8, 0.2;	
+	
+	upSkin:ClassReference("com.googlecode.flexwork.core.skins.IconButtonSkin");
+    overSkin:ClassReference("com.googlecode.flexwork.core.skins.IconButtonSkin");
+    downSkin:ClassReference("com.googlecode.flexwork.core.skins.IconButtonSkin");
+    disabledSkin:ClassReference("com.googlecode.flexwork.core.skins.IconButtonSkin");
+    selectedUpSkin:ClassReference("com.googlecode.flexwork.core.skins.IconButtonSkin");
+    selectedOverSkin:ClassReference("com.googlecode.flexwork.core.skins.IconButtonSkin");
+    selectedDownSkin:ClassReference("com.googlecode.flexwork.core.skins.IconButtonSkin");
+    selectedDisabledSkin:ClassReference("com.googlecode.flexwork.core.skins.IconButtonSkin");
+}
+
+.iconArrowPopUpMenuButton {
+	
+	arrowButtonWidth: 13;
+	
+	popUpIcon: ClassReference("mx.skins.halo.PopUpIcon");
+	
+	paddingLeft: 0;
+	paddingRight: 0;
+	verticalGap: 0;
+	borderColor: #ACA899;
+	cornerRadius: 2;
+	backgroundColor: #D4D0C8;
+	/*height: 22;*/
+	popUpStyleName: iconPopUpMenuButtonMenu;	
+	
+	upSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    overSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    downSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    disabledSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    selectedUpSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    selectedOverSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    selectedDownSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    selectedDisabledSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    
+    popUpOverSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    popUpDownSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+}
+.iconPopUpMenuButton {
+	popUpIcon: Embed("assets/view_menu.gif"); /*ClassReference("mx.skins.halo.PopUpIcon");*/
+	
+	arrowButtonWidth: 24;
+	
+	paddingLeft: 0;
+	paddingRight: 0;
+	verticalGap: 0;
+	borderColor: #ACA899;
+	cornerRadius: 2;
+	backgroundColor: #D4D0C8;
+	/*height: 22;*/
+	popUpStyleName: iconPopUpMenuButtonMenu;
+	
+	upSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
+    overSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
+    downSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
+    disabledSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
+    selectedUpSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
+    selectedOverSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
+    selectedDownSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
+    selectedDisabledSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
+    
+    popUpOverSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
+    popUpDownSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
+}	
+.iconPopUpMenuButtonMenu {
+   	fontWeight: normal;
+    textAlign: left;
+    backgroundAlpha: 0.9;
+    backgroundColor: #FFFFFF;
+    borderStyle: solid;
+    borderColor: #808080;
+    /*
+    borderStyle: none;
+    
+    borderColor: #ACA899;.myPop {
+            backgroundAlpha: 0.7;
+            backgroundColor: black;
+            
+           
+        }*/
+    
+    /* .myPop {
+            backgroundAlpha: 0.7;
+            backgroundColor: black;
+            borderStyle: none;
+            color: white;
+        }*/
+}
