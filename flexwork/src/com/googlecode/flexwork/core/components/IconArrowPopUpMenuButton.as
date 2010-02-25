@@ -10,13 +10,15 @@ package com.googlecode.flexwork.core.components
 	import mx.controls.Menu;
 	import mx.core.mx_internal;
 
+	import mx.core.IFlexDisplayObject;
+	
 	use namespace mx_internal;
 
 	public class IconArrowPopUpMenuButton extends PopUpMenuButton
 	{
 
-		public var iconSet:Boolean = false;
-		
+		public var iconSet:Boolean=false;
+
 		public function IconArrowPopUpMenuButton()
 		{
 			super();
@@ -26,29 +28,31 @@ package com.googlecode.flexwork.core.components
 			this.styleName="iconArrowPopUpMenuButton";
 			/** other */
 			this.label=null; //to set labelSet=true;
-	
 		}
+
 		override public function setStyle(styleProp:String, newValue:*):void
-	    {	    	
-	    	if(!iconSet && "icon"==styleProp) {	    		
-	    		return;//donothing	    	
-	    	}
-	    	return super.setStyle(styleProp,newValue);
-	    }
+		{
+			if (!iconSet && "icon" == styleProp)
+			{
+				return; //donothing	    	
+			}
+			return super.setStyle(styleProp, newValue);
+		}
+
 		override protected function updateDisplayList(unscaledWidth:Number, unscaledHeight:Number):void
 		{
 			super.updateDisplayList(unscaledWidth, unscaledHeight);
-			//TODO move icon by (+1,-1)
-			//			if (phase == ButtonPhase.DOWN)
-			//			{
-			//				var moveEvent:MoveEvent=new MoveEvent(MoveEvent.MOVE);
-			//				moveEvent.oldX=this.currentIcon.x;
-			//				moveEvent.oldY=currentIcon.y;
-			//
-			//				currentIcon.x+=1;
-			//				currentIcon.y-=1;
-			//				currentIcon.dispatchEvent(moveEvent);
-			//			}
+			
+			if (phase == ButtonPhase.DOWN && currentIcon)
+			{
+//				var moveEvent:MoveEvent=new MoveEvent(MoveEvent.MOVE);
+//				moveEvent.oldX=currentIcon.x;
+//				moveEvent.oldY=currentIcon.y;
+
+				currentIcon.x+=1;
+				currentIcon.y+=1;
+					//currentIcon.dispatchEvent(moveEvent);
+			}
 		}
 
 		override mx_internal function getPopUp():IUIComponent

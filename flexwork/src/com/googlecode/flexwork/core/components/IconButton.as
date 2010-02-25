@@ -11,7 +11,7 @@ package com.googlecode.flexwork.core.components
 	public class IconButton extends Button
 	{
 		public static const BUTTON_HEIGHT:Number=22;
-	
+
 		public static const BUTTON_WIDTH:Number=24;
 
 		public function IconButton()
@@ -30,13 +30,13 @@ package com.googlecode.flexwork.core.components
 
 			if (phase == ButtonPhase.DOWN && currentIcon)
 			{
-				var moveEvent:MoveEvent=new MoveEvent(MoveEvent.MOVE);
-				moveEvent.oldX=currentIcon.x;
-				moveEvent.oldY=currentIcon.y;
+//				var moveEvent:MoveEvent=new MoveEvent(MoveEvent.MOVE);
+//				moveEvent.oldX=currentIcon.x;
+//				moveEvent.oldY=currentIcon.y;
 
 				currentIcon.x+=1;
-				currentIcon.y-=1;
-				currentIcon.dispatchEvent(moveEvent);
+				currentIcon.y+=1;
+					//currentIcon.dispatchEvent(moveEvent);
 			}
 		}
 	}
