@@ -19,7 +19,7 @@
 			import mx.rpc.events.ResultEvent;
 			import mx.rpc.events.FaultEvent;
 
-			[Embed(source="/assets/document.png")]
+			[Embed(source="/assets/icon/16/document.png")]
 			public var documentIconClass:Class;
 
 			public function onCreationComplete(event:FlexEvent):void
@@ -52,8 +52,8 @@
 		</mx:HBox>
 		
 		<mx:HBox>
-			<mx:Label text="Icon PopUp MenuButton - popUpIcon"/>
-			<fc:IconPopUpMenuButton popUpIcon="@Embed(source='/assets/icon/16/create.gif')" iconField="@icon" labelField="@label">
+			<mx:Label text="Icon PopUp MenuButton (no left button) - popUpIcon = @Embed(source='/assets/icon/16/create.gif')"/>
+			<fc:ArrowPopUpMenuButton popUpIcon="@Embed(source='/assets/icon/16/create.gif')" iconField="@icon" labelField="@label">
 				<fc:dataProvider>
 					<mx:XMLList>
 						<menuItem label="File"/>
@@ -63,12 +63,12 @@
 						<menuItem label="Close"/>
 					</mx:XMLList>
 				</fc:dataProvider>
-			</fc:IconPopUpMenuButton>
+			</fc:ArrowPopUpMenuButton>
 		</mx:HBox>
 		
 		<mx:HBox>
-			<mx:Label text="Icon PopUp MenuButton - arrowButtonWidth"/>
-			<fc:IconPopUpMenuButton arrowButtonWidth="18" iconField="@icon" labelField="@label">
+			<mx:Label text="Icon PopUp MenuButton (no left button) - arrowButtonWidth = 18"/>
+			<fc:ArrowPopUpMenuButton arrowButtonWidth="18" iconField="@icon" labelField="@label">
 				<fc:dataProvider>
 					<mx:XMLList>
 						<menuItem label="File"/>
@@ -78,7 +78,7 @@
 						<menuItem label="Close"/>
 					</mx:XMLList>
 				</fc:dataProvider>
-			</fc:IconPopUpMenuButton>
+			</fc:ArrowPopUpMenuButton>
 		</mx:HBox>
 
 	</mx:VBox>

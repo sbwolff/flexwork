@@ -72,10 +72,13 @@ borderColor: #7_16F64;
     popUpOverSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
     popUpDownSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
 }
-.iconPopUpMenuButton {
-	popUpIcon: Embed("assets/view_menu.gif"); /*ClassReference("mx.skins.halo.PopUpIcon");*/
+.arrowPopUpMenuButton {
 	
 	arrowButtonWidth: 24;
+	
+	popUpIcon: ClassReference("com.googlecode.flexwork.core.skins.ViewMenuArrowPopUpIcon");
+	
+	
 	
 	paddingLeft: 0;
 	paddingRight: 0;
@@ -86,17 +89,17 @@ borderColor: #7_16F64;
 	/*height: 22;*/
 	popUpStyleName: iconPopUpMenuButtonMenu;
 	
-	upSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
-    overSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
-    downSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
-    disabledSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
-    selectedUpSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
-    selectedOverSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
-    selectedDownSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
-    selectedDisabledSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
+	upSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    overSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    downSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    disabledSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    selectedUpSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    selectedOverSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    selectedDownSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    selectedDisabledSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
     
-    popUpOverSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
-    popUpDownSkin:ClassReference("com.googlecode.flexwork.core.skins.IconPopUpMenuButtonSkin");
+    popUpOverSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    popUpDownSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
 }	
 .iconPopUpMenuButtonMenu {
    	fontWeight: normal;
