@@ -11,12 +11,11 @@ package com.googlecode.flexwork.core.components
 	import mx.core.mx_internal;
 
 	import mx.core.IFlexDisplayObject;
-	
+
 	use namespace mx_internal;
 
 	public class IconArrowPopUpMenuButton extends PopUpMenuButton
 	{
-
 		public var iconSet:Boolean=false;
 
 		public function IconArrowPopUpMenuButton()
@@ -42,7 +41,7 @@ package com.googlecode.flexwork.core.components
 		override protected function updateDisplayList(unscaledWidth:Number, unscaledHeight:Number):void
 		{
 			super.updateDisplayList(unscaledWidth, unscaledHeight);
-			
+
 			if (phase == ButtonPhase.DOWN && currentIcon)
 			{
 //				var moveEvent:MoveEvent=new MoveEvent(MoveEvent.MOVE);

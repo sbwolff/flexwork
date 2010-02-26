@@ -1,6 +1,5 @@
 package com.googlecode.flexwork.core.skins
 {
-	import com.googlecode.flexdock.components.ToolBar;
 	import mx.skins.halo.HaloColors;
 	import mx.skins.halo.PopUpIcon;
 	import flash.display.DisplayObject;
