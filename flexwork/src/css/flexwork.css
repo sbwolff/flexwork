@@ -125,3 +125,10 @@ borderColor: #7_16F64;
             color: white;
         }*/
 }
+
+.toolBar {
+	backgroundColor: #D4D0C8;
+	buttonStyleName: iconButton;
+	iconArrowPopUpMenuButtonStyleName: iconArrowPopUpMenuButton;
+	arrowPopUpMenuButtonStyleName: arrowPopUpMenuButton;	
+}

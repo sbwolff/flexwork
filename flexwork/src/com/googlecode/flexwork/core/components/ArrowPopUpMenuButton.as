@@ -3,7 +3,7 @@ package com.googlecode.flexwork.core.components
 
 	public class ArrowPopUpMenuButton extends IconArrowPopUpMenuButton
 	{
-
+		
 		public function ArrowPopUpMenuButton()
 		{
 			super();
@@ -15,5 +15,6 @@ package com.googlecode.flexwork.core.components
 
 		}
 
+		
 	}
 }
