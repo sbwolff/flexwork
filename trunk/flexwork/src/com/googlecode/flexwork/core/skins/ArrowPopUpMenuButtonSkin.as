@@ -13,10 +13,10 @@ package com.googlecode.flexwork.core.skins
 	import mx.skins.ProgrammaticSkin;	
 	import com.googlecode.flexwork.core.components.IconButton;
 	
-	public class IconPopUpMenuButtonSkin extends UIComponent implements IProgrammaticSkin //extends ProgrammaticSkin //
+	public class ArrowPopUpMenuButtonSkin extends UIComponent implements IProgrammaticSkin //extends ProgrammaticSkin //
 	{
 
-		public function IconPopUpMenuButtonSkin()
+		public function ArrowPopUpMenuButtonSkin()
 		{
 			super();
 			mouseEnabled=false;
