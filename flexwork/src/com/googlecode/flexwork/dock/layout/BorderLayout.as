@@ -1,6 +1,6 @@
 package com.googlecode.flexdock.utils
 {
-
+	/** java.awt.BorderLayout */
 	public class BorderLayout
 	{
 		public static const NORTH:String="North";
