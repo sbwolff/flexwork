@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:kapit="fr.kapit.*" layout="absolute"
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
 				horizontalAlign="center" verticalAlign="middle"
 				creationComplete="onCreationComplete(event)">
 
@@ -13,11 +13,12 @@
 		 http://npacemo.com/wordpress/2008/10/03/introduction-to-flex-applications-architecture-part-3-the-gugga-approach/
 	-->
 	<mx:Style>
-	Application
+	/*Application
 	{
 		backgroundGradientAlphas: 1.0, 1.0;
 		backgroundGradientColors: #333333,#999999;
-	}
+		backgroundColor: #D4D0C8;
+	}*/
 	</mx:Style>
 
 	<mx:Script>
@@ -27,22 +28,24 @@
 			import flash.events.IOErrorEvent;
 
 			import org.springextensions.actionscript.context.support.FlexXMLApplicationContext;
-
+	
 			import mx.controls.Alert;
 			import mx.containers.Panel;
 			import mx.events.CloseEvent;
 			import mx.resources.ResourceBundle;
 
-			import com.googlecode.flexwork.MainWindow;
 
-			import com.googlecode.flexdock.components.BoxSystemModule;
-			import com.googlecode.flexwork.components.*; //
-			import com.googlecode.flexwork.events.*; //
-			import com.googlecode.flexwork.managers.*; //
-			import com.googlecode.flexwork.menus.*; //
-			import com.googlecode.flexwork.modules.*; //
+			import com.googlecode.flexwork.work.*;
 
-
+			import com.googlecode.flexwork.core.cursors.*;
+			import com.googlecode.flexwork.core.managers.*; //
+			import com.googlecode.flexwork.core.modules.*; //
+			
+			import com.googlecode.flexwork.work.components.*; //
+			import com.googlecode.flexwork.work.events.*; //			
+			import com.googlecode.flexwork.work.menus.*; //
+			
+			
 
 
 
@@ -111,58 +114,9 @@
 				// do nothing.
 			}
 
-			private function forceBuildOnly(event:CloseEvent):void
-			{
-				new SystemModule();
-				new BoxSystemModule();
-
-				new FileMenuProvider();
-				new EditMenuProvider();
-				new SourceMenuProvider();
-				new NavigateMenuProvider();
-				new SearchMenuProvider();
-				new ProjectMenuProvider();
-				new DataMenuProvider();
-				new RunMenuProvider();
-
-				new PerspectiveMenuProvider();
-				new WindowMenuProvider();
-				new HelpMenuProvider();
-
-				new MenuBarProvider();
-
-				new MainWindow();
-
-				new MessageEventBusManager();
-				new LogManager();
-				new ModelManager();
-				new ThreadManager();
-
-				new PerspectiveManager();
-
-				new ExplorerView();
-				new HierarchyView();
-				new FileSystemView();
-				new TextAreaView();
-				new TextEditor();
-				new PropertiesView();
-				new OutlineView();
-				new TasksView();
-				new ProblemsView();
-				new ConsoleView();
-				new SearchView();
-				new ProgressView();
-
-				new GoogleMapView();
-				new TwitterView();
-				new YouTubeView();
-				new YahooMapView();
-				new UMapView();
-
-				new FlickrView();
-				new BirdEyeView();
-
-
+			private function onlyForForceBuild(event:CloseEvent):void
+			{	
+				new OnlyForForceBuild();
 			}
 		]]>
 	</mx:Script>
@@ -184,23 +138,23 @@
 				 xsi:schemaLocation="http://www.springactionscript.org/schema/objects http://www.springactionscript.org/schema/objects/spring-actionscript-objects-1.0.xsd">
 
 			<object id="messageEventBusManager"
-					class="com.googlecode.flexwork.events.MessageEventBusManager"
+					class="com.googlecode.flexwork.core.managers.MessageEventBusManager"
 					factory-method="getInstance">
 			</object>
 
-			<object id="modelManager" class="com.googlecode.flexwork.managers.ModelManager">
+			<object id="modelManager" class="com.googlecode.flexwork.core.managers.ModelManager">
 				<!-- factory-method="getInstance" -->
 			</object>
 
-			<object id="threadManager" class="com.googlecode.flexwork.managers.ThreadManager">
+			<object id="threadManager" class="com.googlecode.flexwork.core.managers.ThreadManager">
 				<!--  factory-method="getInstance" -->
 			</object>
 
-			<object id="logManager" class="com.googlecode.flexwork.managers.LogManager">
+			<object id="logManager" class="com.googlecode.flexwork.core.managers.LogManager">
 				<property name="logOutputTarget" ref="consoleView"/>
 			</object>
 
-			<object id="abstractSystemModule" class="com.googlecode.flexwork.modules.SystemModule">
+			<object id="abstractSystemModule" class="com.googlecode.flexwork.core.modules.SystemModule">
 				<property name="messageEventBusManager" ref="messageEventBusManager"/>
 				<property name="modelManager" ref="modelManager"/>
 				<property name="threadManager" ref="threadManager"/>
@@ -208,12 +162,12 @@
 			</object>
 
 			<object id="perspectiveManager"
-					class="com.googlecode.flexwork.managers.PerspectiveManager"
+					class="com.googlecode.flexwork.core.managers.PerspectiveManager"
 					parent="abstractSystemModule">
 				<!--  property name="mainWindow" ref="mainWindow"/ -->
 			</object>
 
-			<object id="abstractBoxSystemModule" class="com.googlecode.flexdock.components.BoxSystemModule"
+			<object id="abstractBoxSystemModule" class="com.googlecode.flexwork.core.components.BoxSystemModule"
 					abstract="true">
 				<property name="systemModule" ref="abstractSystemModule"/>
 			</object>
@@ -224,56 +178,56 @@
 					parent="abstractSystemModule" abstract="true">
 			</object>
 
-			<object id="fileMenuProvider" class="com.googlecode.flexwork.menus.FileMenuProvider"
+			<object id="fileMenuProvider" class="com.googlecode.flexwork.work.menus.FileMenuProvider"
 					parent="abstractMenuProvider">
 			</object>
 
-			<object id="editMenuProvider" class="com.googlecode.flexwork.menus.EditMenuProvider"
+			<object id="editMenuProvider" class="com.googlecode.flexwork.work.menus.EditMenuProvider"
 					parent="abstractMenuProvider">
 			</object>
 
-			<object id="sourceMenuProvider" class="com.googlecode.flexwork.menus.SourceMenuProvider"
+			<object id="sourceMenuProvider" class="com.googlecode.flexwork.work.menus.SourceMenuProvider"
 					parent="abstractMenuProvider">
 			</object>
 
 			<object id="navigateMenuProvider"
-					class="com.googlecode.flexwork.menus.NavigateMenuProvider"
+					class="com.googlecode.flexwork.work.menus.NavigateMenuProvider"
 					parent="abstractMenuProvider">
 			</object>
 
-			<object id="searchMenuProvider" class="com.googlecode.flexwork.menus.SearchMenuProvider"
+			<object id="searchMenuProvider" class="com.googlecode.flexwork.work.menus.SearchMenuProvider"
 					parent="abstractMenuProvider">
 			</object>
 
 			<object id="projectMenuProvider"
-					class="com.googlecode.flexwork.menus.ProjectMenuProvider"
+					class="com.googlecode.flexwork.work.menus.ProjectMenuProvider"
 					parent="abstractMenuProvider">
 			</object>
 
-			<object id="dataMenuProvider" class="com.googlecode.flexwork.menus.DataMenuProvider"
+			<object id="dataMenuProvider" class="com.googlecode.flexwork.work.menus.DataMenuProvider"
 					parent="abstractMenuProvider">
 			</object>
 
-			<object id="runMenuProvider" class="com.googlecode.flexwork.menus.RunMenuProvider"
+			<object id="runMenuProvider" class="com.googlecode.flexwork.work.menus.RunMenuProvider"
 					parent="abstractMenuProvider">
 			</object>
 
 			<object id="perspectiveMenuProvider"
-					class="com.googlecode.flexwork.menus.PerspectiveMenuProvider"
+					class="com.googlecode.flexwork.work.menus.PerspectiveMenuProvider"
 					parent="abstractMenuProvider">
 				<property name="perspectiveManager" ref="perspectiveManager"/>
 			</object>
 
-			<object id="windowMenuProvider" class="com.googlecode.flexwork.menus.WindowMenuProvider"
+			<object id="windowMenuProvider" class="com.googlecode.flexwork.work.menus.WindowMenuProvider"
 					parent="abstractMenuProvider">
 				<property name="perspectiveMenuProvider" ref="perspectiveMenuProvider"/>
 			</object>
 
-			<object id="helpMenuProvider" class="com.googlecode.flexwork.menus.HelpMenuProvider"
+			<object id="helpMenuProvider" class="com.googlecode.flexwork.work.menus.HelpMenuProvider"
 					parent="abstractMenuProvider">
 			</object>
 
-			<object id="menuBarProvider" class="com.googlecode.flexwork.menus.MenuBarProvider"
+			<object id="menuBarProvider" class="com.googlecode.flexwork.work.menus.MenuBarProvider"
 					parent="abstractMenuProvider">
 				<property name="fileMenuProvider" ref="fileMenuProvider"/>
 				<property name="editMenuProvider" ref="editMenuProvider"/>
@@ -287,11 +241,11 @@
 				<property name="helpMenuProvider" ref="helpMenuProvider"/>
 			</object>
 
-			<object id="splitWindowPool" class="com.googlecode.flexdock.components.SplitWindowPool">
+			<object id="splitWindowPool" class="com.googlecode.flexwork.core.components.SplitWindowPool">
 			</object>
 			
 			<!-- mainWindow -->
-			<object id="mainWindow" class="com.googlecode.flexwork.MainWindow"
+			<object id="mainWindow" class="com.googlecode.flexwork.work.MainWindow"
 					parent="abstractBoxSystemModule">
 				<!--  init-method="init" -->
 				<property name="menuBarProvider" ref="menuBarProvider"/>
@@ -300,84 +254,84 @@
 			</object>
 
 			<!-- system view -->
-			<object id="abstractDockView" class="com.googlecode.flexdock.views.DockView"
+			<object id="abstractDockView" class="com.googlecode.flexwork.core.views.DockView"
 					parent="abstractBoxSystemModule" abstract="true">
 			</object>
 
-			<object id="consoleView" class="com.googlecode.flexwork.components.ConsoleView"
+			<object id="consoleView" class="com.googlecode.flexwork.work.components.ConsoleView"
 					parent="abstractDockView">
 			</object>
 
-			<object id="progressView" class="com.googlecode.flexwork.components.ProgressView"
+			<object id="progressView" class="com.googlecode.flexwork.work.components.ProgressView"
 					parent="abstractDockView">
 			</object>
 
 			<!-- application view -->
-			<object id="explorerView" class="com.googlecode.flexwork.components.ExplorerView"
+			<object id="explorerView" class="com.googlecode.flexwork.work.components.ExplorerView"
 					parent="abstractDockView">
 			</object>
 
-			<object id="hierarchyView" class="com.googlecode.flexwork.components.HierarchyView"
+			<object id="hierarchyView" class="com.googlecode.flexwork.work.components.HierarchyView"
 					parent="abstractDockView">
 			</object>
 
-			<object id="fileSystemView" class="com.googlecode.flexwork.components.FileSystemView"
+			<object id="fileSystemView" class="com.googlecode.flexwork.work.components.FileSystemView"
 					parent="abstractDockView">
 			</object>
 
-			<object id="textAreaView" class="com.googlecode.flexwork.components.TextAreaView"
+			<object id="textAreaView" class="com.googlecode.flexwork.work.components.TextAreaView"
 					parent="abstractDockView">
 			</object>
 
-			<object id="textEditor" class="com.googlecode.flexwork.components.TextEditor"
+			<object id="textEditor" class="com.googlecode.flexwork.work.components.TextEditor"
 					parent="abstractDockView">
 			</object>
 
-			<object id="propertiesView" class="com.googlecode.flexwork.components.PropertiesView"
+			<object id="propertiesView" class="com.googlecode.flexwork.work.components.PropertiesView"
 					parent="abstractDockView">
 			</object>
 
-			<object id="outlineView" class="com.googlecode.flexwork.components.OutlineView"
+			<object id="outlineView" class="com.googlecode.flexwork.work.components.OutlineView"
 					parent="abstractDockView">
 			</object>
 
-			<object id="tasksView" class="com.googlecode.flexwork.components.TasksView"
+			<object id="tasksView" class="com.googlecode.flexwork.work.components.TasksView"
 					parent="abstractDockView">
 			</object>
 
-			<object id="problemsView" class="com.googlecode.flexwork.components.ProblemsView"
+			<object id="problemsView" class="com.googlecode.flexwork.work.components.ProblemsView"
 					parent="abstractDockView">
 			</object>
 
-			<object id="searchView" class="com.googlecode.flexwork.components.SearchView"
+			<object id="searchView" class="com.googlecode.flexwork.work.components.SearchView"
 					parent="abstractDockView">
 			</object>
 
-			<object id="twitterView" class="com.googlecode.flexwork.components.TwitterView"
+			<object id="twitterView" class="com.googlecode.flexwork.work.components.TwitterView"
 					parent="abstractDockView">
 			</object>
 
-			<object id="youTubeView" class="com.googlecode.flexwork.components.YouTubeView"
+			<object id="youTubeView" class="com.googlecode.flexwork.work.components.YouTubeView"
 					parent="abstractDockView">
 			</object>
 
-			<object id="googleMapView" class="com.googlecode.flexwork.components.GoogleMapView"
+			<object id="googleMapView" class="com.googlecode.flexwork.work.components.GoogleMapView"
 					parent="abstractDockView">
 			</object>
 
-			<object id="yahooMapView" class="com.googlecode.flexwork.components.YahooMapView"
+			<object id="yahooMapView" class="com.googlecode.flexwork.work.components.YahooMapView"
 					parent="abstractDockView">
 			</object>
 
-			<object id="uMapView" class="com.googlecode.flexwork.components.UMapView"
+			<object id="uMapView" class="com.googlecode.flexwork.work.components.UMapView"
 					parent="abstractDockView">
 			</object>
 
-			<object id="flickrView" class="com.googlecode.flexwork.components.FlickrView"
+			<object id="flickrView" class="com.googlecode.flexwork.work.components.FlickrView"
 					parent="abstractDockView">
 			</object>
 
-			<object id="birdEyeView" class="com.googlecode.flexwork.components.BirdEyeView"
+			<object id="birdEyeView" class="com.googlecode.flexwork.work.components.BirdEyeView"
 					parent="abstractDockView">
 			</object>
 
