@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" horizontalAlign="center"
+				verticalAlign="middle" creationComplete="onCreationComplete(event)">
+
+
+
+	<mx:Script>
+		<![CDATA[
+			import fr.kapit.introspection.component.popups.AboutBox;
+			import mx.rpc.http.mxml.HTTPService;
+			import flash.events.MouseEvent;
+			import mx.events.FlexEvent;
+			import mx.utils.Base64Encoder;
+
+			import mx.messaging.messages.HTTPRequestMessage;
+			import mx.rpc.AsyncToken;
+			import mx.events.FlexEvent;
+			import mx.rpc.AsyncResponder;
+			import mx.rpc.events.ResultEvent;
+			import mx.rpc.events.FaultEvent;
+			
+			public function onCreationComplete(event:FlexEvent):void
+			{
+			
+			}
+
+			public function go(event:MouseEvent):void
+			{
+				var username:String = "d2VpbGkx";
+				var password:String = "MjM0NXdlcnRTREZH";
+				//HTTP Basic Authentication with HTTPService Objects in Adobe Flex/AIR
+				//http://stackoverflow.com/questions/490806/http-basic-authentication-with-httpservice-objects-in-adobe-flex-air
+				var httpService:HTTPService = new HTTPService();
+				httpService.showBusyCursor = true;
+			    httpService.url = dimUrl.text;
+				httpService.resultFormat="text";
+				httpService.useProxy=false;
+				httpService.method=HTTPRequestMessage.GET_METHOD;
+				
+				
+				//httpService.headers = {Authorization:"Basic " + "username"+":"+password}; // OK				
+				//httpService.setCredentials(username, password); // [MessagingError message='Authentication not supported on DirectHTTPChannel (no proxy).']
+				httpService.setRemoteCredentials(username, password); // OK
+				
+//				var encoder:Base64Encoder = new Base64Encoder();
+//		        encoder.insertNewLines = false; // see below for why you need to do this
+//		        encoder.encode("${username}:${password}");
+		        
+        		
+        		
+        		var token:AsyncToken=httpService.send();
+				token.addResponder(
+					new AsyncResponder(
+						function(event:ResultEvent, token:Object=null):void
+						{				
+							result.text = event.result as String;
+					
+						}, function(event:FaultEvent, token:Object=null):void
+						{
+							result.text = event.toString();
+						}
+					)
+				);
+			}
+		]]>
+	</mx:Script>
+	
+	<mx:VBox width="100%" height="100%">
+	
+		<mx:HBox width="100%" height="30">
+			<mx:TextInput id="dimUrl" text="http://iweb3.corp.ebay.com:8000/Person.aspx?guid=6D9A79E3-EBAB-4FD6-ACA7-F34BFC7FAF21" /><mx:Button label="Go" click="go(event)"/>
+		</mx:HBox>
+		
+		<mx:TextArea id="result" width="100%" height="100%" />
+	
+	</mx:VBox>
+</mx:Application>
