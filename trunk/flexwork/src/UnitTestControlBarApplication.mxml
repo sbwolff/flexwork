@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" 
+    layout="vertical" 
+    viewSourceURL="srcview/index.html" 
+    xmlns:controls="com.dougmccune.controls.*">
+    <mx:Style>
+        Panel {
+           borderAlpha: 1;
+           borderThicknessLeft: 0;
+           borderThicknessTop: 0;
+           borderThicknessBottom: 0;
+           borderThicknessRight: 0;
+           roundedBottomCorners: true;
+           headerHeight: 23;
+           highlightAlphas: 0, 0.12;
+           headerColors: #4e84df, #0f6cc3;
+           footerColors: #efaa15, #e6780c;
+           titleStyleName: "mypanelTitle";
+        }
+        .mypanelTitle {
+           color: #ffffff;
+           fontSize: 12;
+           fontWeight:bold;
+        }
+        ControlBar {
+            paddingTop:2px;
+            paddingBottom:2px;
+            height:15px;
+        }
+    </mx:Style>
+    
+    <mx:Script>
+        <![CDATA[
+            private function setCBarPosition(event:Event):void {
+                if((event.currentTarget as CheckBox).selected) {
+                    panel.controlBarPosition = ExtendedPanel.TOP;
+                    panel.setStyle("roundedBottomCorners", false);
+                }
+                else {
+                    panel.controlBarPosition = ExtendedPanel.BOTTOM;
+                    panel.setStyle("roundedBottomCorners", true);
+                }
+            }
+        ]]>
+    </mx:Script>
+    
+    
+    <controls:ExtendedPanel id="panel" controlBarPosition="bottom" title="ExtendedPanel" 
+        width="250" height="250" >
+        <mx:Label text="Panel Contents" />
+        <mx:ControlBar>
+            <mx:CheckBox label="ControlBar at top"
+                change="setCBarPosition(event)"
+                />
+        </mx:ControlBar>
+    </controls:ExtendedPanel>
+    
+    
+</mx:Application>
