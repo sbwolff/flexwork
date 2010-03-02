@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<mx:TitleWindow title="Login" showCloseButton="false" backgroundColor="0xDDDDDD"
+				xmlns:mx="http://www.adobe.com/2006/mxml" initialize="init()"
+				horizontalAlign="center" verticalAlign="middle">
+	<mx:Style>
+    	.loginWindowTrackSkin {
+    		borderColor: #343434;
+    		fillAlphas: 0.06, 1, 0.63, 0.65;
+			  trackColors: #ffffff, #1A1A1A;
+			  thumbSkin: Embed("assets/loginSliderThumb.gif");
+		}
+		.iphoneSlider {
+		thumbUpSkin: Embed(source="assets/lockButton.png");
+		thumbDownSkin: Embed(source="assets/lockButton_selected.png");
+		thumbOverSkin: Embed(source="assets/lockButton_selected.png");
+		trackSkin:  Embed(source="assets/Slider_trackSkin.gif");/*this .png is transparent*/
+	
+		}
+	@font-face {
+    src: url("/assets/helr45w.ttf") ;
+    fontFamily: myHelvitica;
+    fontWeight: normal;
+    unicodeRange:
+           U+0041-U+005A, /* Upper-Case [A..Z] */
+           U+0061-U+007A, /* Lower-Case a-z */
+           U+0030-U+0039, /* Numbers [0..9] */
+           U+002E-U+002E, /* Period [.] */
+           U+005F-U+005F, /* Upper-Case [A..Z] */
+           U+0021-U+0021, /* Upper-Case [A..Z] */
+           U+0023-U+0023, /* Upper-Case [A..Z] */
+           U+007B-U+007E, /* Punctuation and Symbols */
+           U+0026-U+0026, /* Punctuation and Symbols */
+           U+002F-U+002F, /* Punctuation and Symbols */
+           U+0028-U+0029, /* Punctuation and Symbols */
+           U+003F-U+003F, /* Punctuation and Symbols */
+           U+0027-U+0027, /* Punctuation and Symbols */
+           U+00B0-U+00B0, /* Punctuation and Symbols */
+           U+002D-U+002D, /* Punctuation and Symbols */
+           U+0040-U+0040, /* Punctuation and Symbols */
+           U+002A-U+002A, /* Punctuation and Symbols */
+           U+003A-U+003A, /* Upper-Case [A..Z] */
+           U+0332-U+0332, /* Upper-Case [A..Z] */
+           U+FE57-U+FE57, /* Upper-Case [A..Z] */
+           U+00A9-U+00A9, /* Upper-Case [A..Z] */
+           U+FF01-U+FF01; /* Upper-Case [A..Z] */
+           
+}
+    </mx:Style>
+	<mx:Script>
+		<![CDATA[
+		//http://www.degrafa.org/source/ButtonLoader/ButtonLoader.html
+			import com.googlecode.flexwork.core.skins.LoginSliderTrackSkin;
+			//http://www.degrafa.org/source/ButtonLoader/ButtonLoader.html
+			//http://www.flexer.info/2008/05/09/using-shared-objects-login-process-with-remember-password/
+			//thumbSkin: "org.flex.dock.skins.LoginSliderThumbSkin"
+			
+			//like open a door!!!!!1
+			import mx.managers.PopUpManager;
+			import mx.controls.Alert;
+			import mx.events.FlexEvent;
+			import mx.rpc.events.ResultEvent;
+			import mx.rpc.events.FaultEvent;
+			import mx.rpc.remoting.RemoteObject;
+			import mx.events.SliderEvent;
+			import com.googlecode.flexwork.core.skins.LoginSliderTrackSkin;
+			import com.googlecode.flexwork.work.components.loginClasses.LoginSliderThumb;
+			
+			private var loginService:RemoteObject;
+
+			private var timer:Timer;
+
+			private function onLoginSliderCreationComplete(event:Event):void
+			{
+				timer=new Timer(50);
+				timer.addEventListener(TimerEvent.TIMER, timer_timer);
+			}
+
+			private function timer_timer(evt:TimerEvent):void
+			{
+				loginSlider.value+=1;
+				//               	if(loginSlider.value ==loginSlider.maximum) {
+				//               timer.stop(); return;   
+				//                           }  
+			}
+
+			private function onLoginSliderUpdateComplete(event:Event):void
+			{
+
+				if (loginSlider.value == loginSlider.maximum)
+				{
+					Alert.show("d");
+					timer.stop();
+
+				}
+
+			}
+
+			private var loginSliderTrackSkin:LoginSliderTrackSkin=new LoginSliderTrackSkin();
+
+			private function init():void
+			{
+				//				loginService=new RemoteObject("loginServiceDestination");
+				//				loginService.requestTimeout=30;
+				//				loginService.processLogin.addEventListener(ResultEvent.RESULT, processLoginHandler);
+				//				loginService.addEventListener(FaultEvent.FAULT, faultHandler);
+			}
+
+			private function processLogin():void
+			{
+				loginService.processLogin(username.text, password.text);
+			}
+
+			private function processLoginHandler(event:ResultEvent):void
+			{
+				if (event.result as String == "Success!")
+				{
+					PopUpManager.removePopUp(this);
+				}
+				else
+				{
+					Alert.show("Login Failed!");
+					username.text="";
+					password.text="";
+				}
+			}
+
+			private function onThumb(event:SliderEvent):void
+			{
+				onLogin();
+			}
+
+			private function onLogin():void
+			{
+				timer.start();
+				//				if (loginSlider.value < loginSlider.maximum)
+				//				{
+				//					loginSlider.setThumbValueAt(0, loginSlider.maximum);
+				////					loginSlider.value=loginSlider.maximum;
+				//				}
+			}
+
+			private function faultHandler(fault:FaultEvent):void
+			{
+				switch (fault.fault.faultCode.toString())
+				{
+					case "Client.Error.RequestTimeout":
+						Alert.show("The server is not responding. Please check that you are connected and the server is running.", "Server Timeout");
+						break;
+					default:
+						Alert.show(fault.fault.faultString, fault.fault.faultCode.toString());
+						break;
+				}
+			}
+		]]>
+	</mx:Script>
+
+	<mx:Form>
+		<mx:FormItem label="Username" fontFamily="Verdana">
+			<mx:TextInput id="username" width="100%"/>
+		</mx:FormItem>
+		<mx:FormItem label="Password" fontFamily="Verdana">
+			<mx:TextInput id="password" displayAsPassword="true" width="100%"/>
+		</mx:FormItem>
+	</mx:Form>
+
+	<mx:Parallel id="completeEffect">
+		<mx:Fade alphaTo="0.0"/>
+		<mx:Zoom zoomHeightTo="0"/>
+	</mx:Parallel>
+
+	<!--  Create an iPhone Unlock Slider in Flex 3
+		 http://merhl.com/?p=102
+		 http://flashspeaksactionscript.com/create-an-iphone-unlock-slider-in-flex-3/-->
+
+	<mx:Canvas id="Homebottom" verticalScrollPolicy="off" horizontalScrollPolicy="off">
+		<mx:HBox backgroundColor="0xffffff" alpha=".5" height="35" width="100%"/>
+		<mx:HBox backgroundColor="0x000000" alpha=".5" height="65" width="100%"/>
+		<mx:Image x="15" y="12" source="assets/slide.png"/>
+		<mx:Label textAlign="center" width="100%" x="22" y="24" text="slide to unlock"
+				  fontFamily="myHelvitica" color="0xffffff" fontSize="14" alpha=".3"
+				  letterSpacing="0"/>
+		<mx:HSlider id="loginSlider" valueCommit="onLoginSliderUpdateComplete(event)"
+					updateComplete="//onLoginSliderUpdateComplete(event)"
+					creationComplete="onLoginSliderCreationComplete(event)" styleName="iphoneSlider"
+					width="186" x="17" y="17" minimum="0" maximum="100" value="0" thumbCount="1"
+					showDataTip="false" dataTipPlacement="top"
+					sliderThumbClass="com.googlecode.flexwork.work.components.loginClasses.LoginSliderThumb"
+					tickColor="black" tickThickness="0" tickLength="0" buttonMode="true"
+					useHandCursor="true" snapInterval="1" tickInterval="10" allowTrackClick="false"
+					slideDuration="1000" liveDragging="true" thumbRelease="onThumb(event)"
+					thumbDrag="//onThumb(event)"/>
+	</mx:Canvas>
+
+	<!--  trackSkin="org.flex.dock.skins.LoginSliderTrackSkin"  thumbSkin: @Embed('assets/loginThumb.gif');
+		 // <mx:HBox>
+		 <mx:Button click="processLogin();" label="OK"/>
+		 <mx:Button label="Cancel" click="PopUpManager.removePopUp(this);"/>
+		 </mx:HBox>-->
+
+</mx:TitleWindow>

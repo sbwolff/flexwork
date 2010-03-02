@@ -17,9 +17,9 @@ package com.googlecode.flexwork.work
 	import com.googlecode.flexwork.core.components.*;
 	import com.googlecode.flexwork.core.managers.*; //
 	import com.googlecode.flexwork.core.modules.*; //
+	import com.googlecode.flexwork.core.events.*; //	
 	
-	import com.googlecode.flexwork.work.components.*; //
-	import com.googlecode.flexwork.work.events.*; //			
+	import com.googlecode.flexwork.work.components.*; //		
 	import com.googlecode.flexwork.work.menus.*; //
 
 	public class OnlyForForceBuild
@@ -82,6 +82,10 @@ package com.googlecode.flexwork.work
 
 			new FlickrView();
 			new BirdEyeView();
+			
+			new WorkflowEditor();
+			new WorkflowActivityView();
+			
 		}
 
 	}

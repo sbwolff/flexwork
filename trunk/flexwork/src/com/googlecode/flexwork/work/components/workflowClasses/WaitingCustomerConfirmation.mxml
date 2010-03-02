@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BaseNode xmlns="com.anotherflexdev.diagrammer.*" xmlns:mx="http://www.adobe.com/2006/mxml" nodeName="Waiting Customer Confirmation" editable="false">
+	<mx:Image id="image" y="0" horizontalCenter="0" source="@Embed(source='assets/workflow/waiting-customer-confirmation.png')"/>
+	<lblNodeName>
+		<mx:Text y="{image.height + 10}" text="{nodeName}" selectable="false" left="1" right="1" textAlign="center"/>
+	</lblNodeName>
+</BaseNode>

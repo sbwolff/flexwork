@@ -1,0 +1,944 @@
+﻿
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="ctl00_Head1"><link rel="stylesheet" type="text/css" href="CSS/PeopleFinder.css" /><link rel="stylesheet" type="text/css" href="http://portal.hp.com/lib/navigation/css/homepages-v5.css" /><title>
+	PeopleFinder
+</title></head>
+<body id="ctl00__pfBody" class="PageFont"> 
+<script language="javascript" src="http://portal.hp.com/lib/navigation/header.js"></script>
+<!--<script language="javascript" src="http://d3w9055g.americas.hpqcorp.net/lib/navigation/header.js"></script>-->
+<script language="javascript" src="http://portal.hp.com/lib/navigation/siteCatalyst.js"></script>
+<script language="javascript">
+setBanner("PeopleFinder");
+setWebMetrics("hphqintraathpintranetportal");
+drawHeader();
+siteCatalyst_setPageName("PeopleFinder");
+</script>
+
+    <form name="aspnetForm" method="post" action="peoplefinder.asp?pf_hp=1&amp;pf_detectsearch=1&amp;pf_searchoption=0&amp;pf_searchtype=2&amp;pf_searchval=li%2c+wei" id="aspnetForm" OnSubmit="javascript:return ValidateFilter_IE('ctl00_contMaster_ddlSearchOption');">
+<div>
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODc2NDA4NzQ2DxYCHgZzTG5hbWVoFgJmD2QWAgIDD2QWAgIBDxYCHghPblN1Ym1pdAVIamF2YXNjcmlwdDpyZXR1cm4gVmFsaWRhdGVGaWx0ZXJfSUUoJ2N0bDAwX2NvbnRNYXN0ZXJfZGRsU2VhcmNoT3B0aW9uJyk7FgICAQ9kFhACAw9kFgJmD2QWAmYPZBYCAgEPDxYCHgdWaXNpYmxlaGRkAgUPZBYCZg9kFgJmD2QWCAIBDxAPZBYCHghPbkNoYW5nZQV5amF2YXNjcmlwdDpzaG93TGlzdCh0aGlzLnZhbHVlLCdjdGwwMF9jb250TWFzdGVyX19wZW9wbGVUYWInLCdjdGwwMF9jb250TWFzdGVyX19sb2NhdGlvblRhYicsJ2N0bDAwX2NvbnRNYXN0ZXJfX29yZ1RhYicpO2RkZAIDDxYCHgVzdHlsZQUKZGlzcGxheTonJxYCZg9kFgZmD2QWAgIBDxAPZBYCHwMFTGphdmFzY3JpcHQ6c2hvd0xhbmd1YWdlTGlzdCh0aGlzLnZhbHVlLCdjdGwwMF9jb250TWFzdGVyX2RkbExvY2FsTGFuZ3VhZ2UnKTtkFgFmZAIBD2QWAgIBDxAPZBYCHwQFDGRpc3BsYXk6bm9uZWRkZAICD2QWAgIBDw9kFgIeCk9uS2V5UHJlc3MFHWphdmFzY3JpcHQ6X0hQRVBLZXljb2RlX0lFKCk7ZAIFDxYCHwQFDGRpc3BsYXk6bm9uZRYCZg9kFgICAQ9kFgICAQ8PZBYCHwUFHWphdmFzY3JpcHQ6X0hQRVBLZXljb2RlX0lFKCk7ZAIHDxYCHwQFDGRpc3BsYXk6bm9uZRYCZg9kFgICAQ9kFgICAQ8PZBYCHwUFHWphdmFzY3JpcHQ6X0hQRVBLZXljb2RlX0lFKCk7ZAIHD2QWAmYPZBYCZg9kFgICAQ8WAh8CZ2QCCQ8WAh8CaGQCCw8PFgIeCEltYWdlVXJsBRdpbWFnZXMvYnRuX2xhc3ROYW1lLmdpZmRkAg0PFgIfAmcWAmYPZBYGZg9kFgICAQ8QZGQWAWZkAgEPZBYCZg8PFgQeBFRleHQFGE5vLm9mIGVudHJpZXMgZm91bmQ6IDEzNx8CZ2RkAgIPZBYCZg8PFgIfBwUWPGI+Tm8ub2YgcGFnZXM6IDE0PC9iPmRkAg8PDxYEHwcFHDxiPlNob3dpbmcgMSAtIDEwIG9mIDEzNzwvYj4fAmdkZAITDw8WAh8GBRdpbWFnZXMvYnRuX2xhc3ROYW1lLmdpZmRkGAIFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBRpjdGwwMCRjb250TWFzdGVyJGNoa0RldGVjdAUXY3RsMDAkY29udE1hc3RlciRndlNob3cPZ2Q=" />
+</div>
+
+<script type="text/javascript">
+<!--
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+// -->
+</script>
+
+
+<script src="/PeopleFinder/WebResource.axd?d=_3h_fB_Pk2pZMoiQAOGJZw2&amp;t=633230847410140979" type="text/javascript"></script>
+
+
+<script src="/PeopleFinder/WebResource.axd?d=vqwiAcffzYAGUrxem1q7zA2&amp;t=633230847410140979" type="text/javascript"></script>
+    <div>
+        
+  <input name="ctl00$contMaster$_hdnSearchOption" type="hidden" id="ctl00_contMaster__hdnSearchOption" value="2" /> 
+<script language="javascript" type="text/javascript">
+
+function pop_window_scroll(URL, Name, WinHeight, WinWidth)
+{
+	winobj = window.open(URL, Name, 'toolbar=no,scrollbars=yes,location=no,status=yes,menubar=no,directories=no,fullscreen=no,resizable=yes,height=' + WinHeight + ',width=' + WinWidth);
+	winobj.focus();
+}
+// function to show hide localLanguage DropdownListbox
+function showLanguageList(sType,sLngDwl)
+{
+    if(parseInt(sType)==10 || parseInt(sType)==11)
+    {    
+        if (typeof(document.getElementById(sLngDwl)) == "object")
+        {
+            document.getElementById(sLngDwl).style.display='';
+        }
+        
+    }
+    else 
+    {          
+         if (typeof(document.getElementById(sLngDwl)) == "object")
+        {
+            document.getElementById(sLngDwl).style.display='none';
+        }       
+    }
+}
+// function to show hide search type based on searchoption
+function showList(sOption,spTable,slTable,soTable)
+{
+
+    if(parseInt(sOption)==0)
+    {           
+         document.getElementById(spTable).style.display='';
+         document.getElementById(slTable).style.display='none';  
+         document.getElementById(soTable).style.display='none';
+         document.getElementById("ctl00_contMaster_txtSearchValue").focus(); 
+         document.getElementById("ctl00_contMaster_txtSearchValue").value="";       
+    }
+    else if(parseInt(sOption)==1)
+    {          
+         document.getElementById(slTable).style.display='';
+         document.getElementById(spTable).style.display='none';
+         document.getElementById(soTable).style.display='none';  
+         document.getElementById("ctl00_contMaster_txtSearchValue_loc").focus(); 
+         document.getElementById("ctl00_contMaster_txtSearchValue_loc").value="";        
+    }
+    else if(parseInt(sOption)==2)
+    {          
+         document.getElementById(soTable).style.display='';
+         document.getElementById(spTable).style.display='none';
+         document.getElementById(slTable).style.display='none';
+         document.getElementById("ctl00_contMaster_txtSearchValue_org").focus(); 
+         document.getElementById("ctl00_contMaster_txtSearchValue_org").value="";
+    }
+
+}
+
+// Function to trim the string
+function trim(s) {
+  while (s.substring(0,1) == ' ') {
+    s = s.substring(1,s.length);
+  }
+  while (s.substring(s.length-1,s.length) == ' ') {
+    s = s.substring(0,s.length-1);
+  }
+  return s;
+}
+
+// Function to validate the search value for IE....
+function ValidateFilter_IE(sOption)
+{
+   try
+   {    
+  var kcode=window.event.keyCode; 
+   //var kcode=document.window.event.which;
+   
+   if (kcode==0)
+   {
+    if (typeof(document.getElementById(sOption)) == "object")
+	    {	
+	          var _intOption= document.getElementById(sOption).value;	
+	        
+	            if(parseInt(_intOption)==0) //People
+	            {               
+		                if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue")) == "object")
+		                {
+		                    var sSearchVal = trim(document.getElementById("ctl00_contMaster_txtSearchValue").value); 		                    		        
+		                    if(sSearchVal=="")
+		                     {	
+		                      alert("Please enter search query.");	    
+			                  document.getElementById("ctl00_contMaster_txtSearchValue").focus();
+			                  return false;
+		                     }	                    
+		                     if ((sSearchVal.indexOf("@")!=-1)&& (sSearchVal.substring(sSearchVal.indexOf("@"),sSearchVal.length).toLowerCase()!="@hp.com"))
+		                     {
+		                     alert("Invalid HP E-mail ID - " + sSearchVal);
+		                     document.getElementById("ctl00_contMaster_txtSearchValue").focus();
+		                     return false
+		                     }
+		                     
+		                }
+		        }		
+	             if(parseInt(_intOption)==1) // Location
+	             {               
+		                 if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue_loc")) == "object")
+		                {
+		                    var sSearchVal = trim(document.getElementById("ctl00_contMaster_txtSearchValue_loc").value); 		        
+		                    if(sSearchVal=="")
+		                     {	
+		                      alert("Please enter search query.");	    
+			                  document.getElementById("ctl00_contMaster_txtSearchValue_loc").focus();
+			                  return false;
+		                     }
+		                     if ((sSearchVal.indexOf("@")!=-1)&& (sSearchVal.substring(sSearchVal.indexOf("@"),sSearchVal.length).toLowerCase()!="@hp.com"))
+		                     {
+		                     alert("Invalid HP E-mail ID - " + sSearchVal);
+		                     document.getElementById("ctl00_contMaster_txtSearchValue_loc").focus();
+		                     return false
+		                     }
+		                }
+		           }	
+	             if(parseInt(_intOption)==2) //organization
+	            {       
+	                    if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue_org")) == "object")
+		                {
+		                    var sSearchVal = trim(document.getElementById("ctl00_contMaster_txtSearchValue_org").value); 		        
+		                    if(sSearchVal=="")
+		                     {	
+		                      alert("Please enter search query.");	    
+			                  document.getElementById("ctl00_contMaster_txtSearchValue_org").focus();
+			                  return false;
+		                     }
+		                     if ((sSearchVal.indexOf("@")!=-1)&& (sSearchVal.substring(sSearchVal.indexOf("@"),sSearchVal.length).toLowerCase()!="@hp.com"))
+		                     {
+		                     alert("Invalid HP E-mail ID - " + sSearchVal);
+		                     document.getElementById("ctl00_contMaster_txtSearchValue_org").focus();
+		                     return false
+		                     }
+		                }
+		         }
+		}
+	StripParenthesis(sOption)
+	}
+	}catch(err)
+	{
+	}	
+    
+    return true;
+}
+
+
+// Function to validate the search value for Firefox....
+function ValidateFilter_FF(sOption)
+{
+   try
+   {  
+    if (typeof(document.getElementById(sOption)) == "object")
+	    {	
+	          var _intOption= document.getElementById(sOption).value;	
+	        
+	            if(parseInt(_intOption)==0) //People
+	            {               
+		                if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue")) == "object")
+		                {
+		                    var sSearchVal = trim(document.getElementById("ctl00_contMaster_txtSearchValue").value); 		        
+		                    if(sSearchVal=="")
+		                     {	
+		                      alert("Please enter search query.");	    
+			                  document.getElementById("ctl00_contMaster_txtSearchValue").focus();
+			                  return false;
+		                     }
+		                     if ((sSearchVal.indexOf("@")!=-1)&& (sSearchVal.substring(sSearchVal.indexOf("@"),sSearchVal.length).toLowerCase()!="@hp.com"))
+		                     {
+		                     alert("Invalid HP E-mail ID - " + sSearchVal);
+		                     document.getElementById("ctl00_contMaster_txtSearchValue").focus();
+		                     return false
+		                     }
+		                }
+		        }		
+	             if(parseInt(_intOption)==1) // Location
+	             {               
+		                 if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue_loc")) == "object")
+		                {
+		                    var sSearchVal = trim(document.getElementById("ctl00_contMaster_txtSearchValue_loc").value); 		        
+		                    if(sSearchVal=="")
+		                     {	
+		                      alert("Please enter search query.");	    
+			                  document.getElementById("ctl00_contMaster_txtSearchValue_loc").focus();
+			                  return false;
+		                     }
+		                      if ((sSearchVal.indexOf("@")!=-1)&& (sSearchVal.substring(sSearchVal.indexOf("@"),sSearchVal.length).toLowerCase()!="@hp.com"))
+		                     {
+		                     alert("Invalid HP E-mail ID - " + sSearchVal);
+		                     document.getElementById("ctl00_contMaster_txtSearchValue_loc").focus();
+		                     return false
+		                     }
+		                }
+		           }	
+	             if(parseInt(_intOption)==2) //organization
+	            {       
+	                    if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue_org")) == "object")
+		                {
+		                    var sSearchVal = trim(document.getElementById("ctl00_contMaster_txtSearchValue_org").value); 		        
+		                    if(sSearchVal=="")
+		                     {	
+		                      alert("Please enter search query.");	    
+			                  document.getElementById("ctl00_contMaster_txtSearchValue_org").focus();
+			                  return false;
+		                     }
+		                      if ((sSearchVal.indexOf("@")!=-1)&& (sSearchVal.substring(sSearchVal.indexOf("@"),sSearchVal.length).toLowerCase()!="@hp.com"))
+		                     {
+		                     alert("Invalid HP E-mail ID - " + sSearchVal);
+		                     document.getElementById("ctl00_contMaster_txtSearchValue_org").focus();
+		                     return false
+		                     }
+		                }
+		         }
+		}
+	StripParenthesis(sOption)
+	
+	}catch(err)
+	{
+	}	
+    
+    return true;
+}
+
+//function to prevent invalid character...
+ function _HPEPKeycode_IE()
+{
+	var KeyValue=window.event.keyCode;
+	//alert(KeyValue);
+	//Considering only characters from a-z A-Z 1-9 0 @ - _ . , \ Enter space
+	if((KeyValue >=97 && KeyValue <=122)||(KeyValue >=65 && KeyValue <=90)||(KeyValue >=49 && KeyValue <=57)||(KeyValue==48)||(KeyValue==42)||(KeyValue==64)||(KeyValue==46)||(KeyValue==92)||(KeyValue==45)||(KeyValue==95)||(KeyValue==13)||(KeyValue==44)||(KeyValue==32)||(KeyValue==40)||(KeyValue==41)||(KeyValue==43)||(KeyValue==47))
+	{
+		//Displays the entered Character
+		return true;
+	}
+	else
+	{
+		//Do not Display the entered character
+		event.keyCode=0;
+		return false;
+	}
+	
+}
+// for firefox....
+function _HPEPKeycode_Mozilla(Key)
+{
+//alert(Key);
+	//Considering only characters from a-z A-Z 1-9 0 @ - _ . , \ Enter space and Back Space
+	if((Key >=97 && Key <=122)||(Key >=65 && Key <=90)||(Key >=49 && Key <=57)||(Key==48)||(Key==42)||(Key==0)||(Key==64)||(Key==46)||(Key==92)||(Key==8)||(Key==45)||(Key==95)||(Key==13)||(Key==44)||(Key==32)||(Key==40)||(Key==41)||(Key==43)||(Key==47))
+	{ 
+		//Displays the entered Character
+		return true;
+	}
+	{
+		//Do not Display the entered character
+		return false;
+	}
+	
+}
+
+
+// strip parenthesis
+function StripParenthesis(sOption)
+	{	
+	    try
+	    {
+	    if (typeof(document.getElementById(sOption)) == "object")
+	    {
+	        var _intOption= document.getElementById(sOption).value;	
+	        
+	            if(parseInt(_intOption)==0) //People
+	            {               
+		                if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue")) == "object")
+		                {
+		                    var sSearchVal = document.getElementById("ctl00_contMaster_txtSearchValue").value; 		        
+		                    if(!((sSearchVal.indexOf("-") > 2 && ((!isNaN(sSearchVal.charAt(0))) || sSearchVal.charAt(0) == "(" )) || (!isNaN(sSearchVal))))
+		                     {		    
+			                  document.getElementById("ctl00_contMaster_txtSearchValue").value  = sSearchVal.replace(/\(.*\)/i,"");			
+		                     }
+		                }
+		        }		
+	             if(parseInt(_intOption)==1) // Location
+	             {               
+		                 if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue_loc")) == "object")
+		                {
+		                    var sSearchVal = document.getElementById("ctl00_contMaster_txtSearchValue_loc").value; 		        
+		                     if(!((sSearchVal.indexOf("-") > 2 && ((!isNaN(sSearchVal.charAt(0))) || sSearchVal.charAt(0) == "(" )) || (!isNaN(sSearchVal))))
+		                     {		    
+			                 document.getElementById("ctl00_contMaster_txtSearchValue_loc").value  = sSearchVal.replace(/\(.*\)/i,"");			
+		                     }
+		                }
+		           }	
+	             if(parseInt(_intOption)==2) //organization
+	            {               
+		                 if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue_org")) == "object")
+		                {
+		                    var sSearchVal = document.getElementById("ctl00_contMaster_txtSearchValue_org").value; 		        
+		                     if(!((sSearchVal.indexOf("-") > 2 && ((!isNaN(sSearchVal.charAt(0))) || sSearchVal.charAt(0) == "(" )) || (!isNaN(sSearchVal))))
+		                    {		    
+			                document.getElementById("ctl00_contMaster_txtSearchValue_org").value  = sSearchVal.replace(/\(.*\)/i,"");			
+		                    }
+		                }
+		         }
+		}
+		}catch(exc)	
+		{
+		}
+	}
+
+</script>
+ 
+        <div>    
+       
+ <table id="ctl00_contMaster__mainTab" width="100%" border="0" cellpadding="0" align="center">
+	<tr>
+		<td>
+
+</td>
+	</tr>
+</table>
+ 
+    <table width='100%' border=0 cellpadding=5 align='center'>
+<tr>
+<td>
+<table id="ctl00_contMaster__tableSearchFilter" width="100%" border="2" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+
+<table class='RightModuleHeader' width='100%' border="0" >
+<tr>
+<td >
+<table  width='100%' border="0" id="TABLE1" style="height:65px">
+<tr>
+<td  width="12%">
+<select name="ctl00$contMaster$ddlSearchOption" id="ctl00_contMaster_ddlSearchOption" OnChange="javascript:showList(this.value,'ctl00_contMaster__peopleTab','ctl00_contMaster__locationTab','ctl00_contMaster__orgTab');">
+			<option selected="selected" value="0">People</option>
+			<option value="1">Locations</option>
+			<option value="2">Organizations</option>
+
+		</select></td>
+    <td class="RightModuleHeader" rowspan="2" align="left" valign="top" >
+    
+    <!-- table for people-->
+  
+       <table id="ctl00_contMaster__peopleTab" width="100%" border="0" style="display:''">
+			<tr>
+				<td nowrap="nowrap" width="20%">
+         <select name="ctl00$contMaster$ddlSearchType" id="ctl00_contMaster_ddlSearchType" OnChange="javascript:showLanguageList(this.value,'ctl00_contMaster_ddlLocalLanguage');" style="width:191px;">
+					<option selected="selected" value="0">LastName, FirstName</option>
+					<option value="1">FirstName LastName</option>
+					<option value="2">FirstName OR LastName</option>
+					<option value="3">Telephone</option>
+					<option value="4">E-Mail</option>
+					<option value="5">NT Login</option>
+					<option value="6">LName,FName Sounds Like</option>
+					<option value="7">FName LName Sounds Like</option>
+					<option value="8">MRU Code</option>
+					<option value="10">Local Language</option>
+					<option value="11">Local Organization Name</option>
+					<option value="12">Global ID</option>
+
+				</select>         
+       
+       </td>
+				<td nowrap="nowrap">       
+      <select name="ctl00$contMaster$ddlLocalLanguage" id="ctl00_contMaster_ddlLocalLanguage" style="width:181px;display:none">
+					<option value="0">Chinese</option>
+					<option value="1">Hebrew</option>
+					<option value="2">Kanji</option>
+					<option value="3">Katakana</option>
+					<option value="4">Korean</option>
+					<option value="5">Taiwanese</option>
+					<option value="6">Thai</option>
+
+				</select>  
+       </td>
+				<td nowrap="nowrap">
+   <input name="ctl00$contMaster$txtSearchValue" type="text" value="li, wei" id="ctl00_contMaster_txtSearchValue" OnKeyPress="javascript:_HPEPKeycode_IE();" style="width:208px;" /></td>
+				<td nowrap="nowrap">
+<input name="ctl00$contMaster$chkDetect" type="checkbox" id="ctl00_contMaster_chkDetect" value="1" checked="checked" /><b>Detect Search Type</b>
+           </td>
+			</tr>
+			<tr>
+				<td nowrap="nowrap">
+<b>City:</b>
+    <input name="ctl00$contMaster$txtCity" type="text" id="ctl00_contMaster_txtCity" style="width:148px;" />
+</td>
+				<td nowrap="nowrap"></td>
+				<td nowrap="nowrap">
+<b>Country/Region: </b><select name="ctl00$contMaster$ddlCountry" id="ctl00_contMaster_ddlCountry" style="width:157px;">
+					<option value=""></option>
+					<option value="AR">Argentina</option>
+					<option value="AT">Austria</option>
+					<option value="AU">Australia</option>
+					<option value="BE">Belgium</option>
+					<option value="BR">Brazil</option>
+					<option value="BG">Bulgaria</option>
+					<option value="CA">Canada</option>
+					<option value="CL">Chile</option>
+					<option value="CN">China</option>
+					<option value="CO">Colombia</option>
+					<option value="CR">Costa Rica</option>
+					<option value="HR">Croatia</option>
+					<option value="CZ">Czech Republic</option>
+					<option value="DK">Denmark</option>
+					<option value="EC">Ecuador</option>
+					<option value="FI">Finland</option>
+					<option value="FR">France</option>
+					<option value="DE">Germany</option>
+					<option value="GR">Greece</option>
+					<option value="HK">Hong Kong</option>
+					<option value="HU">Hungary</option>
+					<option value="IN">India</option>
+					<option value="ID">Indonesia</option>
+					<option value="IE">Ireland</option>
+					<option value="IL">Israel</option>
+					<option value="IT">Italy</option>
+					<option value="JP">Japan</option>
+					<option value="KE">Kenya</option>
+					<option value="KR">Korea</option>
+					<option value="LU">Luxembourg</option>
+					<option value="MY">Malaysia</option>
+					<option value="MX">Mexico</option>
+					<option value="MA">Morocco</option>
+					<option value="NL">Netherlands</option>
+					<option value="NZ">New Zealand</option>
+					<option value="NG">Nigeria</option>
+					<option value="NO">Norway</option>
+					<option value="PE">Peru</option>
+					<option value="PH">Philippines</option>
+					<option value="PL">Poland</option>
+					<option value="PT">Portugal</option>
+					<option value="PR">Puerto Rico</option>
+					<option value="RO">Romania</option>
+					<option value="SU">Russia</option>
+					<option value="SG">Singapore</option>
+					<option value="SK">Slovak Republic</option>
+					<option value="ZA">South Africa</option>
+					<option value="ES">Spain</option>
+					<option value="SA">Saudi Arabia</option>
+					<option value="SE">Sweden</option>
+					<option value="CH">Switzerland</option>
+					<option value="TW">Taiwan</option>
+					<option value="TH">Thailand</option>
+					<option value="TR">Turkey</option>
+					<option value="UA">Ukraine</option>
+					<option value="AE">United Arab Emirates</option>
+					<option value="GB">United Kingdom</option>
+					<option value="US">United States</option>
+					<option value="VE">Venezuela</option>
+					<option value="VN">Vietnam</option>
+					<option value="YU">Yugoslavia</option>
+
+				</select></td>
+				<td>
+               </td>
+			</tr>
+		</table>
+		        
+     <!-- End of table for people-->    
+     
+      <!-- table for location-->    
+       <table id="ctl00_contMaster__locationTab" width="100%" border="0" style="display:none">
+			<tr>
+				<td nowrap="nowrap" width="32%">
+         <select name="ctl00$contMaster$ddlstypeLoc" id="ctl00_contMaster_ddlstypeLoc" style="width:181px;">
+					<option selected="selected" value="0">City</option>
+					<option value="1">State</option>
+					<option value="2">Country/Region</option>
+					<option value="3">Real Estate Id</option>
+
+				</select>         
+       
+       </td>
+				<td nowrap="nowrap" align="left">
+   <input name="ctl00$contMaster$txtSearchValue_loc" type="text" value="li, wei" id="ctl00_contMaster_txtSearchValue_loc" OnKeyPress="javascript:_HPEPKeycode_IE();" style="width:208px;" /></td>
+				<td>
+
+           </td>
+			</tr>
+			<tr>
+				<td style="height:27px">&nbsp;
+
+</td>
+				<td>
+</td>
+				<td>
+               </td>
+			</tr>
+		</table>
+		
+        
+     <!-- End of table for location-->
+     
+      <!-- table for Organization-->
+    
+       <table id="ctl00_contMaster__orgTab" width="100%" border="0" style="display:none">
+			<tr>
+				<td nowrap="nowrap" width="32%">
+         <select name="ctl00$contMaster$ddlstypeOrg" id="ctl00_contMaster_ddlstypeOrg" style="width:181px;">
+					<option selected="selected" value="0">MRU Code</option>
+					<option value="1">Business Group</option>
+					<option value="2">Business Unit</option>
+					<option value="3">Business Region</option>
+					<option value="4">Organization</option>
+					<option value="5">Organization Chart Group</option>
+
+				</select>         
+       
+       </td>
+				<td nowrap="nowrap">
+   <input name="ctl00$contMaster$txtSearchValue_org" type="text" value="li, wei" id="ctl00_contMaster_txtSearchValue_org" OnKeyPress="javascript:_HPEPKeycode_IE();" style="width:208px;" /></td>
+				<td>
+
+           </td>
+			</tr>
+			<tr>
+				<td style="height:29px">&nbsp;
+
+</td>
+				<td>
+</td>
+				<td>
+               </td>
+			</tr>
+		</table>
+		
+        
+     <!-- End of table for Organization-->
+     
+        </td>
+   
+</tr>
+<tr>
+<td >
+    <input type="submit" name="ctl00$contMaster$btnFindMatches" value="Find Matches" id="ctl00_contMaster_btnFindMatches" /></td>
+
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+	</tr>
+</table>
+ 
+</td>
+</tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td>
+<table id="ctl00_contMaster_Table2" width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+<table id="ctl00_contMaster__topMessage" width="100%" border="0" cellpadding="3" cellspacing="0" style="height:50px">
+			<tr>
+				<td>This information is to be used for conducting HP business only. </td>
+			</tr>
+		</table>
+		
+</td>
+		<td>
+
+</td>
+	</tr>
+</table>
+
+
+</td>
+</tr>
+<tr><td >
+</td></tr><tr><td>
+<TABLE cellSpacing="0" cellPadding="0" border="0" width="100%"><TBODY>
+<tr><td>
+           <table border="0" width="100%" cellpadding="0" cellspacing="0"><tr><td>
+ 
+<table id="ctl00_contMaster_tblPagesize" width="100%" border="0" cellpadding="0" cellspacing="0" style="height:30px">
+	<tr>
+		<td> <b>No.of records per page:</b>
+           
+            <select name="ctl00$contMaster$DDLPagesize" onchange="javascript:setTimeout('__doPostBack(\'ctl00$contMaster$DDLPagesize\',\'\')', 0)" id="ctl00_contMaster_DDLPagesize" style="width:45px;">
+			<option selected="selected" value="10">10</option>
+			<option value="25">25</option>
+			<option value="50">50</option>
+			<option value="All">All</option>
+
+		</select>
+            </td>
+		<td><span id="ctl00_contMaster__lblCount" style="font-weight:bold;">No.of entries found: 137</span></td>
+		<td><span id="ctl00_contMaster_LblPagecount"><b>No.of pages: 14</b></span>
+            </td>
+	</tr>
+</table>
+
+</td>
+<td align="right">
+<table cellpadding="0" cellspacing="0"><tr><td >
+
+         
+        </td><td>
+            
+            <span id="ctl00_contMaster_LblPageinfo"><b>Showing 1 - 10 of 137</b></span>
+            </td></tr></table>
+            </td></tr></table>
+            </td></tr>
+            <tr><td>
+<div>
+	<table cellspacing="1" cellpadding="5" align="Left" rules="all" border="1" id="ctl00_contMaster_gvShow" style="border-color:White;font-weight:normal;width:100%;">
+		<tr align="right" style="background-color:#E1E1E1;border-width:0px;border-style:None;height:0px;width:0px;">
+			<td colspan="7"><table border="0">
+				<tr>
+					<td><span>1</span></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$2')">2</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$3')">3</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$4')">4</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$5')">5</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$6')">6</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$7')">7</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$8')">8</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$9')">9</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$10')">10</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$11')">...</a></td>
+				</tr>
+			</table></td>
+		</tr><tr class="ContentHeader" align="left" valign="middle" style="font-weight:bold;font-style:normal;text-decoration:none;">
+			<th scope="col"><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Sort$Name')"><b>Name (Click for Detail)</b></a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Sort$Location')"><b>Location</b></a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Sort$Telephone')"><b>Telephone</b></a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Sort$Voice Mail Network Number')"><b>Voice Mail<br>Network Number</b></a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Sort$Primary Email')"><b>Primary E-Mail</b></a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Sort$Organization')"><b>Organization</b></a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Sort$About Me')"><b>About Me</b></a></th>
+		</tr><tr class="PFW_MainList" style="border-width:3px;border-style:Solid;">
+			<td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl03_hypName" Wrap="True"><a href=javascript:pop_window_scroll('PeopleFinder.aspx?target=uid=adena-wl.lam@hp.com,ou=People,o=hp.com','popup','550','800')>Adena Lam</a></a>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl03_lblLocation">Cyberjaya, MY</span>                                         
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl03_lblTelephone">+60 3 2332 2064</span>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl03_lblVoiceMail">1666.3322064</span>                                     
+</td><td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl03_hypPrimaryEmail" href="mailto:adena-wl.lam@hp.com">adena-wl.lam@hp.com</a> 
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl03_lblOrg">Controllership Finance</span>
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl03_lblAbout"></span>
+</td>
+		</tr><tr class="PFW_MainList_Alt" style="border-width:3px;border-style:Solid;">
+			<td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl04_hypName" Wrap="True"><a href=javascript:pop_window_scroll('PeopleFinder.aspx?target=uid=angeline.seah@hp.com,ou=People,o=hp.com','popup','550','800')>Angeline Seah</a></a>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl04_lblLocation">Singapore, SG</span>                                         
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl04_lblTelephone">+65 636 11836</span>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl04_lblVoiceMail"></span>                                     
+</td><td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl04_hypPrimaryEmail" href="mailto:angeline.seah@hp.com">angeline.seah@hp.com</a> 
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl04_lblOrg">Enterprise Servers & Storage</span>
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl04_lblAbout"></span>
+</td>
+		</tr><tr class="PFW_MainList" style="border-width:3px;border-style:Solid;">
+			<td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl05_hypName" Wrap="True"><a href=javascript:pop_window_scroll('PeopleFinder.aspx?target=uid=anna.soh@hp.com,ou=People,o=hp.com','popup','550','800')>Anna Soh</a></a>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl05_lblLocation">Singapore, SG</span>                                         
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl05_lblTelephone">+65  672 75769</span>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl05_lblVoiceMail"></span>                                     
+</td><td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl05_hypPrimaryEmail" href="mailto:anna.soh@hp.com">anna.soh@hp.com</a> 
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl05_lblOrg">PSG AP and Japan</span>
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl05_lblAbout"></span>
+</td>
+		</tr><tr class="PFW_MainList_Alt" style="border-width:3px;border-style:Solid;">
+			<td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl06_hypName" Wrap="True"><a href=javascript:pop_window_scroll('PeopleFinder.aspx?target=uid=ben.lim@hp.com,ou=People,o=hp.com','popup','550','800')>Ben Lim</a></a>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl06_lblLocation">Taipei, TW</span>                                         
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl06_lblTelephone">+886 2 8722 8507</span>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl06_lblVoiceMail"></span>                                     
+</td><td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl06_hypPrimaryEmail" href="mailto:ben.lim@hp.com">ben.lim@hp.com</a> 
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl06_lblOrg">PSG Notebook GBU</span>
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl06_lblAbout"></span>
+</td>
+		</tr><tr class="PFW_MainList" style="border-width:3px;border-style:Solid;">
+			<td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl07_hypName" Wrap="True"><a href=javascript:pop_window_scroll('PeopleFinder.aspx?target=uid=wei.liu9@hp.com,ou=People,o=hp.com','popup','550','800')>Brenda Liu</a></a>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl07_lblLocation">Beijing, CN</span>                                         
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl07_lblTelephone">+86 10 6564 5309</span>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl07_lblVoiceMail"></span>                                     
+</td><td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl07_hypPrimaryEmail" href="mailto:wei.liu9@hp.com">wei.liu9@hp.com</a> 
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl07_lblOrg">IPG Asia Pacific/Japan</span>
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl07_lblAbout">APJ IPGS Delivery</span>
+</td>
+		</tr><tr class="PFW_MainList_Alt" style="border-width:3px;border-style:Solid;">
+			<td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl08_hypName" Wrap="True"><a href=javascript:pop_window_scroll('PeopleFinder.aspx?target=uid=wei-li.chan@hp.com,ou=People,o=hp.com','popup','550','800')>Christine Chan</a></a>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl08_lblLocation">Cyberjaya, MY</span>                                         
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl08_lblTelephone">+60 3 83172811</span>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl08_lblVoiceMail"></span>                                     
+</td><td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl08_hypPrimaryEmail" href="mailto:wei-li.chan@hp.com">wei-li.chan@hp.com</a> 
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl08_lblOrg">IPG Finance</span>
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl08_lblAbout">Wei Li</span>
+</td>
+		</tr><tr class="PFW_MainList" style="border-width:3px;border-style:Solid;">
+			<td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl09_hypName" Wrap="True"><a href=javascript:pop_window_scroll('PeopleFinder.aspx?target=uid=cindy_peh@hp.com,ou=People,o=hp.com','popup','550','800')>Cindy Peh</a></a>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl09_lblLocation">Singapore, SG</span>                                         
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl09_lblTelephone">+65  6361 3506</span>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl09_lblVoiceMail"></span>                                     
+</td><td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl09_hypPrimaryEmail" href="mailto:cindy_peh@hp.com">cindy_peh@hp.com</a> 
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl09_lblOrg">Enterprise Servers & Storage</span>
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl09_lblAbout"></span>
+</td>
+		</tr><tr class="PFW_MainList_Alt" style="border-width:3px;border-style:Solid;">
+			<td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl10_hypName" Wrap="True"><a href=javascript:pop_window_scroll('PeopleFinder.aspx?target=uid=duncan.liao@hp.com,ou=People,o=hp.com','popup','550','800')>Duncan Liao</a></a>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl10_lblLocation">Taipei, TW</span>                                         
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl10_lblTelephone">+886 2 87228806</span>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl10_lblVoiceMail"></span>                                     
+</td><td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl10_hypPrimaryEmail" href="mailto:duncan.liao@hp.com">duncan.liao@hp.com</a> 
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl10_lblOrg">TSG Asia Pacific</span>
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl10_lblAbout"></span>
+</td>
+		</tr><tr class="PFW_MainList" style="border-width:3px;border-style:Solid;">
+			<td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl11_hypName" Wrap="True"><a href=javascript:pop_window_scroll('PeopleFinder.aspx?target=uid=eris-w.liu@hp.com,ou=People,o=hp.com','popup','550','800')>Eris Liu</a></a>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl11_lblLocation">Beijing, CN</span>                                         
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl11_lblTelephone">+86 10 6564 4104</span>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl11_lblVoiceMail">1631.5644104</span>                                     
+</td><td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl11_hypPrimaryEmail" href="mailto:eris-w.liu@hp.com">eris-w.liu@hp.com</a> 
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl11_lblOrg">EDS ITO Global Delivery</span>
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl11_lblAbout">BTMP-China</span>
+</td>
+		</tr><tr class="PFW_MainList_Alt" style="border-width:3px;border-style:Solid;">
+			<td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl12_hypName" Wrap="True"><a href=javascript:pop_window_scroll('PeopleFinder.aspx?target=uid=wei-seong.lim@hp.com,ou=People,o=hp.com','popup','550','800')>Henry Lim</a></a>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl12_lblLocation">Singapore, SG</span>                                         
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl12_lblTelephone">+65  63136729</span>                                    
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl12_lblVoiceMail"></span>                                     
+</td><td>
+&nbsp;<a id="ctl00_contMaster_gvShow_ctl12_hypPrimaryEmail" href="mailto:wei-seong.lim@hp.com">wei-seong.lim@hp.com</a> 
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl12_lblOrg">Inkjet and Web Solutions</span>
+</td><td>
+&nbsp;<span id="ctl00_contMaster_gvShow_ctl12_lblAbout">HR</span>
+</td>
+		</tr><tr align="right" style="background-color:#E1E1E1;border-width:0px;border-style:None;height:0px;width:0px;">
+			<td colspan="7"><table border="0">
+				<tr>
+					<td><span>1</span></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$2')">2</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$3')">3</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$4')">4</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$5')">5</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$6')">6</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$7')">7</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$8')">8</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$9')">9</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$10')">10</a></td><td><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Page$11')">...</a></td>
+				</tr>
+			</table></td>
+		</tr>
+	</table>
+</div> </TD></TR><TR><TD> </TD></TR></TBODY></TABLE>
+
+</td></tr>
+</table>
+
+
+
+
+
+<table width="100%" cellpadding="5" >
+<tr>
+<td >
+<font color="blue" size="-1">To update your display name and phone number in PeopleFinder, please go to </font>
+<a href="https://directoryworks.core.hp.com/" target="_blank">
+<font color="blue" size="-1"><strong><em>DirectoryWorks</em></strong></font></a>.
+<font color="blue" size="-1"> Teleworkers can also change their address.
+<br>
+<table border="0" cellspacing="0" cellpadding="0" style="width: 100%" >
+<tr height="6"> 
+<td height="6"></td>
+	</tr>
+</table>
+<font color="blue" size="-1">HR changes, such as job function, manager, location codes, business unit and non-teleworker addresses cannot be made through </font>
+</font><a href="https://directoryworks.core.hp.com/" target="_blank">
+<font color="blue" size="-1"><strong><em>DirectoryWorks</em></strong></font></a>.
+<font color="blue" size="-1">Talk to your manager if this type of HR data is inaccurate in PeopleFinder.</font>
+<br>
+<br>
+<table width="100%" cellpadding="0" >
+<tr>
+<td>
+<font color="blue" size="-1">For additional help with PeopleFinder, go to </font>
+<a href="http://intranet.hp.com/Sites/atHP_help/Index/Pages/PeopleFinder_Overview.aspx" target="_blank">
+<font color="blue" size="-1"><strong><em>PeopleFinder Help</em></strong></font></a>. <br>
+<br>
+<font color="blue" size="-1">For PeopleFinder power-user tips, go to </font>
+<a href="http://info.portal.hp.com/news/FY06%20News/07-10-06--PeopleFinder_Best_Kept_Secrets_Ctips.htm" target="_blank">
+<font color="blue" size="-1"><strong><em>PeopleFinder Best Kept Secrets</em></strong></font></a>.<br><br>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+        
+        </div>
+       
+        <script language="javascript" type="text/javascript">
+//showList(2,"ctl00_contMaster__peopleTab","ctl00_contMaster__locationTab","ctl00_contMaster__orgTab");
+</script>
+     
+    </div>
+    
+
+<script type="text/javascript">
+<!--
+document.all("aspnetForm").action = 'peoplefinder.asp';WebForm_AutoFocus('ctl00_contMaster_txtSearchValue');// -->
+</script>
+</form>
+    <SCRIPT  language="javascript" type="text/javascript">
+    setTargetFrame("_blank");
+    setFooterHelpPage("http://intranet.hp.com/Sites/atHP_help/Pages/at_hp_help_homepage.aspx");
+setFooterFeedbackPage("http://feedback.portal.hp.com");
+
+setVersionNumber("5.4.0");
+drawFooter();
+
+
+function CloseWindow()
+{
+//alert(window.name);
+
+if ((navigator.appName=="Netscape"))
+{
+    if(window.name=="popup")
+    {
+         window.open('','_parent','');
+         window.close();
+    }
+    else
+    {        
+        var _win=window.confirm("The Web page you are viewing is trying to close the window.\n \nDo you want to close the window?");
+        if (_win==true)
+        {
+            window.open('','_parent','');
+            window.close();
+        }       
+    }
+}
+else
+{
+    window.close();
+}    
+}
+
+function NonHP(sText) {
+				if(sText=="hpContingentWorker" || sText == "nonhpOrgPerson" )
+					document.write(" (Contingent Worker)");
+			}
+</SCRIPT>
+</body>
+
+</html>
+
