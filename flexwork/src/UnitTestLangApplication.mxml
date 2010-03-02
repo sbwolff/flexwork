@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" horizontalAlign="center"
+				verticalAlign="middle" creationComplete="onCreationComplete(event)">
+
+
+
+	<mx:Script>
+		<![CDATA[
+			import flash.events.MouseEvent;
+			import mx.events.FlexEvent;
+
+			public function onCreationComplete(event:FlexEvent):void
+			{
+				var str:String="<a href=\"orgChart.aspx?target='uid=ann.livermore@hp.com,ou=People,o=hp.com'&amp;SORT_LNAME=&amp;HPOnly=True\">Ann Livermore</a>";
+				stringText.text=str;
+			//	var pattern:RegExp="/<a href="orgChart.aspx\w+<\/a>/g;
+				var pattern:String="/<a href=\"orgChart.aspx\w+<\/a>/g";
+				patternText.text=pattern;
+			}
+
+			public function tst(event:MouseEvent):void
+			{
+				lengthText.text="--------";				
+				var results:Array=stringText.text.match(new RegExp(patternText.text, "s"));
+				lengthText.text=results.length+"";
+			}
+		]]>
+	</mx:Script>
+
+	<mx:TextInput id="stringText"/>
+	<mx:TextInput id="patternText"/>
+	<mx:Button id="button1" label="tst" click="tst(event)"/>
+	<mx:Text id="lengthText" text="-"/>
+
+</mx:Application>
