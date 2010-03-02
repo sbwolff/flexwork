@@ -8,6 +8,8 @@ package com.googlecode.flexwork.core.cursors
 
 	import flash.display.Shape;
 
+	//mx.skins.cursor.HBoxDivider' symbol in Assets.swf
+	//mx.skins.cursor.VBoxDivider' symbol in Assets.swf
 	public class BaseArrowCursor extends Sprite
 	{
 		private var shape:Shape=null;

@@ -28,6 +28,13 @@ package com.googlecode.flexwork.core.components
 			/** other */
 			this.label=null; //to set labelSet=true;
 		}
+		
+		public function setIcon(iconClass:Class):void
+		{
+			this.iconSet=true;
+			this.setStyle("icon",iconClass);
+			this.iconSet=false;
+		}
 
 		override public function setStyle(styleProp:String, newValue:*):void
 		{

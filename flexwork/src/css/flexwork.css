@@ -482,22 +482,23 @@ SuperTabNavigator {
 	borderColor: #FFFFFF;
 	borderSides: top;
 	paddingRight: 5;
+	verticalAlign: "middle";
+	horizontalGap: 3;
 }
 
 .perspectiveBar {
-	firstButtonStyleName: "mytoggleButtonBarFirstButtonStyle";
-	lastButtonStyleName: "mytoggleButtonBarLastButtonStyle";
+	firstButtonStyleName: perspectiveBarFirstButtonStyle;
+	lastButtonStyleName: perspectiveBarLastButtonStyle;	
+	borderColor: #D4D0C8;
 }
 
-.mytoggleButtonBarFirstButtonStyle {
+.perspectiveBarFirstButtonStyle {
 	cornerRadius: 0;
 }
 
-.mytoggleButtonBarLastButtonStyle {
+.perspectiveBarLastButtonStyle {
 	cornerRadius: 0;
 }
-
-
 
 .toolWindow {
 	dividerSkin: ClassReference("com.googlecode.flexwork.core.skins.ToolWindowDividerSkin");	

@@ -19,7 +19,7 @@ package com.googlecode.flexwork.core.components
 
 	use namespace mx_internal;
 
-	[Event(name="toolBar.click", type="com.googlecode.flexwork.core.events.ToolBarEvent")]
+	[Event(name="click", type="com.googlecode.flexwork.core.events.ToolBarEvent")]
 
 //<!-- http://examples.adobe.com/flex2/exchange/Docker/MultipleToolBars/MultipleToolBars.html -->
 //		<!-- //flow layout: http://www.adobe.com/cfusion/exchange/index.cfm?event=extensionDetail&loc=en_us&extid=1229023

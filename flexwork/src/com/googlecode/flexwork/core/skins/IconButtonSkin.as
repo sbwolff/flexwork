@@ -46,7 +46,7 @@ package com.googlecode.flexwork.core.skins
 			//		var borderColorDrk1:Number =
 			//			ColorUtil.adjustBrightness2(borderColor, -50);
 
-			var cr:Number=3; //Math.max(0, cornerRadius);
+			var cr:Number=Math.max(0, cornerRadius);
 			var cr1:Number=cr - 1; //Math.max(0, cornerRadius - 1);
 			var g:Graphics=graphics;
 
