@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml"
+				xmlns:fc="com.googlecode.flexwork.core.components.*"
+				xmlns:fw="com.googlecode.flexwork.work.components.*" xmlns:kapit="fr.kapit.*"
+				layout="absolute" horizontalAlign="center" verticalAlign="middle"
+				creationComplete="onCreationComplete(event)">
+
+	<!-- preloader="mycomponents.mybars.CustomBar"
+		 http://livedocs.adobe.com/flex/3/html/help.html?content=app_container_4.html#213832-->
+	<mx:Style>
+	Application
+	{
+		backgroundGradientAlphas: 1.0, 1.0;
+		backgroundGradientColors: #333333, #333333;
+	}
+	</mx:Style>
+
+	<mx:Script>
+		<![CDATA[
+			import com.googlecode.flexwork.core.components.*;
+			import com.googlecode.flexwork.work.components.*;
+			import com.googlecode.flexwork.core.events.MessageEvent;
+
+			import flash.display.Sprite;
+			import flash.events.Event;
+			import flash.events.IOErrorEvent;
+
+			import org.springextensions.actionscript.context.support.FlexXMLApplicationContext;
+
+			import mx.containers.Panel;
+			import mx.controls.Alert;
+			import mx.events.CloseEvent;
+			import mx.resources.ResourceBundle;
+
+			//            import org.as3commons.logging.LoggerFactory;
+			//            import org.as3commons.logging.ILogger;
+
+			//	            import com.hp.rm.view.*;
+			//			[Bindable]
+			//			[Embed(source="applicationContext.xml",mimeType ="application/octet-stream")]
+			//			public var contextConfig:Class;
+
+			//			[ResourceBundle("ClassReferences")]
+			//            private var springClassRefs:ResourceBundle;
+
+			//protected var applicationContext:XMLApplicationContext;
+			private var applicationContext:FlexXMLApplicationContext;
+
+			protected function onCreationComplete(event:Event):void
+			{
+
+
+			}
+
+
+			protected function onComplete(event:Event):void
+			{
+				//Alert.show();
+				//				trace("[IOC] Object definitions loaded: " + applicationContext.numObjectDefinitions.toString());
+				//				var mainWindow:MainWindow = applicationContext.getObject("mainWindow") as MainWindow;
+				//				//mainWindow.objectFactory = applicationContext;
+				//				//this.removeAllChildren();
+				//				this.addChild(mainWindow);
+			}
+
+			protected function onIOError(event:IOErrorEvent):void
+			{
+				var titleText:String="WARNING";
+				var messageText:String="Are you sure you would like to erase the Internet?\n\nPress OK to continue, or Cancel to abort.";
+				Alert.show(event.text, titleText, Alert.OK | Alert.CANCEL, null, doClose); //, Icon);				
+			}
+
+			private function doClose(event:CloseEvent):void
+			{
+				// do nothing.
+			}
+
+			protected function onOpenPerspective(event:MessageEvent):void
+			{
+
+			}
+		]]>
+	</mx:Script>
+	<fw:LoginWindow/>
+
+
+</mx:Application>

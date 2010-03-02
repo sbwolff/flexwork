@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" 
+	xmlns:tst="tst.*" horizontalAlign="center" 
+	preinitialize="onPreinitialize(event)" 
+	applicationComplete="onApplicationComplete(event)" initialize="onInitialize(event)"
+				verticalAlign="middle" creationComplete="onCreationComplete(event)">
+
+<!--
+Application.onPreinitialize
+InvokeSequenceComponent.onPreinitialize
+InvokeSequenceComponent.onInitialize
+Application.onInitialize
+InvokeSequenceComponent.onCreationComplete
+Application.onCreationComplete
+Application.onApplicationComplete
+-->
+	<mx:Script>
+		<![CDATA[
+			import flash.events.MouseEvent;
+			import mx.events.FlexEvent;
+
+	
+			private function onApplicationComplete(event:FlexEvent):void
+			{
+				trace("Application.onApplicationComplete");
+			}
+			private function onCreationComplete(event:FlexEvent):void
+			{
+				trace("Application.onCreationComplete");
+			}
+			
+			private function onPreinitialize(event:FlexEvent):void
+			{
+				trace("Application.onPreinitialize");
+			}
+			private function onInitialize(event:FlexEvent):void
+			{
+				trace("Application.onInitialize");
+			}
+
+		]]>
+	</mx:Script>
+	<tst:UnitTestInvokeSequenceComponent/>
+
+</mx:Application>

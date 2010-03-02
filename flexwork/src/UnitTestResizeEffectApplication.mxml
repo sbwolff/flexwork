@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" width="598" height="620">
+	<mx:Script>
+		<![CDATA[
+			import mx.core.UIComponent;
+			import mx.managers.SystemManager;
+			import mx.controls.Alert;
+			import mx.collections.ArrayCollection;
+			import mx.managers.PopUpManager;
+			import mx.containers.TitleWindow;
+			import mx.core.IFlexDisplayObject;
+			import mx.containers.Panel;
+
+			// Button constants 
+			private static const _RESTORE_LABEL_:String="Restore";
+
+			private static const _MAXIMIZE_LABEL_:String="Maximize";
+
+			[Bindable]
+			private var currWidth:int; // Stores the current width of the panel to be resized 
+			[Bindable]
+			private var currHeight:int; // Stores the current height of the panel to be resized 
+			[Bindable]
+			private var currTop:int; // Stores the current y coordinate of the panel to be resized 
+			[Bindable]
+			private var currLeft:int; // Stores the current x coordinate of the panel to be resized 
+			[Bindable]
+			private var isMaximized:Boolean=false; // Stores the current state of the panel as a boolean 
+			[Bindable]
+			private var currIndex:int; // Stores the current index of the panel to be maximized 
+
+			/**
+			 * This function orchestrates what method
+			 * is called on the button click event depending on
+			 * its label value.
+			 */
+			private function maxRestore(thePanel:Panel, minRestorBtn:Button):void
+			{
+				if (minRestorBtn.label == _RESTORE_LABEL_)
+					restore(thePanel, minRestorBtn);
+				else if (minRestorBtn.label == _MAXIMIZE_LABEL_)
+					maximize(thePanel, minRestorBtn);
+			}
+
+			/**
+			 * This method maximizes the specified panel to occupy the
+			 * whole displayed screen area. This method can be tuned to
+			 * occupy the area of its parent component rather than the parent
+			 * application.
+			 */
+			private function maximize(thePanel:Panel, minRestorBtn:Button):void
+			{
+				if (!isMaximized)
+				{
+					// Save previous position info 
+					currWidth=thePanel.width;
+					currHeight=thePanel.height;
+					currTop=thePanel.y;
+					currLeft=thePanel.x;
+					currIndex=thePanel.parentApplication.getChildIndex(thePanel);
+
+					// Set the maximized flag to true 
+					isMaximized=true;
+
+					// Set current info 
+					thePanel.width=this.width;
+					thePanel.height=this.height;
+					thePanel.x=0;
+					thePanel.y=0;
+
+					var parentApp:UIComponent=thePanel.parentApplication as UIComponent;
+					parentApp.removeChildAt(currIndex);
+					parentApp.addChild(thePanel);
+
+					// Set the button properties 
+					minRestorBtn.label=_RESTORE_LABEL_;
+				}
+			}
+
+			/**
+			 * This method restores the panel to its original location
+			 * and size on the screen.
+			 */
+			private function restore(thePanel:Panel, minRestorBtn:Button):void
+			{
+				if (isMaximized)
+				{
+					var parentApp:UIComponent=thePanel.parentApplication as UIComponent;
+					// Set the maximized flag to false 
+					isMaximized=false;
+
+					// Set the button properties 
+					minRestorBtn.label=_MAXIMIZE_LABEL_;
+
+					// Restore the original size and location information 
+					thePanel.width=currWidth;
+					thePanel.height=currHeight;
+					thePanel.x=currLeft;
+					thePanel.y=currTop;
+
+					// Now relocate the panel to its original position 
+					// in the child stack. 
+					parentApp.setChildIndex(thePanel, currIndex);
+				}
+			}
+		]]>
+	</mx:Script>
+
+	<mx:Resize id="resize"/>
+	<!-- This helps in the resize effect -->
+	<mx:Move id="moveEffect"/>
+	<!-- This helps in the move effect -->
+
+	<mx:Panel id="upperPanel" x="47.5" y="35" width="500" height="142" layout="absolute" resizeEffect="{resize}" moveEffect="{moveEffect}" backgroundAlpha="1.0" borderAlpha="1.0" title="Top Panel">
+		<mx:TextInput x="136" y="19"/>
+		<mx:Button x="304" y="19" label="Button"/>
+		<mx:ControlBar width="100%" alpha="1.0">
+			<mx:Spacer width="100%" alpha="1.0"/>
+			<mx:Button id="upperPanelMaxBtn" label="{_MAXIMIZE_LABEL_}" click="maxRestore(upperPanel, upperPanelMaxBtn)"/>
+		</mx:ControlBar>
+	</mx:Panel>
+	<!-- This panel has the capability to maximize and restore -->
+	<mx:Panel id="maxminPanel" name="maxminPanel" x="47.5" y="195" width="500" height="184" layout="absolute" resizeEffect="{resize}" moveEffect="{moveEffect}" backgroundAlpha="1.0" borderAlpha="1.0">
+		<mx:title>Middle Panel</mx:title>
+
+		<mx:DataGrid top="10" right="10" bottom="10" left="10">
+			<mx:columns>
+				<mx:DataGridColumn headerText="Column 1" dataField="col1"/>
+				<mx:DataGridColumn headerText="Column 2" dataField="col2"/>
+				<mx:DataGridColumn headerText="Column 3" dataField="col3"/>
+			</mx:columns>
+		</mx:DataGrid>
+
+		<mx:ControlBar width="100%" alpha="1.0">
+			<mx:Spacer width="100%" alpha="1.0"/>
+			<mx:Button id="maxminPanelMaxBtn" label="{_MAXIMIZE_LABEL_}" click="maxRestore(maxminPanel, maxminPanelMaxBtn)"/>
+		</mx:ControlBar>
+	</mx:Panel>
+
+	<mx:Panel id="lowerPanel" x="47.5" y="403" width="500" height="197" layout="absolute" resizeEffect="{resize}" moveEffect="{moveEffect}" backgroundAlpha="1.0" borderAlpha="1.0" title="Bottom Panel">
+		<mx:TextInput x="104" y="35"/>
+		<mx:ControlBar width="100%" alpha="1.0">
+			<mx:Spacer width="100%" alpha="1.0"/>
+			<mx:Button id="lowerPanelMaxBtn" label="{_MAXIMIZE_LABEL_}" click="maxRestore(lowerPanel, lowerPanelMaxBtn)"/>
+		</mx:ControlBar>
+	</mx:Panel>
+
+</mx:Application>
