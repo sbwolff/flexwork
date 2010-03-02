@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+				horizontalAlign="center" verticalAlign="middle"
+				creationComplete="//onCreationComplete(event)">
+
+	<mx:HDividedBox width="100%" height="400">
+		<mx:HBox width="50%" height="100%">
+			<mx:DataGrid width="100%" height="100%" horizontalScrollPolicy="off" verticalScrollPolicy="off">
+				<mx:columns>
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+					<mx:DataGridColumn headerText="abcdedf abcdef" dataField="a" width="100" />
+				</mx:columns>
+			</mx:DataGrid>
+		</mx:HBox>
+		<mx:Label width="50%" text="aa" />
+	</mx:HDividedBox>
+
+</mx:Application>

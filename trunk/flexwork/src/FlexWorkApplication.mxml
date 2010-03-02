@@ -41,8 +41,8 @@
 			import com.googlecode.flexwork.core.managers.*; //
 			import com.googlecode.flexwork.core.modules.*; //
 			
-			import com.googlecode.flexwork.work.components.*; //
-			import com.googlecode.flexwork.work.events.*; //			
+			import com.googlecode.flexwork.core.events.*; //	
+			import com.googlecode.flexwork.work.components.*; //		
 			import com.googlecode.flexwork.work.menus.*; //
 			
 			
@@ -332,6 +332,14 @@
 			</object>
 
 			<object id="birdEyeView" class="com.googlecode.flexwork.work.components.BirdEyeView"
+					parent="abstractDockView">
+			</object>
+
+			<object id="workflowActivityView" class="com.googlecode.flexwork.work.components.WorkflowActivityView"
+					parent="abstractDockView">
+			</object>
+
+			<object id="workflowEditor" class="com.googlecode.flexwork.work.components.WorkflowEditor"
 					parent="abstractDockView">
 			</object>
 

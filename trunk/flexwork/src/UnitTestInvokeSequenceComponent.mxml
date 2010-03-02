@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" width="400" height="300" preinitialize="onPreinitialize(event)" initialize="onInitialize(event)"
+		   creationComplete="onCreationComplete(event)">
+
+	<mx:Script>
+		<![CDATA[
+			import flash.events.MouseEvent;
+			import mx.events.FlexEvent;
+
+			private function onCreationComplete(event:FlexEvent):void
+			{
+				trace("InvokeSequenceComponent.onCreationComplete");
+			}
+
+			private function onPreinitialize(event:FlexEvent):void
+			{
+				trace("InvokeSequenceComponent.onPreinitialize");
+			}
+			private function onInitialize(event:FlexEvent):void
+			{
+				trace("InvokeSequenceComponent.onInitialize");
+			}
+		]]>
+	</mx:Script>
+
+
+</mx:Canvas>
