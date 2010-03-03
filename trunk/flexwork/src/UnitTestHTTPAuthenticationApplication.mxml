@@ -26,8 +26,8 @@
 
 			public function go(event:MouseEvent):void
 			{
-				var username:String = "weili1";
-				var password:String = "2345wertSDFG";
+				var username:String = "1s2s";
+				var password:String = "2s2s22";
 				//HTTP Basic Authentication with HTTPService Objects in Adobe Flex/AIR
 				//http://stackoverflow.com/questions/490806/http-basic-authentication-with-httpservice-objects-in-adobe-flex-air
 				var httpService:HTTPService = new HTTPService();
