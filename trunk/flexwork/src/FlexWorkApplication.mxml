@@ -19,6 +19,22 @@
 		backgroundGradientColors: #333333,#999999;
 		backgroundColor: #D4D0C8;
 	}*/
+	
+	ScrollBar {
+		trackColors: #EAE7E1, #EAE7E1;
+		borderColor: #D4D0C8;
+		trackSkin: ClassReference("com.googlecode.flexwork.core.skins.GlobalScrollTrackSkin");
+		
+		downArrowDisabledSkin: ClassReference("com.googlecode.flexwork.core.skins.GlobalScrollArrowSkin");
+ 		downArrowDownSkin: ClassReference("com.googlecode.flexwork.core.skins.GlobalScrollArrowSkin");
+ 		downArrowOverSkin: ClassReference("com.googlecode.flexwork.core.skins.GlobalScrollArrowSkin");
+ 		downArrowUpSkin: ClassReference("com.googlecode.flexwork.core.skins.GlobalScrollArrowSkin");
+ 
+ 		upArrowUpSkin: ClassReference("com.googlecode.flexwork.core.skins.GlobalScrollArrowSkin");
+		upArrowDownSkin: ClassReference("com.googlecode.flexwork.core.skins.GlobalScrollArrowSkin");
+ 		upArrowOverSkin: ClassReference("com.googlecode.flexwork.core.skins.GlobalScrollArrowSkin");
+ 		upArrowUpSkin: ClassReference("com.googlecode.flexwork.core.skins.GlobalScrollArrowSkin");
+	}
 	</mx:Style>
 
 	<mx:Script>
@@ -340,6 +356,10 @@
 			</object>
 
 			<object id="workflowEditor" class="com.googlecode.flexwork.work.components.WorkflowEditor"
+					parent="abstractDockView">
+			</object>
+
+			<object id="ebayPeopleFinderView" class="com.googlecode.flexwork.work.components.EbayPeopleFinderView"
 					parent="abstractDockView">
 			</object>
 
