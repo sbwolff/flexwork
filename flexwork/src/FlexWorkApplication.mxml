@@ -11,6 +11,8 @@
 
 	<!-- module MVC:
 		 http://npacemo.com/wordpress/2008/10/03/introduction-to-flex-applications-architecture-part-3-the-gugga-approach/
+		 
+		 http://blogs.adobe.com/sho/archives/2005/08/mvc_considered.html
 	-->
 	<mx:Style>
 	/*Application
@@ -356,10 +358,6 @@
 			</object>
 
 			<object id="workflowEditor" class="com.googlecode.flexwork.work.components.WorkflowEditor"
-					parent="abstractDockView">
-			</object>
-
-			<object id="ebayPeopleFinderView" class="com.googlecode.flexwork.work.components.EbayPeopleFinderView"
 					parent="abstractDockView">
 			</object>
 
