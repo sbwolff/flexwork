@@ -60,40 +60,32 @@ package com.googlecode.flexwork.core.managers
 		[Bindable]
 		private var _perspectives:XML=//
 		
-			<perspectives active="java">			
-			
-				
-				<perspective label="Java" name="java" icon="iconJavaClass">
+			<perspectives active="workflow">			
+			<!--
+				<perspective label="People" name="people" icon="iconPeopleClass">
 					<layout>
 						<SplitWindow direction="horizontal">
-							<ViewWindow width="25%">
-								<View id="explorerView" />
+							<ViewWindow width="20%">
 								<View id="hierarchyView" />
-								<View id="fileSystemView" />
 							</ViewWindow>
-							<SplitWindow width="75%">
-								<SplitWindow height="60%" direction="horizontal">
-									<ViewWindow width="75%">
-										<View id="textAreaView" />
+							<SplitWindow width="80%">
+								<SplitWindow height="70%" direction="horizontal">
+									<ViewWindow width="70%">
+										<View id="ebayPeopleFinderView" />
 									</ViewWindow>
-									<ViewWindow width="25%">
+									<ViewWindow width="30%">
 										<View id="propertiesView" />
-										<View id="outlineView" />
 									</ViewWindow>
 								</SplitWindow>
-								<ViewWindow height="40%">
-									<View id="tasksView" />
-									<View id="problemsView" />
+								<ViewWindow height="30%">
 									<View id="consoleView" />
-									<View id="searchView" />
-									<View id="progressView" />
 								</ViewWindow>
 							</SplitWindow>
 						</SplitWindow>
 					</layout>
 				</perspective>
 			
-			
+			-->
 			
 			<perspective label="Workflow" name="workflow" icon="iconJavaClass">
 					<layout>					
@@ -168,6 +160,7 @@ package com.googlecode.flexwork.core.managers
 							</SplitWindow>	
 							<SplitWindow width="60%">							
 								<ViewWindow height="60%" closeOnNoChild="false" editor="true">
+									<View id="birdEyeView" />
 									<View id="textAreaView" />
 								</ViewWindow>								
 								<ViewWindow height="40%">								
@@ -206,30 +199,39 @@ package com.googlecode.flexwork.core.managers
 
 				<!--
 
-				<perspective label="People" name="people" icon="iconPeopleClass">
+				
+				
+					
+				
+				<perspective label="Java" name="java" icon="iconJavaClass">
 					<layout>
 						<SplitWindow direction="horizontal">
-							<ViewWindow width="20%">
+							<ViewWindow width="25%">
+								<View id="explorerView" />
 								<View id="hierarchyView" />
+								<View id="fileSystemView" />
 							</ViewWindow>
-							<SplitWindow width="80%">
-								<SplitWindow height="70%" direction="horizontal">
-									<ViewWindow width="70%">
-										<View id="peopleFinderView" />
+							<SplitWindow width="75%">
+								<SplitWindow height="60%" direction="horizontal">
+									<ViewWindow width="75%">
+										<View id="textAreaView" />
 									</ViewWindow>
-									<ViewWindow width="30%">
+									<ViewWindow width="25%">
 										<View id="propertiesView" />
+										<View id="outlineView" />
 									</ViewWindow>
 								</SplitWindow>
-								<ViewWindow height="30%">
+								<ViewWindow height="40%">
+									<View id="tasksView" />
+									<View id="problemsView" />
 									<View id="consoleView" />
+									<View id="searchView" />
+									<View id="progressView" />
 								</ViewWindow>
 							</SplitWindow>
 						</SplitWindow>
 					</layout>
 				</perspective>
-				
-					
 					
 
 				<perspective label="CVS" name="cvs" icon="iconCVSClass">
