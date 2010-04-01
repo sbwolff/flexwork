@@ -9,7 +9,7 @@ But everyone/Framework says he is MVC, may I ask what is not MVC?
 
 
 
-Is MVC a way we look at things, or the way we build things?
+Is MVC a way how we look at things, or the way how we build things with Flex?
 
 
 
