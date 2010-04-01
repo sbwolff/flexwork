@@ -1,4 +1,5 @@
-
 *What is MVC?*
-from wikipedia [http://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/ModelViewControllerDiagram.svg/350px-ModelViewControllerDiagram.svg.png]
+from wikipedia 
 
+
+[http://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/ModelViewControllerDiagram.svg/350px-ModelViewControllerDiagram.svg.png]
