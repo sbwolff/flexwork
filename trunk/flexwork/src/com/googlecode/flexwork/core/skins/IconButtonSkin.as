@@ -59,7 +59,15 @@ package com.googlecode.flexwork.core.skins
 				}
 				case "upSkin":
 				{
-					drawRoundRect(0, 0, w, h, [backgroundColor, backgroundColor], 1);
+					//Ren Haojun
+					//drawRoundRect(0, 0, w, h, [backgroundColor, backgroundColor], 1);					
+					drawRoundRect(
+						0, 0, w, h, cr,
+						[ backgroundColor, backgroundColor ], 1,
+						verticalGradientMatrix(0, 0, w, h ),
+						GradientType.LINEAR, null, 
+						{ x: 2, y: 2, w: w - 4, h: h - 4, r: cornerRadius - 2 });	
+					//Ren Haojun~	
 					break;
 				}
 				case "selectedOverSkin":
