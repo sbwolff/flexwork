@@ -59,9 +59,9 @@ package com.googlecode.flexwork.core.components
 			//			toolbar.setStyle("borderStyle", "solid");
 			//			toolbar.setStyle("borderSides", "top left right bottom");
 			var array:ArrayCollection=new ArrayCollection();
-			for each (var child:DockingView in viewWindow.getChildren())
+			for each (var dockingView:DockingView in viewWindow.getChildren())
 			{
-				array.addItem({icon: child.icon, toolTip: child.label});
+				array.addItem({icon: dockingView.icon, toolTip: dockingView.label});
 			}
 			toolbar.dataProvider=array;
 			dragToolBar.addChild(toolbar);
