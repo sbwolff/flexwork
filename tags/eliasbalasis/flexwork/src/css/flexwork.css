@@ -1,0 +1,530 @@
+/*
+verticalGap to class file
+horizontalGap to class file
+new
+backgroundColor: #D4D0C8;
+borderColor: #808080;
+gap
+old
+backgroundColor: #E_CE9D8;
+borderColor: #7_16F64;
+
+}*/
+
+/** core */
+.iconButton {
+	
+	backgroundColor: #D4D0C8;
+	borderColor: #808080;
+	
+	paddingLeft: 0;
+	paddingRight: 0;
+	verticalGap: 0;	
+		
+	cornerRadius: 2;
+	/*height: 22;*/
+	/*overBorderColors: #003399, #003399;
+	selectedBorderColors: #003399, #003399;	
+	cornerRadius: 0;	
+	borderThickness: 0;
+	borderAlpha: 0;
+	overBorderColors: #D4D0C8, #D4D0C8;
+	*/
+	
+	selectedBorderColors: #D4D0C8, #D4D0C8;
+	fillColors: #FFFFFF, #D4D0C8;
+	fillAlphas: 0.8, 0.2;
+	highlightAlphas: 0.8, 0.2;	
+	
+	upSkin:ClassReference("com.googlecode.flexwork.core.skins.IconButtonSkin");
+    overSkin:ClassReference("com.googlecode.flexwork.core.skins.IconButtonSkin");
+    downSkin:ClassReference("com.googlecode.flexwork.core.skins.IconButtonSkin");
+    disabledSkin:ClassReference("com.googlecode.flexwork.core.skins.IconButtonSkin");
+    selectedUpSkin:ClassReference("com.googlecode.flexwork.core.skins.IconButtonSkin");
+    selectedOverSkin:ClassReference("com.googlecode.flexwork.core.skins.IconButtonSkin");
+    selectedDownSkin:ClassReference("com.googlecode.flexwork.core.skins.IconButtonSkin");
+    selectedDisabledSkin:ClassReference("com.googlecode.flexwork.core.skins.IconButtonSkin");
+}
+
+.iconArrowPopUpMenuButton {
+	
+	arrowButtonWidth: 13;
+	
+	popUpIcon: ClassReference("mx.skins.halo.PopUpIcon");
+	
+	paddingLeft: 0;
+	paddingRight: 0;
+	verticalGap: 0;
+	borderColor: #808080;
+	cornerRadius: 2;
+	backgroundColor: #D4D0C8;
+	/*height: 22;*/
+	popUpStyleName: iconPopUpMenuButtonMenu;	
+	
+	upSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    overSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    downSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    disabledSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    selectedUpSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    selectedOverSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    selectedDownSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    selectedDisabledSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    
+    popUpOverSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+    popUpDownSkin:ClassReference("com.googlecode.flexwork.core.skins.IconArrowPopUpMenuButtonSkin");
+}
+.arrowPopUpMenuButton {
+	arrowButtonWidth: 24;	
+	popUpIcon: ClassReference("com.googlecode.flexwork.core.skins.ViewMenuArrowPopUpIcon");	
+	paddingLeft: 0;
+	paddingRight: 0;
+	verticalGap: 0;
+	borderColor: #808080;
+	cornerRadius: 2;
+	backgroundColor: #D4D0C8;
+	/*height: 22;*/
+	popUpStyleName: iconPopUpMenuButtonMenu;
+	
+	upSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    overSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    downSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    disabledSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    selectedUpSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    selectedOverSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    selectedDownSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    selectedDisabledSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    
+    popUpOverSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+    popUpDownSkin:ClassReference("com.googlecode.flexwork.core.skins.ArrowPopUpMenuButtonSkin");
+}	
+.iconPopUpMenuButtonMenu {
+   	fontWeight: normal;
+    textAlign: left;
+    backgroundAlpha: 0.9;
+    backgroundColor: #FFFFFF;
+    borderStyle: solid;
+    borderColor: #808080;
+    /*
+    borderStyle: none;
+    
+    borderColor: #ACA899;.myPop {
+            backgroundAlpha: 0.7;
+            backgroundColor: black;
+            
+           
+        }*/
+    
+    /* .myPop {
+            backgroundAlpha: 0.7;
+            backgroundColor: black;
+            borderStyle: none;
+            color: white;
+        }*/
+}
+
+.toolBar {
+	backgroundColor: #D4D0C8;
+	buttonStyleName: iconButton;
+	iconArrowPopUpMenuButtonStyleName: iconArrowPopUpMenuButton;
+	arrowPopUpMenuButtonStyleName: arrowPopUpMenuButton;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*backglobal
+{
+    backgroundAlpha: 1.0; / this runs the opacity of nearly every square piece of the components /
+    / backgroundDisabledColor: #DDDDDD; /
+    backgroundSize: "auto";
+    bevel: true;
+    borderAlpha: 1.0;
+      borderCapColor: #919999;
+    borderColor: #B7BABC;
+    borderSides: "left top right bottom";
+    borderSkin: ClassReference("mx.skins.halo.HaloBorder");
+    borderStyle: "inset";
+    borderThickness: 1;
+        ...........
+}*/
+
+ /* backgroundAlpha: 1.0;  this runs the opacity of nearly every square piece of the components */
+/*
+global {
+  
+    backgroundColor: #D4D0C8;
+} 
+ScrollBar {
+	borderColor: #FFFFFF;
+}*/
+.diagram {
+	borderSkin: ClassReference("com.googlecode.flexwork.work.components.workflowClasses.GridSkin");
+}
+
+.verticalScrollBar {
+	backgroundColor: #FFFFFF;
+	borderColor: #FFFFFF;
+	/*fillColors: #FFFFFF, #FFFFFF;*/
+	trackColors: #FFFFFF, #FFFFFF;
+	themeColor: #FFFFFF;
+}
+
+   	
+.panel { 
+	headerHeight: 17;
+	borderThickness: 0;
+	roundedBottomCorners: true;
+	
+	borderAlpha: 1;
+	highlightAlphas: 0.1, .3;
+		   
+	headerColors: #000000, #000000;
+	footerColors: #000000, #000000;
+	borderColor: #efefef;
+	backgroundColor: #efefef;
+	
+}
+.stageMenuBar {
+   fillAlphas: 0, 0;
+   fillColors: #D4D0C8, #D4D0C8;
+   highlightAlphas: 0.5, 0.5;
+   /*borderColor: #D4D0C8;*/
+   backgroundColor: #D4D0C8;
+   /*rollOverColor: #0000FF;
+   backgroundAlpha: 0.5;*/
+   closeDuration: 0;
+   openDuration: 0;
+   verticalGap: 0;
+   
+   backgroundSkin: ClassReference("com.googlecode.flexwork.core.skins.StageMenuBarBackgroundSkin");
+   /*itemDownSkin: ClassReference("com.googlecode.flexwork.core.skins.StageMenuBarBackgroundSkin");
+   itemOverSkin: ClassReference("com.googlecode.flexwork.core.skins.StageMenuBarBackgroundSkin");*/
+   menuStyleName: stageMenuBarMenu;
+}
+.stageMenuBarMenu {
+
+	
+}
+.stageWindow {
+	backgroundColor: #D4D0C8;
+	borderColor: #D4D0C8;
+	borderThickness: 2;
+	borderStyle: "solid";
+}
+
+.closeButton {
+   upSkin: Embed(source="/assets/close.gif"); 
+   overSkin: Embed(source="/assets/close.gif");
+   downSkin: Embed(source="/assets/close.gif");
+}
+
+.minimizeButton {
+   upSkin: Embed(source="/assets/minimize.gif"); 
+   overSkin: Embed(source="/assets/minimize_over.gif");
+   downSkin: Embed(source="/assets/minimize_over.gif");
+}
+
+.maximizeButton {
+   upSkin: Embed(source="/assets/maximize.gif"); 
+   overSkin: Embed(source="/assets/maximize_over.gif");
+   downSkin: Embed(source="/assets/maximize_over.gif");
+}
+.restoreButton {
+   upSkin: Embed(source="/assets/view_restore.gif"); 
+   overSkin: Embed(source="/assets/restore_over.gif");
+   downSkin: Embed(source="/assets/restore_over.gif");
+}
+
+.viewWindow {
+	/*backgroundColor: #99BAF3;*/
+	tabStyleName: "viewTab";
+	selectedTabTextStyleName: "viewTab"; 
+	backgroundColor: #D4D0C8;
+	borderColor: #808080;
+	/*borderSkin: ClassReference("org.flex.dock.skins.ViewWindowBorder");*/
+}
+
+.viewWindowBar {
+	horizontalGap: 0;
+	verticalGap: 0;
+	
+	paddingTop:0;
+	paddingRight: 2;	 
+	paddingBottom:0;
+	 
+	roundedBottomCorners: false;
+	
+	cornerRadius: 8;
+				
+ 
+	backgroundColor: #D4D0C8;
+	borderColor: #808080;
+	borderThickness: 1;
+ 	borderStyle: "solid";
+	/*borderSkin: ClassReference("org.flex.dock.skins.ViewWindowBorder");*/
+}
+
+.viewTab {
+	/*
+	tabHeight: 24;
+	fontSize: 11;
+	highlightAlphas: 0, 0; 
+	fillAlphas: 1, 1;
+	fillColors: #CCCCCC, #CCCCCC; 
+	
+	themeColor: #FFCC99;
+	
+	
+	
+	backgroundOnColor: #FFEEDD;
+	backgroundOffColor: #D4D0C8;
+	backgroundBorderColor: #ACA899;
+	shadowColor: #AAAAFF;
+	fillColors: #ffffff, #0000ff;
+	*/
+	backgroundColor: #D4D0C8;
+	borderColor: #808080;
+	textAlign: left;	
+	labelPlacement: right;
+	
+	selectedFillColors: #D4D0C8, #D4D0C8;
+	
+	upSkin: ClassReference("com.googlecode.flexwork.core.skins.ViewTabSkin");
+	overSkin: ClassReference("com.googlecode.flexwork.core.skins.ViewTabSkin");	
+	downSkin: ClassReference("com.googlecode.flexwork.core.skins.ViewTabSkin");
+	disabledSkin: ClassReference("com.googlecode.flexwork.core.skins.ViewTabSkin");	
+	selectedUpSkin: ClassReference("com.googlecode.flexwork.core.skins.ViewTabSkin");	
+	selectedOverSkin: ClassReference("com.googlecode.flexwork.core.skins.ViewTabSkin");
+	selectedDownSkin: ClassReference("com.googlecode.flexwork.core.skins.ViewTabSkin");
+	selectedDisabledSkin: ClassReference("com.googlecode.flexwork.core.skins.ViewTabSkin");
+	
+	
+}
+
+.viewTabBarPopUpButton {	/*more hidden view*/
+	popUpStyleName: viewTabBarPopUpMenu;	
+	arrowButtonWidth: 0;
+	textAlign: right;
+	backgroundColor: #D4D0C8;
+	fillColors: #FFFFFF,#FFFFFF;	
+	borderColor: #808080;
+	cornerRadius: 3;
+    borderStyle: solid;
+	borderThickness: 1;
+	popUpGap: 2;
+	fontStyle: normal;
+	fontWeight: normal;
+	
+	upSkin:ClassReference("com.googlecode.flexwork.core.skins.ViewTabBarPopUpButtonSkin");
+    overSkin:ClassReference("com.googlecode.flexwork.core.skins.ViewTabBarPopUpButtonSkin");
+    downSkin:ClassReference("com.googlecode.flexwork.core.skins.ViewTabBarPopUpButtonSkin");
+    disabledSkin:ClassReference("com.googlecode.flexwork.core.skins.ViewTabBarPopUpButtonSkin");
+    selectedUpSkin:ClassReference("com.googlecode.flexwork.core.skins.ViewTabBarPopUpButtonSkin");
+    selectedOverSkin:ClassReference("com.googlecode.flexwork.core.skins.ViewTabBarPopUpButtonSkin");
+    selectedDownSkin:ClassReference("com.googlecode.flexwork.core.skins.ViewTabBarPopUpButtonSkin");
+    selectedDisabledSkin:ClassReference("com.googlecode.flexwork.core.skins.ViewTabBarPopUpButtonSkin");
+    
+    popUpOverSkin:ClassReference("com.googlecode.flexwork.core.skins.ViewTabBarPopUpButtonSkin");
+    popUpDownSkin:ClassReference("com.googlecode.flexwork.core.skins.ViewTabBarPopUpButtonSkin");
+    
+}
+
+.viewTabBarPopUpMenu {/*more hidden view*/ 
+   	fontWeight: normal;
+    textAlign: left;
+    backgroundAlpha: 0.7;
+    backgroundColor: #FFFFE1;
+    borderStyle: solid;
+    borderColor: #000000;/* .myPop {
+            backgroundAlpha: 0.7;
+            backgroundColor: black;
+            borderStyle: none;
+            color: white;
+        }*/
+}
+
+.perspectiveDividedBox {
+	/*
+	dividerSkin: ClassReference("com.googlecode.flexwork.core.skins.PerspectiveDividedBoxSkin");
+	*/
+}
+
+/*
+	upSkin: ClassReference("com.googlecode.flexwork.core.skins.PopUpButtonSkin");
+   	overSkin: ClassReference("com.googlecode.flexwork.core.skins.PopUpButtonSkin");
+   	popUpOverSkin: ClassReference("com.googlecode.flexwork.core.skins.PopUpButtonSkin");
+   	downSkin: ClassReference("com.googlecode.flexwork.core.skins.PopUpButtonSkin");
+   	popUpDownSkin: ClassReference("com.googlecode.flexwork.core.skins.PopUpButtonSkin");
+ */
+ /*
+disabledIcon: ClassReference("mx.skins.halo.RadioButtonIcon");
+downIcon: ClassReference("mx.skins.halo.RadioButtonIcon");
+overIcon: ClassReference("mx.skins.halo.RadioButtonIcon");
+selectedDownIcon: ClassReference("mx.skins.halo.RadioButtonIcon");
+selectedDisabledIcon: ClassReference("mx.skins.halo.RadioButtonIcon");
+selectedOverIcon: ClassReference("mx.skins.halo.RadioButtonIcon");
+selectedUpIcon: ClassReference("mx.skins.halo.RadioButtonIcon");
+upIcon: ClassReference("mx.skins.halo.RadioButtonIcon");
+ */
+/* These styles are important! Without them the SuperTabNavigator will 
+   look pretty crappy.
+
+SuperTabNavigator {
+	popupButtonStyleName: "popupButton";
+	tabStyleName: "firefoxLikeTabs";
+	leftButtonStyleName: "leftButton";
+	rightButtonStyleName: "rightButton";
+	buttonWidth:20px;	
+}
+
+ */
+
+/*
+.leftButton {
+	icon: Embed("/assets/tab_assets.swf#left_arrow");
+	fillAlphas: 1, 1, 1, 1;
+	cornerRadius:0;
+}
+
+.rightButton {
+	icon: Embed("/assets/tab_assets.swf#right_arrow");
+	fillAlphas: 1, 1, 1, 1;
+	cornerRadius:0;
+}
+
+.closeButton {
+	upSkin: Embed("/assets/tab_assets.swf#firefox_close_up");
+	downSkin: Embed("/assets/tab_assets.swf#firefox_close_down");	
+	overSkin: Embed("/assets/tab_assets.swf#firefox_close_over");
+	disabledSkin: Embed("/assets/tab_assets.swf#firefox_close_disabled");		
+}*/
+/*
+.popupButton {
+	upSkin: ClassReference("com.dougmccune.skins.TabPopUpButtonSkin");
+	popUpDownSkin: ClassReference("com.dougmccune.skins.TabPopUpButtonSkin");	
+	popUpOverSkin: ClassReference("com.dougmccune.skins.TabPopUpButtonSkin");	
+	disabledSkin: ClassReference("com.dougmccune.skins.TabPopUpButtonSkin");		
+}
+
+.firefoxLikeTabs {
+	highlightAlphas: 0.52, 0.4;
+	fillAlphas: 1, 1;
+   	fillColors: #eceadb, #eceadb;
+   	backgroundColor: #ffffff;
+   	borderColor: #999999;
+   	color: #000000;
+   	textRollOverColor: #000000;	
+   	textAlign: "left";
+   	indicatorClass: Embed("/assets/tab_assets.swf#indicator");	
+	closeButtonStyleName: "closeButton";
+}*/
+/*toolBarPopUpButton;*/
+
+.dockableToolBar {
+	horizontalGap: 0;
+	paddingLeft: 4;
+	verticalAlign: "middle";
+}
+
+.buttonBar {	
+	firstButtonStyleName: "mybuttonBarButtonStyle";
+	lastButtonStyleName: "mybuttonBarButtonStyle";
+	buttonStyleName: "mybuttonBarButtonStyle";
+	buttonHeight: 24;
+   	buttonWidth: 24;
+   	highlightAlphas: 0, 0;
+   	fillAlphas: 0, 0, 0, 0;
+   	fillColors: #D4D0C8, #D4D0C8, #D4D0C8, #D4D0C8;   	
+   	borderColor: #D4D0C8;
+   	shadowColor: #D4D0C8;
+   	themeColor: #ACA899;
+   	borderThickness: 0;
+   	borderSides: top left right bottom;
+   	borderStyle: solid;
+   	backgroundColor: #D4D0C8;
+}
+
+.mybuttonBarButtonStyle {
+	/*
+	selectedOverSkin: ClassReference("com.googlecode.flexwork.core.skins.ButtonBarButtonSkin");
+	upSkin: ClassReference("com.googlecode.flexwork.core.skins.ButtonBarButtonSkin");
+	overSkin: ClassReference("com.googlecode.flexwork.core.skins.ButtonBarButtonSkin");
+	selectedDownSkin: ClassReference("com.googlecode.flexwork.core.skins.ButtonBarButtonSkin");
+	selectedDisabledSkin: ClassReference("com.googlecode.flexwork.core.skins.ButtonBarButtonSkin");	
+	*/
+	highlightAlphas: 0, 0;
+   	fillAlphas: 0, 0, 0.5, 1;
+   	fillColors: #D4D0C8, #D4D0C8, #D4D0C8, #D4D0C8;   	
+   	borderColor: #D4D0C8;
+   	backgroundColor: #D4D0C8;
+   	themeColor: #ACA899;
+   	
+   	borderThickness: 0;
+   	borderSides: top left right bottom;
+   	borderStyle: solid;
+   	cornerRadius: 0;
+}
+
+.perspectiveBox {
+	borderThickness: 1;
+	borderStyle: solid;
+	borderColor: #FFFFFF;
+	borderSides: top;
+	paddingRight: 5;
+	verticalAlign: "middle";
+	horizontalGap: 3;
+}
+
+.perspectiveBar {
+	firstButtonStyleName: perspectiveBarFirstButtonStyle;
+	lastButtonStyleName: perspectiveBarLastButtonStyle;	
+	borderColor: #D4D0C8;
+}
+
+.perspectiveBarFirstButtonStyle {
+	cornerRadius: 0;
+}
+
+.perspectiveBarLastButtonStyle {
+	cornerRadius: 0;
+}
+
+.toolWindow {
+	dividerSkin: ClassReference("com.googlecode.flexwork.core.skins.ToolWindowDividerSkin");	
+	dividerThickness: 42;
+	verticalAlign: "middle";
+	verticalGap: 0;
+	horizontalGap: 42;
+	paddingTop: 0;
+	paddingLeft: 5;
+	paddingRight: 0;
+	paddingBottom: 0;
+	borderThickness: 0;
+	backgroundColor: #D4D0C8;
+}/*
+
+
+.fastViewBar {
+	
+	cornerRadius: 2;
+	
+	/*
+	width: 200;
+	borderColor: #ACA899;
+	borderThickness: 1;
+	borderStyle: "solid";*/
+
+
+
+

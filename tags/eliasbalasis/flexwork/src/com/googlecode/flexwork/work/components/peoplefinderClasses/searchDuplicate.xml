@@ -1,0 +1,326 @@
+
+<xml><tr class="ContentHeader" align="left" valign="middle" style="font-weight:bold;font-style:normal;text-decoration:none;">
+
+			<th scope="col"><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Sort$Name')"><b>Name (Click for Detail)</b></a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Sort$Location')"><b>Location</b></a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Sort$Telephone')"><b>Telephone</b></a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Sort$Voice Mail Network Number')"><b>Voice MailNetwork Number</b></a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Sort$Primary Email')"><b>Primary E-Mail</b></a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Sort$Organization')"><b>Organization</b></a></th><th scope="col"><a href="javascript:__doPostBack('ctl00$contMaster$gvShow','Sort$About Me')"><b>About Me</b></a></th>
+
+		</tr><tr class="PFW_MainList" style="border-width:3px;border-style:Solid;">
+
+			<td>
+
+<a id="ctl00_contMaster_gvShow_ctl03_hypName" Wrap="True"><a>Adena Lam</a></a>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl03_lblLocation">Cyberjaya, MY</span>                                         
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl03_lblTelephone">+60 3 2332 2064</span>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl03_lblVoiceMail">1666.3322064</span>                                     
+
+</td><td>
+
+<a id="ctl00_contMaster_gvShow_ctl03_hypPrimaryEmail" href="mailto:adena-wl.lam@hp.com">adena-wl.lam@hp.com</a> 
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl03_lblOrg">Controllership Finance</span>
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl03_lblAbout"></span>
+
+</td>
+
+		</tr><tr class="PFW_MainList_Alt" style="border-width:3px;border-style:Solid;">
+
+			<td>
+
+<a id="ctl00_contMaster_gvShow_ctl04_hypName" Wrap="True"><a>Angeline Seah</a></a>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl04_lblLocation">Singapore, SG</span>                                         
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl04_lblTelephone">+65 636 11836</span>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl04_lblVoiceMail"></span>                                     
+
+</td><td>
+
+<a id="ctl00_contMaster_gvShow_ctl04_hypPrimaryEmail" href="mailto:angeline.seah@hp.com">angeline.seah@hp.com</a> 
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl04_lblOrg">Enterprise Servers &amp; Storage</span>
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl04_lblAbout"></span>
+
+</td>
+
+		</tr><tr class="PFW_MainList" style="border-width:3px;border-style:Solid;">
+
+			<td>
+
+<a id="ctl00_contMaster_gvShow_ctl05_hypName" Wrap="True"><a>Anna Soh</a></a>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl05_lblLocation">Singapore, SG</span>                                         
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl05_lblTelephone">+65  672 75769</span>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl05_lblVoiceMail"></span>                                     
+
+</td><td>
+
+<a id="ctl00_contMaster_gvShow_ctl05_hypPrimaryEmail" href="mailto:anna.soh@hp.com">anna.soh@hp.com</a> 
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl05_lblOrg">PSG AP and Japan</span>
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl05_lblAbout"></span>
+
+</td>
+
+		</tr><tr class="PFW_MainList_Alt" style="border-width:3px;border-style:Solid;">
+
+			<td>
+
+<a id="ctl00_contMaster_gvShow_ctl06_hypName" Wrap="True"><a>Ben Lim</a></a>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl06_lblLocation">Taipei, TW</span>                                         
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl06_lblTelephone">+886 2 8722 8507</span>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl06_lblVoiceMail"></span>                                     
+
+</td><td>
+
+<a id="ctl00_contMaster_gvShow_ctl06_hypPrimaryEmail" href="mailto:ben.lim@hp.com">ben.lim@hp.com</a> 
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl06_lblOrg">PSG Notebook GBU</span>
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl06_lblAbout"></span>
+
+</td>
+
+		</tr><tr class="PFW_MainList" style="border-width:3px;border-style:Solid;">
+
+			<td>
+
+<a id="ctl00_contMaster_gvShow_ctl07_hypName" Wrap="True"><a>Brenda Liu</a></a>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl07_lblLocation">Beijing, CN</span>                                         
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl07_lblTelephone">+86 10 6564 5309</span>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl07_lblVoiceMail"></span>                                     
+
+</td><td>
+
+<a id="ctl00_contMaster_gvShow_ctl07_hypPrimaryEmail" href="mailto:wei.liu9@hp.com">wei.liu9@hp.com</a> 
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl07_lblOrg">IPG Asia Pacific/Japan</span>
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl07_lblAbout">APJ IPGS Delivery</span>
+
+</td>
+
+		</tr><tr class="PFW_MainList_Alt" style="border-width:3px;border-style:Solid;">
+
+			<td>
+
+<a id="ctl00_contMaster_gvShow_ctl08_hypName" Wrap="True"><a>Christine Chan</a></a>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl08_lblLocation">Cyberjaya, MY</span>                                         
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl08_lblTelephone">+60 3 83172811</span>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl08_lblVoiceMail"></span>                                     
+
+</td><td>
+
+<a id="ctl00_contMaster_gvShow_ctl08_hypPrimaryEmail" href="mailto:wei-li.chan@hp.com">wei-li.chan@hp.com</a> 
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl08_lblOrg">IPG Finance</span>
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl08_lblAbout">Wei Li</span>
+
+</td>
+
+		</tr><tr class="PFW_MainList" style="border-width:3px;border-style:Solid;">
+
+			<td>
+
+<a id="ctl00_contMaster_gvShow_ctl09_hypName" Wrap="True"><a>Cindy Peh</a></a>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl09_lblLocation">Singapore, SG</span>                                         
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl09_lblTelephone">+65  6361 3506</span>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl09_lblVoiceMail"></span>                                     
+
+</td><td>
+
+<a id="ctl00_contMaster_gvShow_ctl09_hypPrimaryEmail" href="mailto:cindy_peh@hp.com">cindy_peh@hp.com</a> 
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl09_lblOrg">Enterprise Servers &amp; Storage</span>
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl09_lblAbout"></span>
+
+</td>
+
+		</tr><tr class="PFW_MainList_Alt" style="border-width:3px;border-style:Solid;">
+
+			<td>
+
+<a id="ctl00_contMaster_gvShow_ctl10_hypName" Wrap="True"><a>Duncan Liao</a></a>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl10_lblLocation">Taipei, TW</span>                                         
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl10_lblTelephone">+886 2 87228806</span>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl10_lblVoiceMail"></span>                                     
+
+</td><td>
+
+<a id="ctl00_contMaster_gvShow_ctl10_hypPrimaryEmail" href="mailto:duncan.liao@hp.com">duncan.liao@hp.com</a> 
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl10_lblOrg">TSG Asia Pacific</span>
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl10_lblAbout"></span>
+
+</td>
+
+		</tr><tr class="PFW_MainList" style="border-width:3px;border-style:Solid;">
+
+			<td>
+
+<a id="ctl00_contMaster_gvShow_ctl11_hypName" Wrap="True"><a>Eris Liu</a></a>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl11_lblLocation">Beijing, CN</span>                                         
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl11_lblTelephone">+86 10 6564 4104</span>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl11_lblVoiceMail">1631.5644104</span>                                     
+
+</td><td>
+
+<a id="ctl00_contMaster_gvShow_ctl11_hypPrimaryEmail" href="mailto:eris-w.liu@hp.com">eris-w.liu@hp.com</a> 
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl11_lblOrg">EDS ITO Global Delivery</span>
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl11_lblAbout">BTMP-China</span>
+
+</td>
+
+		</tr><tr class="PFW_MainList_Alt" style="border-width:3px;border-style:Solid;">
+
+			<td>
+
+<a id="ctl00_contMaster_gvShow_ctl12_hypName" Wrap="True"><a>Henry Lim</a></a>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl12_lblLocation">Singapore, SG</span>                                         
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl12_lblTelephone">+65  63136729</span>                                    
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl12_lblVoiceMail"></span>                                     
+
+</td><td>
+
+<a id="ctl00_contMaster_gvShow_ctl12_hypPrimaryEmail" href="mailto:wei-seong.lim@hp.com">wei-seong.lim@hp.com</a> 
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl12_lblOrg">Inkjet and Web Solutions</span>
+
+</td><td>
+
+<span id="ctl00_contMaster_gvShow_ctl12_lblAbout">HR</span>
+
+</td>
+
+		</tr></xml>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" creationComplete="init()">
+
+	<mx:Script>
+		<![CDATA[
+			import com.googlecode.flexwork.work.events.*;
+
+			private var EVENT_TYPE:String="event_type";
+
+			public function init():void
+			{
+				MessageEventBusManager.getInstance().addEventListener(EVENT_TYPE, onB1);
+				MessageEventBusManager.getInstance().addEventListener(EVENT_TYPE, onB3);
+				MessageEventBusManager.getInstance().addEventListener(EVENT_TYPE, onB2);
+			}
+
+			public function onB1(event:Event):void
+			{
+				t.text+="\nb1";
+				t.text+="\nevent.target: " + event.target;
+				t.text+="\nevent.currentTarget: " + event.currentTarget;
+				t.text+="\nevent.eventPhase: " + event.eventPhase;
+				t.text+="\nevent.type: " + event.type;
+			}
+
+			public function onB2(event:Event):void
+			{
+				t.text+="\nb2";
+			}
+
+			public function onB3(event:Event):void
+			{
+				t.text+="\nb3";
+			}
+
+			public function d(event:Event):void
+			{
+				t.text+="\nevent.target: " + event.target;
+				t.text+="\nevent.currentTarget: " + event.currentTarget;
+				t.text+="\nevent.eventPhase: " + event.eventPhase;
+				t.text+="\nevent.type: " + event.type;
+
+				var event:Event=new Event(EVENT_TYPE);
+				MessageEventBusManager.getInstance().dispatchEvent(event);
+			}
+		]]>
+	</mx:Script>
+
+	<mx:Button id="b1" x="59" y="48" label="Button" click="d(event)"/>
+	<mx:Button id="b2" x="171" y="48" label="Button"/>
+	<mx:Button id="b3" x="276" y="48" label="Button"/>
+
+	<mx:TextArea id="t" x="76" y="95" height="238" width="400"/>
+
+
+</mx:Application>

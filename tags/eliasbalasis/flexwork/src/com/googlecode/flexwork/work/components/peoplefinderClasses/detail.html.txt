@@ -1,0 +1,1586 @@
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="ctl00_Head1"><link rel="stylesheet" type="text/css" href="CSS/PeopleFinder.css" /><link rel="stylesheet" type="text/css" href="http://portal.hp.com/lib/navigation/css/homepages-v5.css" /><title>
+	PeopleFinder - Qun-Jian Xiao's Details
+</title></head>
+<body id="ctl00__pfBody" class="PageFont"> 
+<script language="javascript" src="http://portal.hp.com/lib/navigation/header.js"></script>
+<!--<script language="javascript" src="http://d3w9055g.americas.hpqcorp.net/lib/navigation/header.js"></script>-->
+<script language="javascript" src="http://portal.hp.com/lib/navigation/siteCatalyst.js"></script>
+<script language="javascript">
+setBanner("PeopleFinder");
+setWebMetrics("hphqintraathpintranetportal");
+drawHeader();
+siteCatalyst_setPageName("PeopleFinder");
+</script>
+
+    <form name="aspnetForm" method="post" action="peoplefinder.asp?pf_hp=1&amp;pf_detectsearch=1&amp;pf_searchoption=0&amp;pf_searchtype=2&amp;pf_searchval=Xiao%2c+Qun-Jian" id="aspnetForm" OnSubmit="javascript:return ValidateFilter_IE('ctl00_contMaster_ddlSearchOption');">
+<div>
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODc2NDA4NzQ2D2QWAmYPZBYCAgMPZBYCAgEPFgIeCE9uU3VibWl0BUhqYXZhc2NyaXB0OnJldHVybiBWYWxpZGF0ZUZpbHRlcl9JRSgnY3RsMDBfY29udE1hc3Rlcl9kZGxTZWFyY2hPcHRpb24nKTsWAgIBD2QWDAIDD2QWAmYPZBYCZg9kFgICAQ8PFgIeB1Zpc2libGVoZGQCBQ9kFgJmD2QWAmYPZBYIAgEPEA9kFgIeCE9uQ2hhbmdlBXlqYXZhc2NyaXB0OnNob3dMaXN0KHRoaXMudmFsdWUsJ2N0bDAwX2NvbnRNYXN0ZXJfX3Blb3BsZVRhYicsJ2N0bDAwX2NvbnRNYXN0ZXJfX2xvY2F0aW9uVGFiJywnY3RsMDBfY29udE1hc3Rlcl9fb3JnVGFiJyk7ZGRkAgMPFgIeBXN0eWxlBQpkaXNwbGF5OicnFgJmD2QWBmYPZBYCAgEPEA9kFgIfAgVMamF2YXNjcmlwdDpzaG93TGFuZ3VhZ2VMaXN0KHRoaXMudmFsdWUsJ2N0bDAwX2NvbnRNYXN0ZXJfZGRsTG9jYWxMYW5ndWFnZScpO2QWAWZkAgEPZBYCAgEPEA9kFgIfAwUMZGlzcGxheTpub25lZGRkAgIPZBYCAgEPD2QWAh4KT25LZXlQcmVzcwUdamF2YXNjcmlwdDpfSFBFUEtleWNvZGVfSUUoKTtkAgUPFgIfAwUMZGlzcGxheTpub25lFgJmD2QWAgIBD2QWAgIBDw9kFgIfBAUdamF2YXNjcmlwdDpfSFBFUEtleWNvZGVfSUUoKTtkAgcPFgIfAwUMZGlzcGxheTpub25lFgJmD2QWAgIBD2QWAgIBDw9kFgIfBAUdamF2YXNjcmlwdDpfSFBFUEtleWNvZGVfSUUoKTtkAgcPZBYCZg9kFgRmD2QWAgIBDxYCHwFnZAIBD2QWAgIBDxYCHwFnZAIJDxYCHgRUZXh0BZddPHNjcmlwdCBsYW5ndWFnZT0iamF2YXNjcmlwdCIgeG1sbnM6bXM9InVybjphbnl0aGluZyIgeG1sbnM6bXN2Yj0idXJuOmR1bW15Ij4NCiAgICANCiAgICAgIA0KICAgIA0KCQkJZnVuY3Rpb24gU3BsaXRBZGRyZXNzKHNBZGRyZXNzKSB7DQogCQkJCXZhciBhQWRkcmVzczsNCiAJCQkJdmFyIGlMZW47DQoJCQkJYUFkZHJlc3MgPSBzQWRkcmVzcy5zcGxpdCgiJCIpOw0KCQkJCWlMZW4gPSBhQWRkcmVzcy5sZW5ndGg7DQoJCQkJZm9yKGkgPSAwOyBpIDwgaUxlbjsgaSsrKSB7DQoJIAkJCQlkb2N1bWVudC53cml0ZShhQWRkcmVzc1tpXSArICI8YnIgLz4iKTsNCgkgCQkJfQ0KCQkJfQ0KCQkJZnVuY3Rpb24gU3BsaXRBZGRyZXNzQmxhbmsoc0FkZHJlc3MpIHsNCiAJCQkJdmFyIGFBZGRyZXNzOw0KIAkJCQl2YXIgaUxlbjsNCg0KCQkJCWFBZGRyZXNzID0gc0FkZHJlc3Muc3BsaXQoIiQiKTsNCgkJCQlpTGVuID0gYUFkZHJlc3MubGVuZ3RoOw0KCQkJCWZvcihpID0gMDsgaSA8IGlMZW47IGkrKykgew0KCSAJCQkJZG9jdW1lbnQud3JpdGUoIjxiciAvPiIpOw0KCSAJCQl9DQoJCQl9DQoNCgkJCTwhLS1Bbml0YSwwNS8wNS8yMDA1LEdldCByZWFsIGVzdGF0ZSBpZCBmcm9tIHdvcmsgbG9jdGFpb24sIEVDUiA3NjIgLS0+DQoJCQlmdW5jdGlvbiBHZXRSZWFsRXN0YXRlSUQoc1dvcmtMb2NhdGlvbil7DQoJCQkJdmFyIGluZGV4ID0gc1dvcmtMb2NhdGlvbi5pbmRleE9mKCJocFJlYWxFc3RhdGVJRD0iKTsNCgkJCQlpZiggaW5kZXggPT0gLTEgKQ0KCQkJCSAgcmV0dXJuOw0KCQkJCSAgDQoJCQkJaW5kZXggPSBzV29ya0xvY2F0aW9uLmluZGV4T2YoIj0iKTsNCgkJCQl2YXIgaW5kZXhPZkZpcnN0QnJlYWsgPSBzV29ya0xvY2F0aW9uLmluZGV4T2YoIiwiKTsNCgkJCSAgICAgICAgZG9jdW1lbnQud3JpdGUoIHNXb3JrTG9jYXRpb24uc3Vic3RyaW5nKGluZGV4KzEsaW5kZXhPZkZpcnN0QnJlYWspICk7DQoJCQkJcmV0dXJuOwkJCQkJCQkJCQkJICAgICAgIA0KCQkJfQ0KCQkJDQoJCQlmdW5jdGlvbiBOb25IUChzT2JqZWN0Q2xhc3MpIHsNCgkJCQlpZihzT2JqZWN0Q2xhc3MgPT0gImhwQ29udGluZ2VudFdvcmtlciIgfHwgc09iamVjdENsYXNzID09ICJub25ocE9yZ1BlcnNvbiIpDQoJIAkJCQlkb2N1bWVudC53cml0ZSgiIChOb24tSFApIik7DQoJCQl9DQoJCQk8IS0tMjcvMDgvMjAwNSxNYXR0IEZpeCBmb3IgaXNzdWUgMTgyNyxMZWF2ZSBzdGF0dXMgdGl0bGVzIGluIFBlb3BsZUZpbmRlciBXZWIgbmVlZCBhZGp1c3RtZW50IC0tPg0KCQkJZnVuY3Rpb24gTGVhdmVPbihzT2JqZWN0Q2xhc3MpIHsNCgkJCQlpZihzT2JqZWN0Q2xhc3MgPT0gIkxlYXZlIFdpdGggUGF5Iil7DQoJIAkJCQlkb2N1bWVudC53cml0ZSgiTGVhdmUgb2YgQWJzZW5jZSIpOw0KCSAJCQkJfQ0KCSAJCQllbHNlew0KCSAJCQkJZG9jdW1lbnQud3JpdGUoc09iamVjdENsYXNzKTsNCgkgCQkJCX0NCgkJCX0JCQkNCgkJCQ0KCQkJDQoJCQk8L3NjcmlwdD4NCjxib2R5IHhtbG5zOm1zPSJ1cm46YW55dGhpbmciIHhtbG5zOm1zdmI9InVybjpkdW1teSI+DQogIDxicj4NCiAgPGJyPg0KICA8c3BhbiBjbGFzcz0iUGFnZUhlYWRlciI+DQoJCQkJUGVyc29uIERldGFpbCA8YnI+PC9zcGFuPg0KICA8dGFibGUgYm9yZGVyPSIwIiBhbGlnbj0iY2VudGVyIj4NCiAgICA8dHI+DQogICAgICA8dGQ+DQogICAgICAgIDx0YWJsZSBib3JkZXI9IjAiIGFsaWduPSJjZW50ZXIiIGNlbGxwYWRkaW5nPSIxMXB4Ij4NCiAgICAgICAgICA8dHIgYWxpZ249ImNlbnRlciI+DQogICAgICAgICAgICA8dGQgYWxpZ249ImNlbnRlciI+DQogICAgICAgICAgICAgIDxhIGhyZWY9ImRlcHQuYXNweD90YXJnZXQ9J3VpZD1xdW5qaWFuLnhpYW9AaHAuY29tLG91PVBlb3BsZSxvPWhwLmNvbScmYW1wO21ncj0ndWlkPWRhbm55LmxpQGhwLmNvbSxvdT1QZW9wbGUsbz1ocC5jb20nJmFtcDtIUE9ubHk9VHJ1ZSI+DQogICAgICAgICAgICAgICAgPGltZyBzcmM9ImltYWdlcy9idG5fZGVwdC5naWYiIGJvcmRlcj0iMCIgQUxUPSJEZXBhcnRtZW50Ij4NCiAgICAgICAgICAgICAgPC9hPg0KICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgIDx0ZCBhbGlnbj0iY2VudGVyIj4NCiAgICAgICAgICAgICAgPGEgaHJlZj0ib3JnY2hhcnQuYXNweD90YXJnZXQ9J3VpZD1xdW5qaWFuLnhpYW9AaHAuY29tLG91PVBlb3BsZSxvPWhwLmNvbScmYW1wO0hQT25seT1UcnVlIj4NCiAgICAgICAgICAgICAgICA8aW1nIHNyYz0iaW1hZ2VzL2J0bl9vcmcuZ2lmIiBib3JkZXI9IjAiIEFMVD0iT3JnYW5pemF0aW9uIj4NCiAgICAgICAgICAgICAgPC9hPg0KICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgIDx0ZCBhbGlnbj0iY2VudGVyIj4NCiAgICAgICAgICAgICAgPGEgaHJlZj0idkNhcmQuYXNweD90YXJnZXQ9dWlkPXF1bmppYW4ueGlhb0BocC5jb20sb3U9UGVvcGxlLG89aHAuY29tIiB0YXJnZXQ9InZjYXJkIj4NCiAgICAgICAgICAgICAgICA8aW1nIHNyYz0iaW1hZ2VzL2J0bl92Q2FyZC5naWYiIGJvcmRlcj0iMCIgQUxUPSJWIENhcmQiPg0KICAgICAgICAgICAgICA8L2E+DQogICAgICAgICAgICA8L3RkPg0KICAgICAgICAgICAgPHRkIGFsaWduPSJjZW50ZXIiPg0KICAgICAgICAgICAgICA8YSBocmVmPSJqYXZhc2NyaXB0OnBvcF93aW5kb3dfc2Nyb2xsKCdHcm91cHMuYXNweD90YXJnZXQ9dWlkPXF1bmppYW4ueGlhb0BocC5jb20sb3U9UGVvcGxlLG89aHAuY29tJywncG9wdXAnLCc1NTAnLCc4MDAnKSI+DQogICAgICAgICAgICAgICAgPGltZyBzcmM9ImltYWdlcy9idG5fR3JvdXAuZ2lmIiBib3JkZXI9IjAiIEFMVD0iR3JvdXBzIj4NCiAgICAgICAgICAgICAgPC9hPg0KICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgIDx0ZCBhbGlnbj0iY2VudGVyIj4NCiAgICAgICAgICAgICAgPGEgaHJlZj0iamF2YXNjcmlwdDpwb3Bfd2luZG93X3Njcm9sbCgnUGVvcGxlRmluZGVyLmFzcHg/dGFyZ2V0PWhwUmVhbEVzdGF0ZUlEPVNHRDAxLG91PUxvY2F0aW9ucyxvPWhwLmNvbScsJ3BvcHVwJywnNTUwJywnODAwJykiPg0KICAgICAgICAgICAgICAgIDxpbWcgc3JjPSJpbWFnZXMvYnRuX09mZmljZS5naWYiIGJvcmRlcj0iMCIgQUxUPSJPZmZpY2UiPg0KICAgICAgICAgICAgICA8L2E+DQogICAgICAgICAgICA8L3RkPg0KICAgICAgICAgIDwvdHI+DQogICAgICAgIDwvdGFibGU+DQogICAgICA8L3RkPg0KICAgIDwvdHI+DQogICAgPHRyPg0KICAgICAgPHRkIGFsaWduPSJjZW50ZXIiPg0KICAgICAgICA8dGFibGUgYm9yZGVyPSIwIj4NCiAgICAgICAgICA8dHI+DQogICAgICAgICAgICA8dGQ+DQogICAgICAgICAgICAgIDx0YWJsZSBjZWxscGFkZGluZz0iMTAiPg0KICAgICAgICAgICAgICAgIDx0cj4NCiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzcz0iQ29udGVudEhlYWRlcl9QRlciPk5hbWU8L3RkPg0KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJDb250ZW50SGVhZGVyX1BGVyI+TG9jYXRpb248L3RkPg0KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJDb250ZW50SGVhZGVyX1BGVyI+VGVsZXBob25lPC90ZD4NCiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzcz0iQ29udGVudEhlYWRlcl9QRlciPlByaW1hcnkgRS1NYWlsPC90ZD4NCiAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzcz0iQ29udGVudEhlYWRlcl9QRlciPkFib3V0IE1lPC90ZD4NCiAgICAgICAgICAgICAgICA8L3RyPg0KICAgICAgICAgICAgICAgIDx0ciBjbGFzcz0iUmlnaHRNb2R1bGVIZWFkZXIiPg0KICAgICAgICAgICAgICAgICAgPHRkPg0KICAgICAgICAgICAgICAgICAgICA8Yj5RdW4tSmlhbiBYaWFvPC9iPg0KICAgICAgICAgICAgICAgICAgICA8Zm9udCBjb2xvcj0iIzAwMDAwMCIgc2l6ZT0iLTEiPg0KICAgICAgICAgICAgICAgICAgICAgIDxzY3JpcHQgbGFuZ3VhZ2U9ImphdmFzY3JpcHQiPg0KCQkJTm9uSFAoInRvcCIpOw0KCQk8L3NjcmlwdD4NCiAgICAgICAgICAgICAgICAgICAgICA8c2NyaXB0IGxhbmd1YWdlPSJqYXZhc2NyaXB0Ij4NCgkJCU5vbkhQKCJwZXJzb24iKTsNCgkJPC9zY3JpcHQ+DQogICAgICAgICAgICAgICAgICAgICAgPHNjcmlwdCBsYW5ndWFnZT0iamF2YXNjcmlwdCI+DQoJCQlOb25IUCgib3JnYW5pemF0aW9uYWxQZXJzb24iKTsNCgkJPC9zY3JpcHQ+DQogICAgICAgICAgICAgICAgICAgICAgPHNjcmlwdCBsYW5ndWFnZT0iamF2YXNjcmlwdCI+DQoJCQlOb25IUCgiaW5ldE9yZ1BlcnNvbiIpOw0KCQk8L3NjcmlwdD4NCiAgICAgICAgICAgICAgICAgICAgICA8c2NyaXB0IGxhbmd1YWdlPSJqYXZhc2NyaXB0Ij4NCgkJCU5vbkhQKCJocFBlcnNvbiIpOw0KCQk8L3NjcmlwdD4NCiAgICAgICAgICAgICAgICAgICAgICA8c2NyaXB0IGxhbmd1YWdlPSJqYXZhc2NyaXB0Ij4NCgkJCU5vbkhQKCJocEVtcGxveWVlIik7DQoJCTwvc2NyaXB0Pg0KICAgICAgICAgICAgICAgICAgICAgIDxzY3JpcHQgbGFuZ3VhZ2U9ImphdmFzY3JpcHQiPg0KCQkJTm9uSFAoIm50VXNlciIpOw0KCQk8L3NjcmlwdD4NCiAgICAgICAgICAgICAgICAgICAgPC9mb250Pg0KICAgICAgICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgICAgICAgIDx0ZCBub3dyYXA9InRydWUiPlNoYW5naGFpLCBDTjwvdGQ+DQogICAgICAgICAgICAgICAgICA8dGQ+Kzg2IDIxIDM4ODkgODg4OTwvdGQ+DQogICAgICAgICAgICAgICAgICA8dGQ+DQogICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9Im1haWx0bzpxdW5qaWFuLnhpYW9AaHAuY29tIj5xdW5qaWFuLnhpYW9AaHAuY29tPC9hPg0KICAgICAgICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgICAgICAgIDx0ZD5BbmR5LFRTRy1HRENDLVNIPC90ZD4NCiAgICAgICAgICAgICAgICA8L3RyPg0KICAgICAgICAgICAgICA8L3RhYmxlPg0KICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICA8L3RyPg0KICAgICAgICA8L3RhYmxlPg0KICAgICAgPC90ZD4NCiAgICA8L3RyPg0KICAgIDx0cj4NCiAgICAgIDx0ZCBhbGlnbj0iY2VudGVyIj4NCiAgICAgICAgPHRhYmxlIGNsYXNzPSJCb2R5IiBjZWxscGFkZGluZz0iMSIgYm9yZGVyPSIwIj4NCiAgICAgICAgICA8dHIgY2xhc3M9IkJvZHkiPg0KICAgICAgICAgICAgPHRkIGNsYXNzPSJCb2R5Q2FwdGlvbiI+Rmlyc3QgTmFtZTo8L3RkPg0KICAgICAgICAgICAgPHRkIGNsYXNzPSJCb2R5RGV0YWlsIj5RdW4tSmlhbjwvdGQ+DQogICAgICAgICAgICA8dGQgY2xhc3M9IkJvZHlEZXRhaWwiPg0KICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgIDx0ZCBjbGFzcz0iQm9keUNhcHRpb24iPkxhc3QgTmFtZTo8L3RkPg0KICAgICAgICAgICAgPHRkIGNsYXNzPSJCb2R5RGV0YWlsIj5YaWFvPC90ZD4NCiAgICAgICAgICA8L3RyPg0KICAgICAgICAgIDx0ciBjbGFzcz0iQm9keSI+DQogICAgICAgICAgICA8dGQgY2xhc3M9IkJvZHlDYXB0aW9uIj5GdWxsIExlZ2FsIE5hbWU6PC90ZD4NCiAgICAgICAgICAgIDx0ZCBjbGFzcz0iQm9keURldGFpbCIgbm93cmFwPSJ0cnVlIj5RdW4tSmlhbiBYaWFvPGJyPuiCliDnvqTlgaU8YnI+PC90ZD4NCiAgICAgICAgICA8L3RyPg0KICAgICAgICAgIDx0ciBjbGFzcz0iQm9keSI+DQogICAgICAgICAgICA8dGQgY2xhc3M9IkJvZHlDYXB0aW9uIj5NYWlkZW4gTmFtZTo8L3RkPg0KICAgICAgICAgICAgPHRkIGNsYXNzPSJCb2R5RGV0YWlsIiBub3dyYXA9InRydWUiPg0KICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICA8L3RyPg0KICAgICAgICAgIDx0ciBjbGFzcz0iQm9keSI+DQogICAgICAgICAgICA8dGQgbm93cmFwPSJ0cnVlIiBjbGFzcz0iQm9keUNhcHRpb24iPg0KCQkJCQkJCQkJCUNvbXBhbnkgTmFtZTo8YnI+DQogICAgICAgICAgICAgICAgICAgIFN0cmVldDoNCiAgICAgICAgICAgICAgICAgICAgPHNjcmlwdCBsYW5ndWFnZT0iamF2YXNjcmlwdCI+DQoJCQkJCQkJCQkJCVNwbGl0QWRkcmVzc0JsYW5rKCIyNTU3IEppbmtlIFJvYWQiKTsNCgkJCQkJCQkJCQk8L3NjcmlwdD4NCgkJCQkJCQkJCQlDaXR5Ojxicj4NCgkJCQkJCQkJCQlDb3VudHJ5L1JlZ2lvbjogCQkJCQkJCQkJCQkJCQkJCQkNCgkJCQkJCQkJCQk8YnI+DQoJCQkJCQkJCQkJUG9zdGFsIENvZGU6PGJyPjwvdGQ+DQogICAgICAgICAgICA8dGQgbm93cmFwPSJ0cnVlIiBjbGFzcz0iQm9keURldGFpbCI+U2hhbmdoYWkgSFA8YnI+PHNjcmlwdCBsYW5ndWFnZT0iamF2YXNjcmlwdCI+DQoJCQlTcGxpdEFkZHJlc3MoIjI1NTcgSmlua2UgUm9hZCIpOw0KCQk8L3NjcmlwdD5TaGFuZ2hhaTxicj5DaGluYTxicj4yMDEyMDM8YnI+PC90ZD4NCiAgICAgICAgICAgIDx0ZCBjbGFzcz0iQm9keURldGFpbCI+DQogICAgICAgICAgICA8L3RkPg0KICAgICAgICAgICAgPHRkIG5vd3JhcD0idHJ1ZSIgY2xhc3M9IkJvZHlDYXB0aW9uIj5Qb3N0YWwgQWRkcmVzczo8L3RkPg0KICAgICAgICAgICAgPHRkIG5vd3JhcD0idHJ1ZSIgY2xhc3M9IkJvZHlEZXRhaWwiPlNoYW5naGFpIEhQPGJyPg0KCQkJCQkJCQkJQXR0bjogUXVuLUppYW4NCiAgICAgICAgICAgICAgICAgICBYaWFvPGJyPjxzY3JpcHQgbGFuZ3VhZ2U9ImphdmFzY3JpcHQiPg0KCQkJU3BsaXRBZGRyZXNzKCIyNTU3IEppbmtlIFJvYWQgJCBTaGFuZ2hhaSAkIENoaW5hICQgMjAxMjAzIik7DQoJCTwvc2NyaXB0PjwvdGQ+DQogICAgICAgICAgPC90cj4NCiAgICAgICAgICA8dHIgY2xhc3M9IkJvZHkiPg0KICAgICAgICAgICAgPHRkIGNsYXNzPSJCb2R5Q2FwdGlvbiI+DQoJCQkJCQkJCQlSZWFsIEVzdGF0ZSBJRFxCdWlsZGluZzogPGJyPg0KCQkJCQkJCQkJTWFpbCBTdG9wOiA8YnI+DQoJCQkJCQkJCQlGbG9vcjogPGJyPg0KCQkJCQkJCQkJUG9zdDoNCgkJCQkJCQkJPC90ZD4NCiAgICAgICAgICAgIDx0ZCBjbGFzcz0iQm9keURldGFpbCI+DQogICAgICAgICAgICAgIDxzY3JpcHQgbGFuZ3VhZ2U9ImphdmFzY3JpcHQiPg0KCQkJCQkJCQkJCUdldFJlYWxFc3RhdGVJRCgiaHBSZWFsRXN0YXRlSUQ9U0dEMDEsb3U9TG9jYXRpb25zLG89aHAuY29tIik7DQoJCQkJCQkJCQkJPC9zY3JpcHQ+IA0KCQkJCQkJCQkJCVwNCgkJCQkJCQkJCQlTaGFuZ0hhaSxDTi1aaGFuZ0ppYW5nLUJ1aWxkaW5nIEQ8YnI+PGJyPjxicj48YnI+PC90ZD4NCiAgICAgICAgICAgIDx0ZCBjbGFzcz0iQm9keURldGFpbCI+DQogICAgICAgICAgICA8L3RkPg0KICAgICAgICAgICAgPHRkIG5vd3JhcD0idHJ1ZSIgY2xhc3M9IkJvZHlDYXB0aW9uIj4NCgkJCQkJCQkJCQlUaW1lIFpvbmU6IDxicj4NCgkJCQkJCQkJCQlUaW1lIFpvbmUgTmFtZTogPGJyPjxicj4NCgkJCQkJCQkJCUUtbWFpbDoNCgkJCQkJCQkJPC90ZD4NCiAgICAgICAgICAgIDx0ZCBub3dyYXA9InRydWUiIGNsYXNzPSJCb2R5RGV0YWlsIj4rMDgwMDxicj48YSBocmVmPSJodHRwOi8vaHBmcy5jb3JwLmhwLmNvbS90aW1lY29udmVydGVyLmh0bSIgdGFyZ2V0PSJfYmxhbmsiIGNsYXNzPSIgQm9keURldGFpbExpbmsiPkNoaW5hPC9hPjxicj48YnI+PGEgaHJlZj0ibWFpbHRvOnF1bmppYW4ueGlhb0BocC5jb20iPjxmb250IGNvbG9yPSIjMDAwMEZGIj5xdW5qaWFuLnhpYW9AaHAuY29tPC9mb250PjwvYT48YnI+PC90ZD4NCiAgICAgICAgICA8L3RyPg0KICAgICAgICAgIDx0ciBjbGFzcz0iQm9keSI+DQogICAgICAgICAgICA8dGQgY2xhc3M9IkJvZHlEZXRhaWwiPg0KICAgICAgICAgICAgPC90ZD4NCiAgICAgICAgICAgIDx0ZCBjbGFzcz0iQm9keURldGFpbCI+DQogICAgICAgICAgICA8L3RkPg0KICAgICAgICAgICAgPHRkIGNsYXNzPSJCb2R5RGV0YWlsIj4NCiAgICAgICAgICAgIDwvdGQ+DQogICAgICAgICAgICA8dGQgbm93cmFwPSJ0cnVlIiBjbGFzcz0iQm9keUNhcHRpb24iPg0KCQkJCQkJCQkJCU1haWwgUm91dGluZyBBZGRyZXNzOjxicj48L3RkPg0KICAgICAgICAgICAgPHRkIG5vd3JhcD0idHJ1ZSIgY2xhc3M9IkJvZHlEZXRhaWwiPg0KICAgICAgICAgICAgICA8YSBocmVmPSJtYWlsdG86cXVuamlhbi54aWFvQGhwLmNvbSI+DQogICAgICAgICAgICAgICAgPGZvbnQgY29sb3I9IiMwMDAwRkYiPnF4aTI2NzM0Ny5yb3V0aW5nQGFtMi5leGNoLmhwLmNvbTwvZm9udD4NCiAgICAgICAgICAgICAgPC9hPg0KICAgICAgICAgICAgICA8YnI+DQogICAgICAgICAgICA8L3RkPg0KICAgICAgICAgIDwvdHI+DQogICAgICAgICAgPHRyIGNsYXNzPSJCb2R5Ij4NCiAgICAgICAgICAgIDx0ZCBjbGFzcz0iQm9keURldGFpbCI+DQogICAgICAgICAgICA8L3RkPg0KICAgICAgICAgIDwvdHI+DQogICAgICAgICAgPHRyIGNsYXNzPSJCb2R5Ij4NCiAgICAgICAgICAgIDx0ZCBub3dyYXA9InRydWUiIGNsYXNzPSJCb2R5Q2FwdGlvbiI+DQoJCQkJCQkJCQlUZWxlcGhvbmUgTnVtYmVyOjxicj48YnI+PC90ZD4NCiAgICAgICAgICAgIDx0ZCBjbGFzcz0iQm9keURldGFpbCI+Kzg2IDIxIDM4ODkgODg4OTxicj48YnI+PC90ZD4NCiAgICAgICAgICAgIDx0ZCBjbGFzcz0iQm9keURldGFpbCI+DQogICAgICAgICAgICA8L3RkPg0KICAgICAgICAgICAgPHRkIGNsYXNzPSJCb2R5Q2FwdGlvbiI+DQogICAgICAgICAgICAgIDxicj4NCgkJCQkJCQkJCQlNb2JpbGUgTnVtYmVyOjxicj48L3RkPg0KICAgICAgICAgICAgPHRkIGNsYXNzPSJCb2R5RGV0YWlsIj4NCiAgICAgICAgICAgICAgPGJyPis4NiAxMzgxODQ0MzU4ODxicj48L3RkPg0KICAgICAgICAgIDwvdHI+DQogICAgICAgICAgPHRyIGNsYXNzPSJCb2R5Ij4NCiAgICAgICAgICAgIDx0ZCBjbGFzcz0iQm9keURldGFpbCI+DQogICAgICAgICAgICA8L3RkPg0KICAgICAgICAgIDwvdHI+DQogICAgICAgICAgPHRyIGNsYXNzPSJCb2R5Ij4NCiAgICAgICAgICAgIDx0ZCBjbGFzcz0iQm9keURldGFpbCI+DQogICAgICAgICAgICA8L3RkPg0KICAgICAgICAgIDwvdHI+DQogICAgICAgICAgPHRyIGNsYXNzPSJCb2R5Ij4NCiAgICAgICAgICAgIDx0ZCBub3dyYXA9InRydWUiIGNsYXNzPSJCb2R5Q2FwdGlvbiI+DQoJCQkJCQkJCQlTdGF0dXM6PGJyPg0KCQkJCQkJCQkJCUpvYiBGdW5jdGlvbjo8YnI+DQoJCQkJCQkJCQkJSm9iIEZhbWlseTo8YnI+DQoJCQkJCQkJCQkgIAkJRW1wbG95ZWUgVHlwZTo8YnI+DQoJCQkJCQkJCQlQYXlyb2xsIENvdW50cnkgQ29kZTo8YnI+DQoJCQkJCQkJCQlOVCBVc2VyIElEOjxicj4NCiAgICAgICAgICAgICAgICAgICAgR2xvYmFsIElEOjxicj4NCgkJCQkJCQkJCQkJCU1hbmFnZXI6PGJyPjwvdGQ+DQogICAgICAgICAgICA8dGQgbm93cmFwPSJ0cnVlIiBjbGFzcz0iQm9keURldGFpbCI+DQogICAgICAgICAgICAgIDxzY3JpcHQgbGFuZ3VhZ2U9ImphdmFzY3JpcHQiPg0KCQkJCQkJCQkJCUxlYXZlT24oIkFjdGl2ZSIpOw0KCQkJCQkJCQkJCTwvc2NyaXB0Pg0KICAgICAgICAgICAgICA8YnI+RW5naW5lZXJpbmc8YnI+U29mdHdhcmUgRGVzaWduPGJyPlJlZ3VsYXI8YnI+Q048YnI+QVNJQVBBQ0lGSUNceGlhb3E8YnI+Z3pobnNrPGJyPjxhIGhyZWY9ImphdmFzY3JpcHQ6cG9wX3dpbmRvd19zY3JvbGwoJ1Blb3BsZUZpbmRlci5hc3B4P3RhcmdldD11aWQ9ZGFubnkubGlAaHAuY29tLG91PVBlb3BsZSxvPWhwLmNvbScsJ3BvcHVwJywnNTUwJywnODAwJykiPlpoZW5nIExpPC9hPjxicj48L3RkPg0KICAgICAgICAgICAgPHRkIGNsYXNzPSJCb2R5RGV0YWlsIj4NCiAgICAgICAgICAgIDwvdGQ+DQogICAgICAgICAgICA8dGQgY2xhc3M9IkJvZHlDYXB0aW9uIiBub3dyYXA9InRydWUiPg0KCQkJCQkJCQkJCUxvY2F0aW9uIENvZGU6PGJyPg0KCQkJCQkJCQkJT3JnYW5pemF0aW9uIFVuaXQ6PGJyPg0KCQkJCQkJCQkJT3JnLiBDaGFydCBHcm91cDo8YnI+DQoJCQkJCQkJCQlCdXNpbmVzcyBVbml0Ojxicj4NCgkJCQkJCQkJCUJ1c2luZXNzIEdyb3VwOjxicj4NCgkJCQkJCQkJCUJ1c2luZXNzIFJlZ2lvbjo8YnI+DQoJCQkJCQkJCQlNUlUgQ29kZTo8YnI+PC90ZD4NCiAgICAgICAgICAgIDx0ZCBub3dyYXA9InRydWUiIGNsYXNzPSJCb2R5RGV0YWlsIj5CRjAwODEwNDI4MDA0SzAwPGJyPkVEUyBHREFTIENoaW5hIENlbnRlcjxicj5FRFMgQXBwbGljYXRpb25zIEdsb2JhbCBEZWxpdmUNCgkJCQkJCQkJCQkoQ0FHRCkNCgkJCQkJCQkJCTxicj5FRFMgQXBwcy9DL0kgR2xvYmFsIERlbGl2ZXJ5DQoJCQkJCQkJCQkJKEVBQykNCgkJCQkJCQkJCTxicj5FRFMgQnVzaW5lc3MNCgkJCQkJCQkJCQkoRURTKQ0KCQkJCQkJCQkJPGJyPldvcmxkd2lkZTxicj40WVNQPGJyPjwvdGQ+DQogICAgICAgICAgPC90cj4NCiAgICAgICAgPC90YWJsZT4NCiAgICAgIDwvdGQ+DQogICAgPC90cj4NCiAgICA8dHIgY2xhc3M9IkJvZHkiPg0KICAgICAgPHRkIGNsYXNzPSJCb2R5RGV0YWlsIj4NCiAgICAgIDwvdGQ+DQogICAgPC90cj4NCiAgICA8dHI+DQogICAgICA8dGQ+DQogICAgICAgIDx0YWJsZSBib3JkZXI9IjAiIGFsaWduPSJjZW50ZXIiIGNlbGxwYWRkaW5nPSIxMXB4Ij4NCiAgICAgICAgICA8dHI+DQogICAgICAgICAgICA8dGQgYWxpZ249ImNlbnRlciI+DQogICAgICAgICAgICAgIDxhIGhyZWY9ImRlcHQuYXNweD90YXJnZXQ9J3VpZD1xdW5qaWFuLnhpYW9AaHAuY29tLG91PVBlb3BsZSxvPWhwLmNvbScmYW1wO21ncj0ndWlkPWRhbm55LmxpQGhwLmNvbSxvdT1QZW9wbGUsbz1ocC5jb20nIj4NCiAgICAgICAgICAgICAgICA8aW1nIHNyYz0iaW1hZ2VzL2J0bl9kZXB0LmdpZiIgYm9yZGVyPSIwIiBBTFQ9IkRlcGFydG1lbnQiPg0KICAgICAgICAgICAgICA8L2E+DQogICAgICAgICAgICA8L3RkPg0KICAgICAgICAgICAgPHRkIGFsaWduPSJjZW50ZXIiPg0KICAgICAgICAgICAgICA8YSBocmVmPSJvcmdjaGFydC5hc3B4P3RhcmdldD0ndWlkPXF1bmppYW4ueGlhb0BocC5jb20sb3U9UGVvcGxlLG89aHAuY29tJyZhbXA7SFBPbmx5PVRydWUiPg0KICAgICAgICAgICAgICAgIDxpbWcgc3JjPSJpbWFnZXMvYnRuX29yZy5naWYiIGJvcmRlcj0iMCIgQUxUPSJPcmdhbml6YXRpb24iPg0KICAgICAgICAgICAgICA8L2E+DQogICAgICAgICAgICA8L3RkPg0KICAgICAgICAgICAgPHRkIGFsaWduPSJjZW50ZXIiPg0KICAgICAgICAgICAgICA8YSBocmVmPSJ2Q2FyZC5hc3B4P3RhcmdldD11aWQ9cXVuamlhbi54aWFvQGhwLmNvbSxvdT1QZW9wbGUsbz1ocC5jb20iIHRhcmdldD0idmNhcmQiPg0KICAgICAgICAgICAgICAgIDxpbWcgc3JjPSJpbWFnZXMvYnRuX3ZDYXJkLmdpZiIgYm9yZGVyPSIwIiBBTFQ9IlYgQ2FyZCI+DQogICAgICAgICAgICAgIDwvYT4NCiAgICAgICAgICAgIDwvdGQ+DQogICAgICAgICAgICA8dGQgYWxpZ249ImNlbnRlciI+DQogICAgICAgICAgICAgIDxhIGhyZWY9ImphdmFzY3JpcHQ6cG9wX3dpbmRvd19zY3JvbGwoJ0dyb3Vwcy5hc3B4P3RhcmdldD11aWQ9cXVuamlhbi54aWFvQGhwLmNvbSxvdT1QZW9wbGUsbz1ocC5jb20nLCdwb3B1cCcsJzU1MCcsJzgwMCcpIj4NCiAgICAgICAgICAgICAgICA8aW1nIHNyYz0iaW1hZ2VzL2J0bl9Hcm91cC5naWYiIGJvcmRlcj0iMCIgQUxUPSJHcm91cHMiPg0KICAgICAgICAgICAgICA8L2E+DQogICAgICAgICAgICA8L3RkPg0KICAgICAgICAgICAgPHRkIGFsaWduPSJjZW50ZXIiPg0KICAgICAgICAgICAgICA8YSBocmVmPSJqYXZhc2NyaXB0OnBvcF93aW5kb3dfc2Nyb2xsKCdQZW9wbGVGaW5kZXIuYXNweD90YXJnZXQ9aHBSZWFsRXN0YXRlSUQ9U0dEMDEsb3U9TG9jYXRpb25zLG89aHAuY29tJywncG9wdXAnLCc1NTAnLCc4MDAnKSI+DQogICAgICAgICAgICAgICAgPGltZyBzcmM9ImltYWdlcy9idG5fT2ZmaWNlLmdpZiIgYm9yZGVyPSIwIiBBTFQ9Ik9mZmljZSI+DQogICAgICAgICAgICAgIDwvYT4NCiAgICAgICAgICAgIDwvdGQ+DQogICAgICAgICAgPC90cj4NCiAgICAgICAgPC90YWJsZT4NCiAgICAgIDwvdGQ+DQogICAgPC90cj4NCiAgPC90YWJsZT4NCjwvYm9keT5kAg0PZBYCZg9kFgRmD2QWAgIBDxBkZBYBZmQCAg9kFgJmDw8WAh8BaGRkAhUPFgIfAWdkGAIFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBRpjdGwwMCRjb250TWFzdGVyJGNoa0RldGVjdAUXY3RsMDAkY29udE1hc3RlciRndlNob3cPZ2Q=" />
+</div>
+
+<script type="text/javascript">
+<!--
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+// -->
+</script>
+
+
+<script src="/PeopleFinder/WebResource.axd?d=_3h_fB_Pk2pZMoiQAOGJZw2&amp;t=633230847410140979" type="text/javascript"></script>
+
+
+<script src="/PeopleFinder/WebResource.axd?d=vqwiAcffzYAGUrxem1q7zA2&amp;t=633230847410140979" type="text/javascript"></script>
+    <div>
+        
+  <input name="ctl00$contMaster$_hdnSearchOption" type="hidden" id="ctl00_contMaster__hdnSearchOption" value="2" /> 
+<script language="javascript" type="text/javascript">
+
+function pop_window_scroll(URL, Name, WinHeight, WinWidth)
+{
+	winobj = window.open(URL, Name, 'toolbar=no,scrollbars=yes,location=no,status=yes,menubar=no,directories=no,fullscreen=no,resizable=yes,height=' + WinHeight + ',width=' + WinWidth);
+	winobj.focus();
+}
+// function to show hide localLanguage DropdownListbox
+function showLanguageList(sType,sLngDwl)
+{
+    if(parseInt(sType)==10 || parseInt(sType)==11)
+    {    
+        if (typeof(document.getElementById(sLngDwl)) == "object")
+        {
+            document.getElementById(sLngDwl).style.display='';
+        }
+        
+    }
+    else 
+    {          
+         if (typeof(document.getElementById(sLngDwl)) == "object")
+        {
+            document.getElementById(sLngDwl).style.display='none';
+        }       
+    }
+}
+// function to show hide search type based on searchoption
+function showList(sOption,spTable,slTable,soTable)
+{
+
+    if(parseInt(sOption)==0)
+    {           
+         document.getElementById(spTable).style.display='';
+         document.getElementById(slTable).style.display='none';  
+         document.getElementById(soTable).style.display='none';
+         document.getElementById("ctl00_contMaster_txtSearchValue").focus(); 
+         document.getElementById("ctl00_contMaster_txtSearchValue").value="";       
+    }
+    else if(parseInt(sOption)==1)
+    {          
+         document.getElementById(slTable).style.display='';
+         document.getElementById(spTable).style.display='none';
+         document.getElementById(soTable).style.display='none';  
+         document.getElementById("ctl00_contMaster_txtSearchValue_loc").focus(); 
+         document.getElementById("ctl00_contMaster_txtSearchValue_loc").value="";        
+    }
+    else if(parseInt(sOption)==2)
+    {          
+         document.getElementById(soTable).style.display='';
+         document.getElementById(spTable).style.display='none';
+         document.getElementById(slTable).style.display='none';
+         document.getElementById("ctl00_contMaster_txtSearchValue_org").focus(); 
+         document.getElementById("ctl00_contMaster_txtSearchValue_org").value="";
+    }
+
+}
+
+// Function to trim the string
+function trim(s) {
+  while (s.substring(0,1) == ' ') {
+    s = s.substring(1,s.length);
+  }
+  while (s.substring(s.length-1,s.length) == ' ') {
+    s = s.substring(0,s.length-1);
+  }
+  return s;
+}
+
+// Function to validate the search value for IE....
+function ValidateFilter_IE(sOption)
+{
+   try
+   {    
+  var kcode=window.event.keyCode; 
+   //var kcode=document.window.event.which;
+   
+   if (kcode==0)
+   {
+    if (typeof(document.getElementById(sOption)) == "object")
+	    {	
+	          var _intOption= document.getElementById(sOption).value;	
+	        
+	            if(parseInt(_intOption)==0) //People
+	            {               
+		                if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue")) == "object")
+		                {
+		                    var sSearchVal = trim(document.getElementById("ctl00_contMaster_txtSearchValue").value); 		                    		        
+		                    if(sSearchVal=="")
+		                     {	
+		                      alert("Please enter search query.");	    
+			                  document.getElementById("ctl00_contMaster_txtSearchValue").focus();
+			                  return false;
+		                     }	                    
+		                     if ((sSearchVal.indexOf("@")!=-1)&& (sSearchVal.substring(sSearchVal.indexOf("@"),sSearchVal.length).toLowerCase()!="@hp.com"))
+		                     {
+		                     alert("Invalid HP E-mail ID - " + sSearchVal);
+		                     document.getElementById("ctl00_contMaster_txtSearchValue").focus();
+		                     return false
+		                     }
+		                     
+		                }
+		        }		
+	             if(parseInt(_intOption)==1) // Location
+	             {               
+		                 if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue_loc")) == "object")
+		                {
+		                    var sSearchVal = trim(document.getElementById("ctl00_contMaster_txtSearchValue_loc").value); 		        
+		                    if(sSearchVal=="")
+		                     {	
+		                      alert("Please enter search query.");	    
+			                  document.getElementById("ctl00_contMaster_txtSearchValue_loc").focus();
+			                  return false;
+		                     }
+		                     if ((sSearchVal.indexOf("@")!=-1)&& (sSearchVal.substring(sSearchVal.indexOf("@"),sSearchVal.length).toLowerCase()!="@hp.com"))
+		                     {
+		                     alert("Invalid HP E-mail ID - " + sSearchVal);
+		                     document.getElementById("ctl00_contMaster_txtSearchValue_loc").focus();
+		                     return false
+		                     }
+		                }
+		           }	
+	             if(parseInt(_intOption)==2) //organization
+	            {       
+	                    if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue_org")) == "object")
+		                {
+		                    var sSearchVal = trim(document.getElementById("ctl00_contMaster_txtSearchValue_org").value); 		        
+		                    if(sSearchVal=="")
+		                     {	
+		                      alert("Please enter search query.");	    
+			                  document.getElementById("ctl00_contMaster_txtSearchValue_org").focus();
+			                  return false;
+		                     }
+		                     if ((sSearchVal.indexOf("@")!=-1)&& (sSearchVal.substring(sSearchVal.indexOf("@"),sSearchVal.length).toLowerCase()!="@hp.com"))
+		                     {
+		                     alert("Invalid HP E-mail ID - " + sSearchVal);
+		                     document.getElementById("ctl00_contMaster_txtSearchValue_org").focus();
+		                     return false
+		                     }
+		                }
+		         }
+		}
+	StripParenthesis(sOption)
+	}
+	}catch(err)
+	{
+	}	
+    
+    return true;
+}
+
+
+// Function to validate the search value for Firefox....
+function ValidateFilter_FF(sOption)
+{
+   try
+   {  
+    if (typeof(document.getElementById(sOption)) == "object")
+	    {	
+	          var _intOption= document.getElementById(sOption).value;	
+	        
+	            if(parseInt(_intOption)==0) //People
+	            {               
+		                if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue")) == "object")
+		                {
+		                    var sSearchVal = trim(document.getElementById("ctl00_contMaster_txtSearchValue").value); 		        
+		                    if(sSearchVal=="")
+		                     {	
+		                      alert("Please enter search query.");	    
+			                  document.getElementById("ctl00_contMaster_txtSearchValue").focus();
+			                  return false;
+		                     }
+		                     if ((sSearchVal.indexOf("@")!=-1)&& (sSearchVal.substring(sSearchVal.indexOf("@"),sSearchVal.length).toLowerCase()!="@hp.com"))
+		                     {
+		                     alert("Invalid HP E-mail ID - " + sSearchVal);
+		                     document.getElementById("ctl00_contMaster_txtSearchValue").focus();
+		                     return false
+		                     }
+		                }
+		        }		
+	             if(parseInt(_intOption)==1) // Location
+	             {               
+		                 if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue_loc")) == "object")
+		                {
+		                    var sSearchVal = trim(document.getElementById("ctl00_contMaster_txtSearchValue_loc").value); 		        
+		                    if(sSearchVal=="")
+		                     {	
+		                      alert("Please enter search query.");	    
+			                  document.getElementById("ctl00_contMaster_txtSearchValue_loc").focus();
+			                  return false;
+		                     }
+		                      if ((sSearchVal.indexOf("@")!=-1)&& (sSearchVal.substring(sSearchVal.indexOf("@"),sSearchVal.length).toLowerCase()!="@hp.com"))
+		                     {
+		                     alert("Invalid HP E-mail ID - " + sSearchVal);
+		                     document.getElementById("ctl00_contMaster_txtSearchValue_loc").focus();
+		                     return false
+		                     }
+		                }
+		           }	
+	             if(parseInt(_intOption)==2) //organization
+	            {       
+	                    if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue_org")) == "object")
+		                {
+		                    var sSearchVal = trim(document.getElementById("ctl00_contMaster_txtSearchValue_org").value); 		        
+		                    if(sSearchVal=="")
+		                     {	
+		                      alert("Please enter search query.");	    
+			                  document.getElementById("ctl00_contMaster_txtSearchValue_org").focus();
+			                  return false;
+		                     }
+		                      if ((sSearchVal.indexOf("@")!=-1)&& (sSearchVal.substring(sSearchVal.indexOf("@"),sSearchVal.length).toLowerCase()!="@hp.com"))
+		                     {
+		                     alert("Invalid HP E-mail ID - " + sSearchVal);
+		                     document.getElementById("ctl00_contMaster_txtSearchValue_org").focus();
+		                     return false
+		                     }
+		                }
+		         }
+		}
+	StripParenthesis(sOption)
+	
+	}catch(err)
+	{
+	}	
+    
+    return true;
+}
+
+//function to prevent invalid character...
+ function _HPEPKeycode_IE()
+{
+	var KeyValue=window.event.keyCode;
+	//alert(KeyValue);
+	//Considering only characters from a-z A-Z 1-9 0 @ - _ . , \ Enter space
+	if((KeyValue >=97 && KeyValue <=122)||(KeyValue >=65 && KeyValue <=90)||(KeyValue >=49 && KeyValue <=57)||(KeyValue==48)||(KeyValue==42)||(KeyValue==64)||(KeyValue==46)||(KeyValue==92)||(KeyValue==45)||(KeyValue==95)||(KeyValue==13)||(KeyValue==44)||(KeyValue==32)||(KeyValue==40)||(KeyValue==41)||(KeyValue==43)||(KeyValue==47))
+	{
+		//Displays the entered Character
+		return true;
+	}
+	else
+	{
+		//Do not Display the entered character
+		event.keyCode=0;
+		return false;
+	}
+	
+}
+// for firefox....
+function _HPEPKeycode_Mozilla(Key)
+{
+//alert(Key);
+	//Considering only characters from a-z A-Z 1-9 0 @ - _ . , \ Enter space and Back Space
+	if((Key >=97 && Key <=122)||(Key >=65 && Key <=90)||(Key >=49 && Key <=57)||(Key==48)||(Key==42)||(Key==0)||(Key==64)||(Key==46)||(Key==92)||(Key==8)||(Key==45)||(Key==95)||(Key==13)||(Key==44)||(Key==32)||(Key==40)||(Key==41)||(Key==43)||(Key==47))
+	{ 
+		//Displays the entered Character
+		return true;
+	}
+	{
+		//Do not Display the entered character
+		return false;
+	}
+	
+}
+
+
+// strip parenthesis
+function StripParenthesis(sOption)
+	{	
+	    try
+	    {
+	    if (typeof(document.getElementById(sOption)) == "object")
+	    {
+	        var _intOption= document.getElementById(sOption).value;	
+	        
+	            if(parseInt(_intOption)==0) //People
+	            {               
+		                if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue")) == "object")
+		                {
+		                    var sSearchVal = document.getElementById("ctl00_contMaster_txtSearchValue").value; 		        
+		                    if(!((sSearchVal.indexOf("-") > 2 && ((!isNaN(sSearchVal.charAt(0))) || sSearchVal.charAt(0) == "(" )) || (!isNaN(sSearchVal))))
+		                     {		    
+			                  document.getElementById("ctl00_contMaster_txtSearchValue").value  = sSearchVal.replace(/\(.*\)/i,"");			
+		                     }
+		                }
+		        }		
+	             if(parseInt(_intOption)==1) // Location
+	             {               
+		                 if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue_loc")) == "object")
+		                {
+		                    var sSearchVal = document.getElementById("ctl00_contMaster_txtSearchValue_loc").value; 		        
+		                     if(!((sSearchVal.indexOf("-") > 2 && ((!isNaN(sSearchVal.charAt(0))) || sSearchVal.charAt(0) == "(" )) || (!isNaN(sSearchVal))))
+		                     {		    
+			                 document.getElementById("ctl00_contMaster_txtSearchValue_loc").value  = sSearchVal.replace(/\(.*\)/i,"");			
+		                     }
+		                }
+		           }	
+	             if(parseInt(_intOption)==2) //organization
+	            {               
+		                 if (typeof(document.getElementById("ctl00_contMaster_txtSearchValue_org")) == "object")
+		                {
+		                    var sSearchVal = document.getElementById("ctl00_contMaster_txtSearchValue_org").value; 		        
+		                     if(!((sSearchVal.indexOf("-") > 2 && ((!isNaN(sSearchVal.charAt(0))) || sSearchVal.charAt(0) == "(" )) || (!isNaN(sSearchVal))))
+		                    {		    
+			                document.getElementById("ctl00_contMaster_txtSearchValue_org").value  = sSearchVal.replace(/\(.*\)/i,"");			
+		                    }
+		                }
+		         }
+		}
+		}catch(exc)	
+		{
+		}
+	}
+
+</script>
+ 
+        <div>    
+       
+ <table id="ctl00_contMaster__mainTab" width="100%" border="0" cellpadding="0" align="center">
+	<tr>
+		<td>
+
+</td>
+	</tr>
+</table>
+ 
+    <table width='100%' border=0 cellpadding=5 align='center'>
+<tr>
+<td>
+<table id="ctl00_contMaster__tableSearchFilter" width="100%" border="2" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+
+<table class='RightModuleHeader' width='100%' border="0" >
+<tr>
+<td >
+<table  width='100%' border="0" id="TABLE1" style="height:65px">
+<tr>
+<td  width="12%">
+<select name="ctl00$contMaster$ddlSearchOption" id="ctl00_contMaster_ddlSearchOption" OnChange="javascript:showList(this.value,'ctl00_contMaster__peopleTab','ctl00_contMaster__locationTab','ctl00_contMaster__orgTab');">
+			<option selected="selected" value="0">People</option>
+			<option value="1">Locations</option>
+			<option value="2">Organizations</option>
+
+		</select></td>
+    <td class="RightModuleHeader" rowspan="2" align="left" valign="top" >
+    
+    <!-- table for people-->
+  
+       <table id="ctl00_contMaster__peopleTab" width="100%" border="0" style="display:''">
+			<tr>
+				<td nowrap="nowrap" width="20%">
+         <select name="ctl00$contMaster$ddlSearchType" id="ctl00_contMaster_ddlSearchType" OnChange="javascript:showLanguageList(this.value,'ctl00_contMaster_ddlLocalLanguage');" style="width:191px;">
+					<option selected="selected" value="0">LastName, FirstName</option>
+					<option value="1">FirstName LastName</option>
+					<option value="2">FirstName OR LastName</option>
+					<option value="3">Telephone</option>
+					<option value="4">E-Mail</option>
+					<option value="5">NT Login</option>
+					<option value="6">LName,FName Sounds Like</option>
+					<option value="7">FName LName Sounds Like</option>
+					<option value="8">MRU Code</option>
+					<option value="10">Local Language</option>
+					<option value="11">Local Organization Name</option>
+					<option value="12">Global ID</option>
+
+				</select>         
+       
+       </td>
+				<td nowrap="nowrap">       
+      <select name="ctl00$contMaster$ddlLocalLanguage" id="ctl00_contMaster_ddlLocalLanguage" style="width:181px;display:none">
+					<option value="0">Chinese</option>
+					<option value="1">Hebrew</option>
+					<option value="2">Kanji</option>
+					<option value="3">Katakana</option>
+					<option value="4">Korean</option>
+					<option value="5">Taiwanese</option>
+					<option value="6">Thai</option>
+
+				</select>  
+       </td>
+				<td nowrap="nowrap">
+   <input name="ctl00$contMaster$txtSearchValue" type="text" value="Xiao, Qun-Jian" id="ctl00_contMaster_txtSearchValue" OnKeyPress="javascript:_HPEPKeycode_IE();" style="width:208px;" /></td>
+				<td nowrap="nowrap">
+<input name="ctl00$contMaster$chkDetect" type="checkbox" id="ctl00_contMaster_chkDetect" value="1" checked="checked" /><b>Detect Search Type</b>
+           </td>
+			</tr>
+			<tr>
+				<td nowrap="nowrap">
+<b>City:</b>
+    <input name="ctl00$contMaster$txtCity" type="text" id="ctl00_contMaster_txtCity" style="width:148px;" />
+</td>
+				<td nowrap="nowrap"></td>
+				<td nowrap="nowrap">
+<b>Country/Region: </b><select name="ctl00$contMaster$ddlCountry" id="ctl00_contMaster_ddlCountry" style="width:157px;">
+					<option value=""></option>
+					<option value="AR">Argentina</option>
+					<option value="AT">Austria</option>
+					<option value="AU">Australia</option>
+					<option value="BE">Belgium</option>
+					<option value="BR">Brazil</option>
+					<option value="BG">Bulgaria</option>
+					<option value="CA">Canada</option>
+					<option value="CL">Chile</option>
+					<option value="CN">China</option>
+					<option value="CO">Colombia</option>
+					<option value="CR">Costa Rica</option>
+					<option value="HR">Croatia</option>
+					<option value="CZ">Czech Republic</option>
+					<option value="DK">Denmark</option>
+					<option value="EC">Ecuador</option>
+					<option value="FI">Finland</option>
+					<option value="FR">France</option>
+					<option value="DE">Germany</option>
+					<option value="GR">Greece</option>
+					<option value="HK">Hong Kong</option>
+					<option value="HU">Hungary</option>
+					<option value="IN">India</option>
+					<option value="ID">Indonesia</option>
+					<option value="IE">Ireland</option>
+					<option value="IL">Israel</option>
+					<option value="IT">Italy</option>
+					<option value="JP">Japan</option>
+					<option value="KE">Kenya</option>
+					<option value="KR">Korea</option>
+					<option value="LU">Luxembourg</option>
+					<option value="MY">Malaysia</option>
+					<option value="MX">Mexico</option>
+					<option value="MA">Morocco</option>
+					<option value="NL">Netherlands</option>
+					<option value="NZ">New Zealand</option>
+					<option value="NG">Nigeria</option>
+					<option value="NO">Norway</option>
+					<option value="PE">Peru</option>
+					<option value="PH">Philippines</option>
+					<option value="PL">Poland</option>
+					<option value="PT">Portugal</option>
+					<option value="PR">Puerto Rico</option>
+					<option value="RO">Romania</option>
+					<option value="SU">Russia</option>
+					<option value="SG">Singapore</option>
+					<option value="SK">Slovak Republic</option>
+					<option value="ZA">South Africa</option>
+					<option value="ES">Spain</option>
+					<option value="SA">Saudi Arabia</option>
+					<option value="SE">Sweden</option>
+					<option value="CH">Switzerland</option>
+					<option value="TW">Taiwan</option>
+					<option value="TH">Thailand</option>
+					<option value="TR">Turkey</option>
+					<option value="UA">Ukraine</option>
+					<option value="AE">United Arab Emirates</option>
+					<option value="GB">United Kingdom</option>
+					<option value="US">United States</option>
+					<option value="VE">Venezuela</option>
+					<option value="VN">Vietnam</option>
+					<option value="YU">Yugoslavia</option>
+
+				</select></td>
+				<td>
+               </td>
+			</tr>
+		</table>
+		        
+     <!-- End of table for people-->    
+     
+      <!-- table for location-->    
+       <table id="ctl00_contMaster__locationTab" width="100%" border="0" style="display:none">
+			<tr>
+				<td nowrap="nowrap" width="32%">
+         <select name="ctl00$contMaster$ddlstypeLoc" id="ctl00_contMaster_ddlstypeLoc" style="width:181px;">
+					<option selected="selected" value="0">City</option>
+					<option value="1">State</option>
+					<option value="2">Country/Region</option>
+					<option value="3">Real Estate Id</option>
+
+				</select>         
+       
+       </td>
+				<td nowrap="nowrap" align="left">
+   <input name="ctl00$contMaster$txtSearchValue_loc" type="text" value="Xiao, Qun-Jian" id="ctl00_contMaster_txtSearchValue_loc" OnKeyPress="javascript:_HPEPKeycode_IE();" style="width:208px;" /></td>
+				<td>
+
+           </td>
+			</tr>
+			<tr>
+				<td style="height:27px">&nbsp;
+
+</td>
+				<td>
+</td>
+				<td>
+               </td>
+			</tr>
+		</table>
+		
+        
+     <!-- End of table for location-->
+     
+      <!-- table for Organization-->
+    
+       <table id="ctl00_contMaster__orgTab" width="100%" border="0" style="display:none">
+			<tr>
+				<td nowrap="nowrap" width="32%">
+         <select name="ctl00$contMaster$ddlstypeOrg" id="ctl00_contMaster_ddlstypeOrg" style="width:181px;">
+					<option selected="selected" value="0">MRU Code</option>
+					<option value="1">Business Group</option>
+					<option value="2">Business Unit</option>
+					<option value="3">Business Region</option>
+					<option value="4">Organization</option>
+					<option value="5">Organization Chart Group</option>
+
+				</select>         
+       
+       </td>
+				<td nowrap="nowrap">
+   <input name="ctl00$contMaster$txtSearchValue_org" type="text" value="Xiao, Qun-Jian" id="ctl00_contMaster_txtSearchValue_org" OnKeyPress="javascript:_HPEPKeycode_IE();" style="width:208px;" /></td>
+				<td>
+
+           </td>
+			</tr>
+			<tr>
+				<td style="height:29px">&nbsp;
+
+</td>
+				<td>
+</td>
+				<td>
+               </td>
+			</tr>
+		</table>
+		
+        
+     <!-- End of table for Organization-->
+     
+        </td>
+   
+</tr>
+<tr>
+<td >
+    <input type="submit" name="ctl00$contMaster$btnFindMatches" value="Find Matches" id="ctl00_contMaster_btnFindMatches" /></td>
+
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+	</tr>
+</table>
+ 
+</td>
+</tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td>
+<table id="ctl00_contMaster_Table2" width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+<table id="ctl00_contMaster__topMessage" width="100%" border="0" cellpadding="3" cellspacing="0" style="height:50px">
+			<tr>
+				<td>This information is to be used for conducting HP business only. </td>
+			</tr>
+		</table>
+		
+</td>
+		<td>
+<table id="ctl00_contMaster__printerTableTop" width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td style="height: 43px"></td>
+				<td align="right" style="height: 43px">
+<input type="hidden" name="ctl00$contMaster$hdnXmlData" id="ctl00_contMaster_hdnXmlData" value="&lt;html xmlns:ms=&quot;urn:anything&quot; xmlns:msvb=&quot;urn:dummy&quot;>
+  &lt;head>
+    &lt;META http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-16&quot;>
+    &lt;script language=&quot;javascript&quot;>
+					window.print();
+				
+					function SplitAddress(sAddress) {
+ 						var aAddress;
+ 						var iLen;
+
+						aAddress = sAddress.split(&quot;$&quot;);
+						iLen = aAddress.length;
+						for(i = 0; i &lt; iLen; i++) {
+	 						document.write(aAddress[i] + &quot;&lt;br />&quot;);
+	 					}
+					}
+
+					function SplitAddressBlank(sAddress) {
+ 						var aAddress;
+ 						var iLen;
+
+						aAddress = sAddress.split(&quot;$&quot;);
+						iLen = aAddress.length;
+						for(i = 0; i &lt; iLen; i++) {
+	 						document.write(&quot;&lt;br />&quot;);
+	 					}
+					}	
+					
+					&lt;!--Matt,07/15/2005,Get real estate id from work loctaion, ECR 1603 -->
+					function GetRealEstateID(sWorkLocation){
+						var index = sWorkLocation.indexOf(&quot;hpRealEstateID=&quot;);
+						if( index == -1 )
+						return;
+						index = sWorkLocation.indexOf(&quot;=&quot;);
+						var indexOfFirstdreak = sWorkLocation.indexOf(&quot;,&quot;);
+						document.write( sWorkLocation.substring(index+1,indexOfFirstdreak) );
+						return;											       
+					}	
+					&lt;!--Matt, 07/28/2005,Fix issue 1827 -->
+					function LeaveOn(sObjectClass) {
+						if(sObjectClass == &quot;Leave With Pay&quot;){
+	 						document.write(&quot;Leave of Absence&quot;);
+	 					}
+	 					else{
+	 						document.write(sObjectClass);
+	 					}
+					}	
+
+					
+				&lt;/script>
+  &lt;/head>
+&lt;/html>
+&lt;body xmlns:ms=&quot;urn:anything&quot; xmlns:msvb=&quot;urn:dummy&quot;>
+  &lt;p>This information is to be used for conducting HP business only.&lt;/p>
+  &lt;span class=&quot;PageHeader&quot;>Person Detail&lt;/span>
+  &lt;table border=&quot;0&quot; width=&quot;650&quot;>
+    &lt;tr>
+      &lt;td align=&quot;center&quot;>
+        &lt;table cellpadding=&quot;10&quot; border=&quot;2&quot; style=&quot;border-color:#999999&quot; align=&quot;left&quot; width=&quot;650&quot;>
+          &lt;tr>
+            &lt;td>
+              &lt;b>Name&lt;/b>
+            &lt;/td>
+            &lt;td>
+              &lt;b>Location&lt;/b>
+            &lt;/td>
+            &lt;td>
+              &lt;b>Telephone&lt;/b>
+            &lt;/td>
+            &lt;td>
+              &lt;b>Primary E-Mail&lt;/b>
+            &lt;/td>
+            &lt;td>
+              &lt;b>About Me&lt;/b>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td>Qun-Jian Xiao&lt;script language=&quot;javascript&quot;>
+			// Display Non-HP for contingent workers
+			function NonHP(sText) {
+				if(sText==&quot;hpContingentWorker&quot; || sText == &quot;nonhpOrgPerson&quot; )
+					document.write(&quot; (Non-HP)&quot;);
+			}
+		&lt;/script>&lt;script language=&quot;javascript&quot;>
+				NonHP(&quot;top&quot;);
+			&lt;/script>&lt;script language=&quot;javascript&quot;>
+			// Display Non-HP for contingent workers
+			function NonHP(sText) {
+				if(sText==&quot;hpContingentWorker&quot; || sText == &quot;nonhpOrgPerson&quot; )
+					document.write(&quot; (Non-HP)&quot;);
+			}
+		&lt;/script>&lt;script language=&quot;javascript&quot;>
+				NonHP(&quot;person&quot;);
+			&lt;/script>&lt;script language=&quot;javascript&quot;>
+			// Display Non-HP for contingent workers
+			function NonHP(sText) {
+				if(sText==&quot;hpContingentWorker&quot; || sText == &quot;nonhpOrgPerson&quot; )
+					document.write(&quot; (Non-HP)&quot;);
+			}
+		&lt;/script>&lt;script language=&quot;javascript&quot;>
+				NonHP(&quot;organizationalPerson&quot;);
+			&lt;/script>&lt;script language=&quot;javascript&quot;>
+			// Display Non-HP for contingent workers
+			function NonHP(sText) {
+				if(sText==&quot;hpContingentWorker&quot; || sText == &quot;nonhpOrgPerson&quot; )
+					document.write(&quot; (Non-HP)&quot;);
+			}
+		&lt;/script>&lt;script language=&quot;javascript&quot;>
+				NonHP(&quot;inetOrgPerson&quot;);
+			&lt;/script>&lt;script language=&quot;javascript&quot;>
+			// Display Non-HP for contingent workers
+			function NonHP(sText) {
+				if(sText==&quot;hpContingentWorker&quot; || sText == &quot;nonhpOrgPerson&quot; )
+					document.write(&quot; (Non-HP)&quot;);
+			}
+		&lt;/script>&lt;script language=&quot;javascript&quot;>
+				NonHP(&quot;hpPerson&quot;);
+			&lt;/script>&lt;script language=&quot;javascript&quot;>
+			// Display Non-HP for contingent workers
+			function NonHP(sText) {
+				if(sText==&quot;hpContingentWorker&quot; || sText == &quot;nonhpOrgPerson&quot; )
+					document.write(&quot; (Non-HP)&quot;);
+			}
+		&lt;/script>&lt;script language=&quot;javascript&quot;>
+				NonHP(&quot;hpEmployee&quot;);
+			&lt;/script>&lt;script language=&quot;javascript&quot;>
+			// Display Non-HP for contingent workers
+			function NonHP(sText) {
+				if(sText==&quot;hpContingentWorker&quot; || sText == &quot;nonhpOrgPerson&quot; )
+					document.write(&quot; (Non-HP)&quot;);
+			}
+		&lt;/script>&lt;script language=&quot;javascript&quot;>
+				NonHP(&quot;ntUser&quot;);
+			&lt;/script>&lt;/td>
+            &lt;td nowrap=&quot;true&quot;>Shanghai, CN&lt;/td>
+            &lt;td>+86 21 3889 8889&lt;/td>
+            &lt;td>qunjian.xiao@hp.com&lt;/td>
+            &lt;td>Andy,TSG-GDCC-SH&lt;/td>
+          &lt;/tr>
+        &lt;/table>
+      &lt;/td>
+    &lt;/tr>
+    &lt;tr>
+      &lt;td align=&quot;center&quot;>
+        &lt;table cellpadding=&quot;1&quot; border=&quot;0&quot; width=&quot;650&quot;>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>First Name:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>Qun-Jian&lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Last Name:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>Xiao&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Full Legal Name:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>Qun-Jian Xiao&lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot; rowspan=&quot;7&quot;>
+              &lt;b>Postal Address:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot; rowspan=&quot;7&quot;>Shanghai HP&lt;br>
+								Attn: Qun-Jian
+               Xiao&lt;br>&lt;script language=&quot;javascript&quot;>
+			SplitAddress(&quot;2557 Jinke Road $ Shanghai $ China $ 201203&quot;);
+		&lt;/script>&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Company Name:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>Shanghai HP&lt;br>&lt;/td>
+            &lt;td valign=&quot;top&quot;>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Street:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>
+              &lt;script language=&quot;javascript&quot;>
+			SplitAddress(&quot;2557 Jinke Road&quot;);
+		&lt;/script>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>City:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>Shanghai&lt;/td>
+            &lt;td>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>State/Region:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Country/Region:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>China&lt;br>&lt;/td>
+            &lt;td>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Postal Code:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>201203&lt;br>&lt;/td>
+            &lt;td>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td nowrap=&quot;true&quot;>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td nowrap=&quot;true&quot;>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Real Estate ID\Building:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>
+              &lt;script language=&quot;javascript&quot;>
+										GetRealEstateID(&quot;hpRealEstateID=SGD01,ou=Locations,o=hp.com&quot;);
+							&lt;/script> 
+										\
+							ShangHai,CN-ZhangJiang-Building D&lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot; rowspan=&quot;3&quot;>
+              &lt;b>E-mail:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot; rowspan=&quot;3&quot;>qunjian.xiao@hp.com&lt;br>&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Mail Stop:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>&lt;/td>
+            &lt;td>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Floor:&lt;/b>
+              &lt;br>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>&lt;/td>
+            &lt;td>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Post:&lt;/b>
+              &lt;br>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>&lt;/td>
+            &lt;td>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td nowrap=&quot;true&quot;>
+            &lt;/td>
+            &lt;td nowrap=&quot;true&quot;>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot; nowrap=&quot;true&quot;>
+              &lt;b>Mail Routing Address:&lt;/b>
+              &lt;br>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot; nowrap=&quot;true&quot;>qunjian.xiao@hp.com&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot; nowrap=&quot;true&quot;>
+              &lt;b>Telephone Number:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>+86 21 3889 8889&lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot; nowrap=&quot;true&quot;>
+              &lt;b>Fax Number:&lt;/b>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot; nowrap=&quot;true&quot;>
+              &lt;b>Alt. Telephone Number:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot; nowrap=&quot;true&quot;>
+              &lt;b>Mobile Number:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>+86 13818443588&lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot; nowrap=&quot;true&quot;>
+              &lt;b>Status:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>
+              &lt;script language=&quot;javascript&quot;>
+							LeaveOn(&quot;Active&quot;);
+							
+						&lt;/script>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Location Code:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>BF00810428004K00&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Job Function:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>Engineering&lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Organization Unit:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>EDS GDAS China Center&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Job Family:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>Software Design&lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Org. Chart Group:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>EDS Applications Global Delive
+								(CAGD)
+							&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Employee Type:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>Regular&lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Business Unit:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>EDS Apps/C/I Global Delivery
+								(EAC)
+							&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Payroll Country Code:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>CN&lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Business Group:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>EDS Business
+								(EDS)
+							&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>NT User ID:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>ASIAPACIFIC\xiaoq&lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Business Region:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>Worldwide&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Global ID:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>gzhnsk&lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td>
+            &lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Manager:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>Zheng Li&lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>MRU Code:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>4YSP&lt;br>&lt;/td>
+          &lt;/tr>
+          &lt;tr>
+            &lt;td valign=&quot;top&quot; nowrap=&quot;true&quot;>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>&lt;/td>
+            &lt;td>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot;>
+              &lt;b>Personal Web Page:&lt;/b>
+            &lt;/td>
+            &lt;td valign=&quot;top&quot; nowrap=&quot;true&quot;>
+            &lt;/td>
+          &lt;/tr>
+        &lt;/table>
+      &lt;/td>
+    &lt;/tr>
+  &lt;/table>
+&lt;/body>" /><img style="border:0" src="images/hpweb_1-2_prnt_icn.gif"/>
+<a id="ctl00_contMaster_hlkPrint" href="printVersion.aspx" target="_blank" style="font-weight:bold;text-decoration:underline;">Printable Version</a></td>
+			</tr>
+		</table>
+		
+</td>
+	</tr>
+</table>
+
+
+</td>
+</tr>
+<tr><td ><script language="javascript" xmlns:ms="urn:anything" xmlns:msvb="urn:dummy">
+    
+      
+    
+			function SplitAddress(sAddress) {
+ 				var aAddress;
+ 				var iLen;
+				aAddress = sAddress.split("$");
+				iLen = aAddress.length;
+				for(i = 0; i < iLen; i++) {
+	 				document.write(aAddress[i] + "<br />");
+	 			}
+			}
+			function SplitAddressBlank(sAddress) {
+ 				var aAddress;
+ 				var iLen;
+
+				aAddress = sAddress.split("$");
+				iLen = aAddress.length;
+				for(i = 0; i < iLen; i++) {
+	 				document.write("<br />");
+	 			}
+			}
+
+			<!--Anita,05/05/2005,Get real estate id from work loctaion, ECR 762 -->
+			function GetRealEstateID(sWorkLocation){
+				var index = sWorkLocation.indexOf("hpRealEstateID=");
+				if( index == -1 )
+				  return;
+				  
+				index = sWorkLocation.indexOf("=");
+				var indexOfFirstBreak = sWorkLocation.indexOf(",");
+			        document.write( sWorkLocation.substring(index+1,indexOfFirstBreak) );
+				return;											       
+			}
+			
+			function NonHP(sObjectClass) {
+				if(sObjectClass == "hpContingentWorker" || sObjectClass == "nonhpOrgPerson")
+	 				document.write(" (Non-HP)");
+			}
+			<!--27/08/2005,Matt Fix for issue 1827,Leave status titles in PeopleFinder Web need adjustment -->
+			function LeaveOn(sObjectClass) {
+				if(sObjectClass == "Leave With Pay"){
+	 				document.write("Leave of Absence");
+	 				}
+	 			else{
+	 				document.write(sObjectClass);
+	 				}
+			}			
+			
+			
+			</script>
+<body xmlns:ms="urn:anything" xmlns:msvb="urn:dummy">
+  <br>
+  <br>
+  <span class="PageHeader">
+				Person Detail <br></span>
+  <table border="0" align="center">
+    <tr>
+      <td>
+        <table border="0" align="center" cellpadding="11px">
+          <tr align="center">
+            <td align="center">
+              <a href="dept.aspx?target='uid=qunjian.xiao@hp.com,ou=People,o=hp.com'&amp;mgr='uid=danny.li@hp.com,ou=People,o=hp.com'&amp;HPOnly=True">
+                <img src="images/btn_dept.gif" border="0" ALT="Department">
+              </a>
+            </td>
+            <td align="center">
+              <a href="orgchart.aspx?target='uid=qunjian.xiao@hp.com,ou=People,o=hp.com'&amp;HPOnly=True">
+                <img src="images/btn_org.gif" border="0" ALT="Organization">
+              </a>
+            </td>
+            <td align="center">
+              <a href="vCard.aspx?target=uid=qunjian.xiao@hp.com,ou=People,o=hp.com" target="vcard">
+                <img src="images/btn_vCard.gif" border="0" ALT="V Card">
+              </a>
+            </td>
+            <td align="center">
+              <a href="javascript:pop_window_scroll('Groups.aspx?target=uid=qunjian.xiao@hp.com,ou=People,o=hp.com','popup','550','800')">
+                <img src="images/btn_Group.gif" border="0" ALT="Groups">
+              </a>
+            </td>
+            <td align="center">
+              <a href="javascript:pop_window_scroll('PeopleFinder.aspx?target=hpRealEstateID=SGD01,ou=Locations,o=hp.com','popup','550','800')">
+                <img src="images/btn_Office.gif" border="0" ALT="Office">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <table border="0">
+          <tr>
+            <td>
+              <table cellpadding="10">
+                <tr>
+                  <td class="ContentHeader_PFW">Name</td>
+                  <td class="ContentHeader_PFW">Location</td>
+                  <td class="ContentHeader_PFW">Telephone</td>
+                  <td class="ContentHeader_PFW">Primary E-Mail</td>
+                  <td class="ContentHeader_PFW">About Me</td>
+                </tr>
+                <tr class="RightModuleHeader">
+                  <td>
+                    <b>Qun-Jian Xiao</b>
+                    <font color="#000000" size="-1">
+                      <script language="javascript">
+			NonHP("top");
+		</script>
+                      <script language="javascript">
+			NonHP("person");
+		</script>
+                      <script language="javascript">
+			NonHP("organizationalPerson");
+		</script>
+                      <script language="javascript">
+			NonHP("inetOrgPerson");
+		</script>
+                      <script language="javascript">
+			NonHP("hpPerson");
+		</script>
+                      <script language="javascript">
+			NonHP("hpEmployee");
+		</script>
+                      <script language="javascript">
+			NonHP("ntUser");
+		</script>
+                    </font>
+                  </td>
+                  <td nowrap="true">Shanghai, CN</td>
+                  <td>+86 21 3889 8889</td>
+                  <td>
+                    <a href="mailto:qunjian.xiao@hp.com">qunjian.xiao@hp.com</a>
+                  </td>
+                  <td>Andy,TSG-GDCC-SH</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <table class="Body" cellpadding="1" border="0">
+          <tr class="Body">
+            <td class="BodyCaption">First Name:</td>
+            <td class="BodyDetail">Qun-Jian</td>
+            <td class="BodyDetail">
+            </td>
+            <td class="BodyCaption">Last Name:</td>
+            <td class="BodyDetail">Xiao</td>
+          </tr>
+          <tr class="Body">
+            <td class="BodyCaption">Full Legal Name:</td>
+            <td class="BodyDetail" nowrap="true">Qun-Jian Xiao<br>Ð¤ Èº½¡<br></td>
+          </tr>
+          <tr class="Body">
+            <td class="BodyCaption">Maiden Name:</td>
+            <td class="BodyDetail" nowrap="true">
+            </td>
+          </tr>
+          <tr class="Body">
+            <td nowrap="true" class="BodyCaption">
+										Company Name:<br>
+                    Street:
+                    <script language="javascript">
+											SplitAddressBlank("2557 Jinke Road");
+										</script>
+										City:<br>
+										Country/Region: 																	
+										<br>
+										Postal Code:<br></td>
+            <td nowrap="true" class="BodyDetail">Shanghai HP<br><script language="javascript">
+			SplitAddress("2557 Jinke Road");
+		</script>Shanghai<br>China<br>201203<br></td>
+            <td class="BodyDetail">
+            </td>
+            <td nowrap="true" class="BodyCaption">Postal Address:</td>
+            <td nowrap="true" class="BodyDetail">Shanghai HP<br>
+									Attn: Qun-Jian
+                   Xiao<br><script language="javascript">
+			SplitAddress("2557 Jinke Road $ Shanghai $ China $ 201203");
+		</script></td>
+          </tr>
+          <tr class="Body">
+            <td class="BodyCaption">
+									Real Estate ID\Building: <br>
+									Mail Stop: <br>
+									Floor: <br>
+									Post:
+								</td>
+            <td class="BodyDetail">
+              <script language="javascript">
+										GetRealEstateID("hpRealEstateID=SGD01,ou=Locations,o=hp.com");
+										</script> 
+										\
+										ShangHai,CN-ZhangJiang-Building D<br><br><br><br></td>
+            <td class="BodyDetail">
+            </td>
+            <td nowrap="true" class="BodyCaption">
+										Time Zone: <br>
+										Time Zone Name: <br><br>
+									E-mail:
+								</td>
+            <td nowrap="true" class="BodyDetail">+0800<br><a href="http://hpfs.corp.hp.com/timeconverter.htm" target="_blank" class=" BodyDetailLink">China</a><br><br><a href="mailto:qunjian.xiao@hp.com"><font color="#0000FF">qunjian.xiao@hp.com</font></a><br></td>
+          </tr>
+          <tr class="Body">
+            <td class="BodyDetail">
+            </td>
+            <td class="BodyDetail">
+            </td>
+            <td class="BodyDetail">
+            </td>
+            <td nowrap="true" class="BodyCaption">
+										Mail Routing Address:<br></td>
+            <td nowrap="true" class="BodyDetail">
+              <a href="mailto:qunjian.xiao@hp.com">
+                <font color="#0000FF">qxi267347.routing@am2.exch.hp.com</font>
+              </a>
+              <br>
+            </td>
+          </tr>
+          <tr class="Body">
+            <td class="BodyDetail">
+            </td>
+          </tr>
+          <tr class="Body">
+            <td nowrap="true" class="BodyCaption">
+									Telephone Number:<br><br></td>
+            <td class="BodyDetail">+86 21 3889 8889<br><br></td>
+            <td class="BodyDetail">
+            </td>
+            <td class="BodyCaption">
+              <br>
+										Mobile Number:<br></td>
+            <td class="BodyDetail">
+              <br>+86 13818443588<br></td>
+          </tr>
+          <tr class="Body">
+            <td class="BodyDetail">
+            </td>
+          </tr>
+          <tr class="Body">
+            <td class="BodyDetail">
+            </td>
+          </tr>
+          <tr class="Body">
+            <td nowrap="true" class="BodyCaption">
+									Status:<br>
+										Job Function:<br>
+										Job Family:<br>
+									  		Employee Type:<br>
+									Payroll Country Code:<br>
+									NT User ID:<br>
+                    Global ID:<br>
+												Manager:<br></td>
+            <td nowrap="true" class="BodyDetail">
+              <script language="javascript">
+										LeaveOn("Active");
+										</script>
+              <br>Engineering<br>Software Design<br>Regular<br>CN<br>ASIAPACIFIC\xiaoq<br>gzhnsk<br><a href="javascript:pop_window_scroll('PeopleFinder.aspx?target=uid=danny.li@hp.com,ou=People,o=hp.com','popup','550','800')">Zheng Li</a><br></td>
+            <td class="BodyDetail">
+            </td>
+            <td class="BodyCaption" nowrap="true">
+										Location Code:<br>
+									Organization Unit:<br>
+									Org. Chart Group:<br>
+									Business Unit:<br>
+									Business Group:<br>
+									Business Region:<br>
+									MRU Code:<br></td>
+            <td nowrap="true" class="BodyDetail">BF00810428004K00<br>EDS GDAS China Center<br>EDS Applications Global Delive
+										(CAGD)
+									<br>EDS Apps/C/I Global Delivery
+										(EAC)
+									<br>EDS Business
+										(EDS)
+									<br>Worldwide<br>4YSP<br></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr class="Body">
+      <td class="BodyDetail">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table border="0" align="center" cellpadding="11px">
+          <tr>
+            <td align="center">
+              <a href="dept.aspx?target='uid=qunjian.xiao@hp.com,ou=People,o=hp.com'&amp;mgr='uid=danny.li@hp.com,ou=People,o=hp.com'">
+                <img src="images/btn_dept.gif" border="0" ALT="Department">
+              </a>
+            </td>
+            <td align="center">
+              <a href="orgchart.aspx?target='uid=qunjian.xiao@hp.com,ou=People,o=hp.com'&amp;HPOnly=True">
+                <img src="images/btn_org.gif" border="0" ALT="Organization">
+              </a>
+            </td>
+            <td align="center">
+              <a href="vCard.aspx?target=uid=qunjian.xiao@hp.com,ou=People,o=hp.com" target="vcard">
+                <img src="images/btn_vCard.gif" border="0" ALT="V Card">
+              </a>
+            </td>
+            <td align="center">
+              <a href="javascript:pop_window_scroll('Groups.aspx?target=uid=qunjian.xiao@hp.com,ou=People,o=hp.com','popup','550','800')">
+                <img src="images/btn_Group.gif" border="0" ALT="Groups">
+              </a>
+            </td>
+            <td align="center">
+              <a href="javascript:pop_window_scroll('PeopleFinder.aspx?target=hpRealEstateID=SGD01,ou=Locations,o=hp.com','popup','550','800')">
+                <img src="images/btn_Office.gif" border="0" ALT="Office">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</td></tr><tr><td>
+<TABLE cellSpacing="0" cellPadding="0" border="0" width="100%"><TBODY>
+<tr><td>
+           <table border="0" width="100%" cellpadding="0" cellspacing="0"><tr><td>
+ 
+
+</td>
+<td align="right">
+<table cellpadding="0" cellspacing="0"><tr><td >
+
+         
+        </td><td>
+            
+            
+            </td></tr></table>
+            </td></tr></table>
+            </td></tr>
+            <tr><td>
+ </TD></TR><TR><TD> </TD></TR></TBODY></TABLE>
+
+</td></tr>
+</table>
+
+
+
+
+
+<table width="100%" cellpadding="5" >
+<tr>
+<td >
+<font color="blue" size="-1">To update your display name and phone number in PeopleFinder, please go to </font>
+<a href="https://directoryworks.core.hp.com/" target="_blank">
+<font color="blue" size="-1"><strong><em>DirectoryWorks</em></strong></font></a>.
+<font color="blue" size="-1"> Teleworkers can also change their address.
+<br>
+<table border="0" cellspacing="0" cellpadding="0" style="width: 100%" >
+<tr height="6"> 
+<td height="6"></td>
+	</tr>
+</table>
+<font color="blue" size="-1">HR changes, such as job function, manager, location codes, business unit and non-teleworker addresses cannot be made through </font>
+</font><a href="https://directoryworks.core.hp.com/" target="_blank">
+<font color="blue" size="-1"><strong><em>DirectoryWorks</em></strong></font></a>.
+<font color="blue" size="-1">Talk to your manager if this type of HR data is inaccurate in PeopleFinder.</font>
+<br>
+<br>
+<table width="100%" cellpadding="0" >
+<tr>
+<td>
+<font color="blue" size="-1">For additional help with PeopleFinder, go to </font>
+<a href="http://intranet.hp.com/Sites/atHP_help/Index/Pages/PeopleFinder_Overview.aspx" target="_blank">
+<font color="blue" size="-1"><strong><em>PeopleFinder Help</em></strong></font></a>. <br>
+<br>
+<font color="blue" size="-1">For PeopleFinder power-user tips, go to </font>
+<a href="http://info.portal.hp.com/news/FY06%20News/07-10-06--PeopleFinder_Best_Kept_Secrets_Ctips.htm" target="_blank">
+<font color="blue" size="-1"><strong><em>PeopleFinder Best Kept Secrets</em></strong></font></a>.<br><br>
+<table id="ctl00_contMaster__printerTableBottom" width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td align="left"><img style="border:0" src="images/hpweb_1-2_prnt_icn.gif"/>
+<a id="ctl00_contMaster_HyperLink1" href="printVersion.aspx" target="_blank" style="font-weight:bold;text-decoration:underline;">Printable Version</a></td>
+	</tr>
+</table>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+        
+        </div>
+       
+        <script language="javascript" type="text/javascript">
+//showList(2,"ctl00_contMaster__peopleTab","ctl00_contMaster__locationTab","ctl00_contMaster__orgTab");
+</script>
+     
+    </div>
+    
+<div>
+
+	<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+	<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+</div>
+
+<script type="text/javascript">
+<!--
+document.all("aspnetForm").action = 'peoplefinder.asp';WebForm_AutoFocus('ctl00_contMaster_txtSearchValue');// -->
+</script>
+</form>
+    <SCRIPT  language="javascript" type="text/javascript">
+    setTargetFrame("_blank");
+    setFooterHelpPage("http://intranet.hp.com/Sites/atHP_help/Pages/at_hp_help_homepage.aspx");
+setFooterFeedbackPage("http://feedback.portal.hp.com");
+
+setVersionNumber("5.4.0");
+drawFooter();
+
+
+function CloseWindow()
+{
+//alert(window.name);
+
+if ((navigator.appName=="Netscape"))
+{
+    if(window.name=="popup")
+    {
+         window.open('','_parent','');
+         window.close();
+    }
+    else
+    {        
+        var _win=window.confirm("The Web page you are viewing is trying to close the window.\n \nDo you want to close the window?");
+        if (_win==true)
+        {
+            window.open('','_parent','');
+            window.close();
+        }       
+    }
+}
+else
+{
+    window.close();
+}    
+}
+
+function NonHP(sText) {
+				if(sText=="hpContingentWorker" || sText == "nonhpOrgPerson" )
+					document.write(" (Contingent Worker)");
+			}
+</SCRIPT>
+</body>
+
+</html>
+

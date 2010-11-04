@@ -1,0 +1,274 @@
+
+<table class="Body" cellpadding="1" border="0">
+
+          <tr class="Body">
+
+            <td class="BodyCaption">First Name:</td>
+
+            <td class="BodyDetail">Qun-Jian</td>
+
+            <td class="BodyDetail">
+
+            </td>
+
+            <td class="BodyCaption">Last Name:</td>
+
+            <td class="BodyDetail">Xiao</td>
+
+          </tr>
+
+          <tr class="Body">
+
+            <td class="BodyCaption">Full Legal Name:</td>
+
+            <td class="BodyDetail" nowrap="true">Qun-Jian Xiao<br />? ??<br /></td>
+
+          </tr>
+
+          <tr class="Body">
+
+            <td class="BodyCaption">Maiden Name:</td>
+
+            <td class="BodyDetail" nowrap="true">
+
+            </td>
+
+          </tr>
+
+          <tr class="Body">
+
+            <td nowrap="true" class="BodyCaption">
+
+										Company Name:<br />
+
+                    Street:
+
+                    <script language="javascript">
+
+											SplitAddressBlank("2557 Jinke Road");
+
+										</script>
+
+										City:<br />
+
+										Country/Region: 																	
+
+										<br />
+
+										Postal Code:<br /></td>
+
+            <td nowrap="true" class="BodyDetail">Shanghai HP<br /><script language="javascript">
+
+			SplitAddress("2557 Jinke Road");
+
+		</script>Shanghai<br />China<br />201203<br /></td>
+
+            <td class="BodyDetail">
+
+            </td>
+
+            <td nowrap="true" class="BodyCaption">Postal Address:</td>
+
+            <td nowrap="true" class="BodyDetail">Shanghai HP<br />
+
+									Attn: Qun-Jian
+
+                   Xiao<br /><script language="javascript">
+
+			SplitAddress("2557 Jinke Road $ Shanghai $ China $ 201203");
+
+		</script></td>
+
+          </tr>
+
+          <tr class="Body">
+
+            <td class="BodyCaption">
+
+									Real Estate ID\Building: <br />
+
+									Mail Stop: <br />
+
+									Floor: <br />
+
+									Post:
+
+								</td>
+
+            <td class="BodyDetail">
+
+              <script language="javascript">
+
+										GetRealEstateID("hpRealEstateID=SGD01,ou=Locations,o=hp.com");
+
+										</script> 
+
+										\
+
+										ShangHai,CN-ZhangJiang-Building D<br /><br /><br /><br /></td>
+
+            <td class="BodyDetail">
+
+            </td>
+
+            <td nowrap="true" class="BodyCaption">
+
+										Time Zone: <br />
+
+										Time Zone Name: <br /><br />
+
+									E-mail:
+
+								</td>
+
+            <td nowrap="true" class="BodyDetail">+0800<br /><a href="http://hpfs.corp.hp.com/timeconverter.htm" target="_blank" class=" BodyDetailLink">China</a><br /><br /><a href="mailto:qunjian.xiao@hp.com"><font color="#0000FF">qunjian.xiao@hp.com</font></a><br /></td>
+
+          </tr>
+
+          <tr class="Body">
+
+            <td class="BodyDetail">
+
+            </td>
+
+            <td class="BodyDetail">
+
+            </td>
+
+            <td class="BodyDetail">
+
+            </td>
+
+            <td nowrap="true" class="BodyCaption">
+
+										Mail Routing Address:<br /></td>
+
+            <td nowrap="true" class="BodyDetail">
+
+              <a href="mailto:qunjian.xiao@hp.com">
+
+                <font color="#0000FF">qxi267347.routing@am2.exch.hp.com</font>
+
+              </a>
+
+              <br />
+
+            </td>
+
+          </tr>
+
+          <tr class="Body">
+
+            <td class="BodyDetail">
+
+            </td>
+
+          </tr>
+
+          <tr class="Body">
+
+            <td nowrap="true" class="BodyCaption">
+
+									Telephone Number:<br /><br /></td>
+
+            <td class="BodyDetail">+86 21 3889 8889<br /><br /></td>
+
+            <td class="BodyDetail">
+
+            </td>
+
+            <td class="BodyCaption">
+
+              <br />
+
+										Mobile Number:<br /></td>
+
+            <td class="BodyDetail">
+
+              <br />+86 13818443588<br /></td>
+
+          </tr>
+
+          <tr class="Body">
+
+            <td class="BodyDetail">
+
+            </td>
+
+          </tr>
+
+          <tr class="Body">
+
+            <td class="BodyDetail">
+
+            </td>
+
+          </tr>
+
+          <tr class="Body">
+
+            <td nowrap="true" class="BodyCaption">
+
+									Status:<br />
+
+										Job Function:<br />
+
+										Job Family:<br />
+
+									  		Employee Type:<br />
+
+									Payroll Country Code:<br />
+
+									NT User ID:<br />
+
+                    Global ID:<br />
+
+												Manager:<br /></td>
+
+            <td nowrap="true" class="BodyDetail">
+
+              <script language="javascript">
+
+										LeaveOn("Active");
+
+										</script>
+
+              <br />Engineering<br />Software Design<br />Regular<br />CN<br />ASIAPACIFIC\xiaoq<br />gzhnsk<br /><a href="javascript:pop_window_scroll('PeopleFinder.aspx?target=uid=danny.li@hp.com,ou=People,o=hp.com','popup','550','800')">Zheng Li</a><br /></td>
+
+            <td class="BodyDetail">
+
+            </td>
+
+            <td class="BodyCaption" nowrap="true">
+
+										Location Code:<br />
+
+									Organization Unit:<br />
+
+									Org. Chart Group:<br />
+
+									Business Unit:<br />
+
+									Business Group:<br />
+
+									Business Region:<br />
+
+									MRU Code:<br /></td>
+
+            <td nowrap="true" class="BodyDetail">BF00810428004K00<br />EDS GDAS China Center<br />EDS Applications Global Delive
+
+										(CAGD)
+
+									<br />EDS Apps/C/I Global Delivery
+
+										(EAC)
+
+									<br />EDS Business
+
+										(EDS)
+
+									<br />Worldwide<br />4YSP<br /></td>
+
+          </tr>
+
+        </table>

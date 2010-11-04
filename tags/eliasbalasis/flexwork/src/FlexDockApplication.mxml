@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application 
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns:fc="com.googlecode.flexwork.core.components.*"
+	xmlns:fw="com.googlecode.flexwork.work.components.*"
+	xmlns:kapit="fr.kapit.*"
+	layout="absolute"
+	creationComplete="onCreationComplete();">
+
+	<mx:Style source="css/flexwork.css"/>
+
+	<mx:Script>
+		<![CDATA[
+			import mx.containers.*;
+			import mx.controls.*;
+			import mx.core.*;
+			import mx.events.*;
+			import mx.managers.*;
+			import com.googlecode.flexwork.core.components.*;
+			
+			[Bindable]
+			private var splitWindowPool:SplitWindowPool=new SplitWindowPool();
+
+			private function onCreationComplete():void
+			{
+
+			}
+		]]>
+	</mx:Script>
+	
+	<kapit:KapInspect/>
+	
+	<mx:VBox width="100%" height="100%" backgroundColor="0x000000" horizontalGap="0" verticalGap="0" paddingTop="50" paddingLeft="50" paddingRight="50" paddingBottom="50">
+		
+		<fc:StageWindow width="100%" height="100%" splitWindowPool="{splitWindowPool}">
+
+			<fc:SplitWindow width="100%" height="100%" direction="horizontal">
+
+				<fc:ViewWindow id="viewWindow" width="25%">
+					<fc:SpriteView/>
+					<fc:SpriteView/>
+					<fc:SpriteView/>
+				</fc:ViewWindow>
+
+				<fc:SplitWindow width="75%">
+
+					<fc:SplitWindow height="60%" direction="horizontal">
+
+						<fc:ViewWindow id="viewWindow2" width="75%">
+							<fc:SpriteView/>
+							<fc:SpriteView/>
+							<fc:SpriteView/>
+						</fc:ViewWindow>
+
+						<fc:ViewWindow width="25%">
+							<fc:SpriteView/>
+							<fc:SpriteView/>
+						</fc:ViewWindow>
+
+					</fc:SplitWindow>
+
+					<fc:ViewWindow height="40%">
+						<fc:SpriteView/>
+						<fc:SpriteView/>
+						<fc:SpriteView/>
+						<fc:SpriteView/>
+						<fc:SpriteView/>
+					</fc:ViewWindow>
+
+				</fc:SplitWindow>
+
+			</fc:SplitWindow>
+
+		</fc:StageWindow>
+
+	</mx:VBox>
+
+</mx:Application>

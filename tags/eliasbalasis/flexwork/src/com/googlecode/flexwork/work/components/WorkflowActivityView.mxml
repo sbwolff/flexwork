@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fc:DockingView xmlns:mx="http://www.adobe.com/2006/mxml"
+			   xmlns:youbute="org.flex.components.youbuteClasses.*"
+			   xmlns:fc="com.googlecode.flexwork.core.components.*"
+			   xmlns:fw="com.googlecode.flexwork.work.components.*" initialize="onCreationComplete();" creationComplete="//onCreationComplete();">
+	
+	<mx:Style>
+		.accordionHeaderStyleName {
+			textAlign: "center";
+		}
+	</mx:Style>
+	<mx:Script>
+		<![CDATA[
+			import flash.net.navigateToURL;
+			import mx.controls.Alert;
+			import mx.rpc.events.FaultEvent;
+			import mx.rpc.events.ResultEvent;
+			
+			[Embed(source="/assets/layout.png")]
+			private var iconClass:Class;
+			
+			[Embed(source="/assets/invoke.gif")]
+			private var iconInvokeClass:Class;
+			
+			[Bindable]
+			private var componentData:Array=//
+				[//
+					{//
+						category: "Activities",//
+						components: [//
+							{name:"Assign", icon:iconInvokeClass},//
+//							{name:"Compensate", icon:iconInvokeClass},//
+//							{name:"Decide", icon:iconInvokeClass},//
+//							{name:"Empty", icon:iconInvokeClass},//
+//							{name:"Fax", icon:iconInvokeClass},//
+//							{name:"Flow", icon:iconInvokeClass},//
+//							{name:"Human Task", icon:iconInvokeClass},//
+//							{name:"Invoke", icon:iconInvokeClass},//
+//							{name:"Join", icon:iconInvokeClass},//
+//							{name:"Repeat", icon:iconInvokeClass},//
+							{className:"Switch", icon:iconInvokeClass}//
+						]
+					}
+					,//
+					{//
+						category: "Services",//
+						components: [//
+							{name:"EJB", icon:iconInvokeClass},//
+//							{name:"HTTP Service", icon:iconInvokeClass},//
+//							{name:"SOAP (Web Service)", icon:iconInvokeClass},//
+//							{name:"CORBA", icon:iconInvokeClass},//
+//							{name:"JMS", icon:iconInvokeClass},//
+							{name:"TIBCO ", icon:iconInvokeClass}//
+						]//
+					}//
+				];
+			private function onCreationComplete():void
+			{
+				this.label="Palette";
+			}
+		]]>
+	</mx:Script>
+	<mx:VBox width="100%" height="100%">
+	<mx:Accordion headerStyleName="accordionHeaderStyleName" width="100%" height="100%" resizeToContent="true">
+				
+		<mx:Repeater id="componentCatalogRepeater" dataProvider="{componentData}">
+			<mx:VBox label="{componentCatalogRepeater.currentItem.category}" width="100%" horizontalAlign="center" paddingTop="5" paddingBottom="5" verticalScrollPolicy="auto" horizontalScrollPolicy="auto">
+				<mx:Repeater id="componentRepeater" dataProvider="{componentCatalogRepeater.currentItem.components}">
+					<mx:Button width="100" height="90" labelPlacement="bottom" label="{componentRepeater.currentItem.className}" icon="{componentRepeater.currentItem.icon}" />
+				</mx:Repeater>
+			</mx:VBox>
+		</mx:Repeater>
+		
+	</mx:Accordion>
+	</mx:VBox>
+</fc:DockingView>

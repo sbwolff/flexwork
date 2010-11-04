@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fc:BoxSystemModule implements="org.springextensions.actionscript.context.IApplicationContextAware, org.springextensions.actionscript.ioc.factory.IInitializingObject"
+				xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:fc="com.googlecode.flexwork.core.components.*"
+				xmlns:fw="com.googlecode.flexwork.work.components.*" xmlns:kapit="fr.kapit.*" backgroundColor="0xD4D0C8"
+				width="100%" height="100%" horizontalGap="0" verticalGap="0"
+				creationComplete="onCreationComplete();">
+
+	<mx:Style source="/css/flexwork.css"/>
+
+	<mx:Script>
+		<![CDATA[
+						//http://google.com/codesearch/p?hl=en&sa=N&cd=2&ct=rc#1dStXMnjHRQ/trunk/SampleCode/SampleApp1/src/org/integratedsemantics/sampleapp/app/SampleAppBase.as&q=FlexXMLApplicationContext&l=7
+			import com.googlecode.flexwork.work.components.LoginWindow;
+			import com.googlecode.flexwork.work.components.PreferenceWindow;
+			import com.googlecode.flexwork.core.components.SplitWindowPool;	
+			import com.googlecode.flexwork.core.events.MessageEvent;
+			import com.googlecode.flexwork.core.events.PerspectiveEvent;
+			import com.googlecode.flexwork.core.events.ToolBarEvent;
+			import com.googlecode.flexwork.core.managers.PerspectiveManager;
+			import com.googlecode.flexwork.work.menus.MenuBarProvider;
+			
+			import mx.binding.utils.BindingUtils;
+			import mx.core.Application;
+			import mx.core.IFlexDisplayObject;
+			import mx.events.MenuEvent;
+			import mx.events.ItemClickEvent;	
+			import mx.managers.PopUpManager;
+			
+			
+			import org.springextensions.actionscript.context.IApplicationContext;
+			import org.springextensions.actionscript.context.IApplicationContextAware;
+			
+			include "./../core/icons.as";
+			
+			[Bindable]
+			private var menuBarDataProvider:Object={label: "root", children: []};
+			
+			[Bindable]
+			private var _applicationContext:IApplicationContext=null;
+			
+			[Bindable]
+			private var _splitWindowPool:SplitWindowPool=null;
+
+			[Bindable]
+			public var menuBarProvider:MenuBarProvider;
+			
+			[Bindable]
+			public var perspectiveManager:PerspectiveManager;
+			
+			//http://www.javaeye.com/topic/402372
+			
+			private var originalContextMenu:ContextMenu;
+
+			private function initContextMenu():void
+			{
+				var builtInItems:ContextMenuBuiltInItems=Application.application.contextMenu.builtInItems;
+				builtInItems.print=false;
+				
+				Application.application.contextMenu.hideBuiltInItems();
+				
+				var contextMenuItem:ContextMenuItem=new ContextMenuItem('ContextMenuItem 1');
+				Application.application.contextMenu.customItems.push(contextMenuItem);
+				contextMenuItem.addEventListener(ContextMenuEvent.MENU_ITEM_SELECT, onContextMenuItemSelect);
+				originalContextMenu=Application.application.contextMenu;
+			}
+			
+			private function showLogin(event:Event):void
+			{				
+				var loginWindow:IFlexDisplayObject=PopUpManager.createPopUp(this, LoginWindow, true);
+				PopUpManager.centerPopUp(loginWindow);
+			}
+
+			private function showPreferences(event:Event):void
+			{
+				var preferenceWindow:PreferenceWindow=new PreferenceWindow();
+				PopUpManager.addPopUp(preferenceWindow, this, false);				
+			}
+			
+			private function onCreationComplete():void
+			{
+				this.subscribe("menuItem:Login", showLogin);				
+				this.subscribe("menuItem:Preferences", showPreferences);
+				
+				this.initContextMenu();
+				this.openActivePerspective();
+			}
+
+			private function onToolBarItemClick(event:ToolBarEvent):void
+			{
+				this.logDebug("ToolBar: event.target=" + event.target + " event.index=" + event.buttonIndex);
+			}
+			
+			private function onContextMenuItemSelect(event:ContextMenuEvent):void
+			{
+				//event for the custom button 
+			}
+
+//			public function onPerspectiveToggleButtonBarClick(event:ItemClickEvent):void
+//			{
+//				this.openPerspective(event.item.perspectiveName);
+//			}
+			
+			public function onPerspectiveOpen(event:PerspectiveEvent):void
+			{
+				openPerspective(event.perspectiveName);
+			}
+
+			public function openPerspective(perspectiveName:String):void
+			{
+				var xmlList:XMLList=this.perspectiveManager.perspectives.perspective.(@name == perspectiveName);
+				var perspectiveXml:XML = xmlList[0];
+				this.stageWindow.openPerspective(perspectiveXml.layout[0]);
+	
+				this.publish(PerspectiveEvent.createOpenedEvent(perspectiveName));				
+			}
+			
+			public function openActivePerspective():void
+			{
+				openPerspective(this.perspectiveManager.perspectives.@active);
+			}
+			
+			public function set applicationContext(value:IApplicationContext):void
+			{
+				this._applicationContext=value;
+			}
+			
+			public function set splitWindowPool(value:SplitWindowPool):void
+			{
+				this._splitWindowPool=value;
+			}
+			
+			public function afterPropertiesSet():void
+			{
+				menuBarProvider.appendMenuItem(menuBarDataProvider);
+				this.subscribe(PerspectiveEvent.OPEN, onPerspectiveOpen);
+			}
+		]]>
+	</mx:Script>
+	
+	<kapit:KapInspect/>
+	
+	<fc:StageMenuBar id="menuBar" dataProvider="{menuBarDataProvider}" menuBarProvider="{menuBarProvider}" />
+	
+	<fc:StageToolBar height="28">
+
+		<fc:ToolBox height="100%" width="99%">
+			<fc:DockableToolBar>
+				<fc:ToolBar click="onToolBarItemClick(event)">
+					<fc:dataProvider>
+						<mx:Object icon="@Embed(source='/assets/icon/16/create.gif')"/>
+						<mx:Object icon="@Embed(source='/assets/save.gif')"/>
+						<mx:Object icon="@Embed(source='/assets/print.gif')"/>
+					</fc:dataProvider>
+				</fc:ToolBar>
+			</fc:DockableToolBar>
+			<fc:DockableToolBar>
+				<fc:ToolBar click="onToolBarItemClick(event)">
+					<fc:dataProvider>
+						<mx:Object icon="@Embed(source='/assets/debug.gif')"/>
+						<mx:Object icon="@Embed(source='/assets/run.gif')"/>
+						<mx:Object icon="@Embed(source='/assets/external_tools.gif')"/>
+					</fc:dataProvider>
+				</fc:ToolBar>
+			</fc:DockableToolBar>
+			<fc:DockableToolBar>
+				<fc:ToolBar click="onToolBarItemClick(event)">
+					<fc:dataProvider>
+						<mx:Object icon="@Embed(source='/assets/open-task.gif')"/>
+						<mx:Object icon="@Embed(source='/assets/back.gif')"/>
+						<mx:Object icon="@Embed(source='/assets/next.gif')"/>
+					</fc:dataProvider>
+				</fc:ToolBar>
+			</fc:DockableToolBar>
+		</fc:ToolBox>
+		
+		<fc:PerspectiveBox id="perspectiveSwitcher1" width="400" height="100%" perspectiveManager="{perspectiveManager}" stageWindow="{stageWindow}" systemModule="{systemModule}" />
+		
+	</fc:StageToolBar>
+
+	<fc:StageWindow id="stageWindow" applicationContext="{_applicationContext}" splitWindowPool="{_splitWindowPool}" stageWindowBar="{stageWindowBar}" />
+	
+	<mx:HBox width="100%" height="28" paddingLeft="2" paddingRight="2" paddingBottom="2" verticalAlign="middle" horizontalAlign="center">
+
+		<mx:HBox height="100%" width="100%" verticalAlign="middle">
+			<fc:StageWindowBar id="stageWindowBar" stageWindow="{stageWindow}"/>
+		</mx:HBox>
+		
+		<mx:VRule height="90%" />
+		
+		<mx:Label id="statusText" width="100" text="Status" />
+		
+		<mx:VRule height="90%" />
+		
+		<fc:StageProgressBar id="stageProgressBar" />
+		
+	</mx:HBox>
+	
+</fc:BoxSystemModule>
+
