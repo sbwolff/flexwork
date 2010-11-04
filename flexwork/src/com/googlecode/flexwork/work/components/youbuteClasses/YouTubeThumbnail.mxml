@@ -5,7 +5,7 @@
 	<mx:Image id="img" height="93" width="133" source="{data.thumbnailUrl}" scaleContent="false"
 			  y="6" x="7" creationCompleteEffect="Fade"/>
 	<mx:Label text="{data.title}" width="203" fontWeight="bold" y="22" x="141" textAlign="left"
-			  fontSize="11" creationCompleteEffect="Fade" color="#c46200" themeColor="#fc8010"
+			  fontSize="11" creationCompleteEffect="Fade" color="#c46200"
 			  selectable="false"/>
 	<mx:Text text="{data.author}" width="199" color="#6a665b" y="5" x="141" textAlign="left"
 			 selectable="false"/>

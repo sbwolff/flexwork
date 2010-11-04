@@ -3,7 +3,7 @@
 
 	<mx:Script>
 		<![CDATA[
-			import com.googlecode.flexwork.work.events.*;
+			import com.googlecode.flexwork.core.managers.MessageEventBusManager;
 
 			private var EVENT_TYPE:String="event_type";
 
